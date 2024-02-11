@@ -1,0 +1,77 @@
+<Entity tags="mortal,hittable,glue_NOT" >	
+	<DamageModelComponent 
+		hp="4000"
+		ragdoll_material="steel"
+		ragdoll_filenames_file="" 
+		blood_material=""
+		fire_probability_of_ignition="0" 
+		air_needed="0" >
+		<damage_multipliers
+			melee="0"
+			projectile="0"
+			explosion="0"
+			electricity="0"
+			fire="0"
+			drill="0"
+			slice="0"
+			ice="0"
+			healing="0"
+			physics_hit="0"
+			radioactive="0"
+			poison="0"
+			overeating="0"
+			curse="0"
+			>
+		</damage_multipliers>
+	</DamageModelComponent>
+
+	<SpriteComponent 
+		image_file="data/buildings_gfx/lasergun.xml" 
+		special_scale_x="1"
+		has_special_scale="1"
+		offset_x="0"
+		offset_y="0" >
+	</SpriteComponent>
+
+	<SpriteAnimatorComponent>
+	</SpriteAnimatorComponent>
+	
+	<HitboxComponent 
+		_enabled="1" 
+		aabb_min_x="-5"
+		aabb_max_x="4" 
+		aabb_min_y="-5"
+		aabb_max_y="5" 
+		>
+	</HitboxComponent>
+
+	<CameraBoundComponent
+		max_count="10"
+		distance="160000" >
+	</CameraBoundComponent>
+
+	<LuaComponent
+		script_source_file="mods/nobys_things/mod_data/scripts/buildings/debug_turret.lua"
+		execute_every_n_frame="60"
+		>
+	</LuaComponent>
+	
+	<VariableStorageComponent
+		name="projectile_file"
+		value_string="data/entities/projectiles/deck/light_bullet.xml"
+		>
+	</VariableStorageComponent>
+
+	<VariableStorageComponent
+		name="vel_x"
+		value_int="0"
+		>
+	</VariableStorageComponent>
+
+	<VariableStorageComponent
+		name="vel_y"
+		value_int="600"
+		>
+	</VariableStorageComponent>
+
+</Entity>

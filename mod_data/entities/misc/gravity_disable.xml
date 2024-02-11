@@ -1,0 +1,11 @@
+<Entity>
+    <InheritTransformComponent>
+    </InheritTransformComponent>
+
+    <LuaComponent
+		script_source_file="mods/nobys_things/mod_data/scripts/projectiles/gravity_disable.lua"
+		execute_on_added="1"
+        remove_after_executed="1"
+		>
+	</LuaComponent>
+</Entity>
