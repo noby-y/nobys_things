@@ -1,0 +1,10 @@
+    <Base file="mods/data_test/aabb_visualizer.xml">
+      <VariableStorageComponent
+        value_string="blue"
+        value_string="cyan"
+        value_string="green"
+        value_string="pink"
+        value_string="red"
+        value_string="yellow"
+      ></VariableStorageComponent>
+    </Base>
