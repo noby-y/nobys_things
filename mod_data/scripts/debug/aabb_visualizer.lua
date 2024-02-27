@@ -35,10 +35,11 @@ function visualize_entity(entity_id)
 				color = "red"
 				aabb.min_x, aabb.min_y = ComponentGetValue2(comp, "aabb_min")
 				aabb.max_x, aabb.max_y = ComponentGetValue2(comp, "aabb_max")
-				aabb.min_x = aabb.min_x / 3
-				aabb.min_y = aabb.min_y / 3
-				aabb.max_x = aabb.max_x / 3
-				aabb.max_y = aabb.max_y / 3
+				--? AreaDamageComponent scale is weird aff, not accurate at all
+				--? 	aabb.min_x = aabb.min_x / 3
+				--? 	aabb.min_y = aabb.min_y / 3
+				--? 	aabb.max_x = aabb.max_x / 3
+				--? 	aabb.max_y = aabb.max_y / 3
 			elseif comp_type == "MaterialAreaCheckerComponent" then
 				color = "cyan"
 				aabb.min_x, aabb.min_y, aabb.max_x, aabb.max_y = ComponentGetValue2(comp, "area_aabb")
@@ -66,7 +67,7 @@ function visualize_entity(entity_id)
 			
 			local visualizer_entity = EntityCreateNew("aabb_visualizer: " .. comp_type)
 			-- local x, y, rot = EntityGetTransform(entity_id)
-			-- EntitySetTransform(ent, x, y, rot)
+			-- EntitySetTransform(visualizer_entity, x, y, rot)
 			EntityAddComponent2(visualizer_entity, "InheritTransformComponent", {
 				rotate_based_on_x_scale = false
 			})
@@ -127,20 +128,10 @@ function visualize_entity(entity_id)
 
 			::skip_comp::
 		end
-		
-		-- local entity_id = GetUpdatedEntityID()
-		-- visualize_aabb(entity_id)
 	end
 end
 
 print("Hey, dofile works!")
-	-- local component
-	-- for i, t in ipairs(types) do
-	-- 	component = EntityGetFirstComponent(entity_id, t)
-	-- 	if component then
-	-- 		comp_type = t
-	-- 		break
-	-- 	end
-	-- end
+
 	
 
