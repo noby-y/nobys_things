@@ -1,1 +1,1 @@
-ModLuaFileAppend( "data/scripts/gun/gun_actions.lua", "mods/nobys_things/mod_data/scripts/new_actions.lua" )
+ModLuaFileAppend( "data/scripts/gun/gun_actions.lua", "mods/nobys_things/mod_data/scripts/gun/new_actions.lua" )
