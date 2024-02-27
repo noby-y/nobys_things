@@ -96,7 +96,7 @@ local new_actions = {
 		--max_uses = 100,
 		action = function()
 			local data = hand[#hand]
-			if ( #hand > 0 ) and ( data != nil ) and ( data.id == "DRAW_EAT" ) then
+			if ( #hand > 0 ) and ( data ~= nil ) and ( data.id == "DRAW_EAT" ) then
 				table.insert( discarded, data )
 				table.remove( hand, #hand )
 			end
