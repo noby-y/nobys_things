@@ -64,7 +64,7 @@ function visualize_entity(entity_id)
 			local scale_x = width / 10
 			local scale_y = height / 10
 			
-			local visualizer_entity = EntityCreateNew(comp_type .. " aabb_visualizer")
+			local visualizer_entity = EntityCreateNew("aabb_visualizer: " .. comp_type)
 			-- local x, y, rot = EntityGetTransform(entity_id)
 			-- EntitySetTransform(ent, x, y, rot)
 			EntityAddComponent2(visualizer_entity, "InheritTransformComponent", {
