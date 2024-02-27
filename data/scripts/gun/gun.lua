@@ -460,7 +460,7 @@ function _start_shot( current_mana )
 	
 	dont_draw_actions = false
 	force_stop_draws = false
-    
+
 	-- create the initial shot
 	root_shot = create_shot( 1 )
 	c = root_shot.state
