@@ -5,6 +5,9 @@ local function table_insert_all (new_actions)
 end
 
 local new_actions = {
+	
+	--* MODIFIERS 
+	
 	{
 		id          = "FOLLOW_CURSOR",
 		name 		= "Cursor following",
@@ -40,26 +43,6 @@ local new_actions = {
 		end,
 	},
 	{
-		id          = "DRAW_EAT",
-		name 		= "Eat 1 draw",
-		description = "Takes 1 place in a multicast but self-discards",
-		sprite 		= "mods/nobys_things/mod_data/images/ui_gfx/eat_draw.png",
-		sprite_unidentified = "data/images/ui_gfx/gun_actions/i_shape_unidentified.png",
-		type 		= ACTION_TYPE_OTHER,
-		spawn_level                       = "10", -- I_SHAPE
-		spawn_probability                 = "0.3", -- I_SHAPE
-		price = 30,
-		mana = 0,
-		--max_uses = 100,
-		action = function()
-			local data = hand[#hand]
-			if (#hand > 0) and (data.id == "DRAW_EAT") then
-				table.insert( discarded, data )
-				table.remove( hand, #hand )
-			end
-		end,
-	},
-	{
 		id          = "GRAVITY_DISABLE",
 		name 		= "Disable gravity",
 		description = "Makes projectile unaffected by gravity",
@@ -79,9 +62,9 @@ local new_actions = {
 	},
 	{
 		id          = "INFINITE_LIFETIME",
-		name 		= "$action_lifetime_infinite",
+		name 		= "Infinite lifetime",
 		description = "Makes projectile last forever",
-		sprite 		= "data/images/ui_gfx/gun_actions/lifetime_infinite.png",
+		sprite 		= "mods/nobys_things/mod_data/images/ui_gfx/infinite_lifetime.png",
 		sprite_unidentified = "data/images/ui_gfx/gun_actions/spread_reduce_unidentified.png",
 		type 		= ACTION_TYPE_MODIFIER,
 		spawn_level                       = "6,10", -- LIFETIME
@@ -91,9 +74,32 @@ local new_actions = {
 		max_uses = 3,
 		custom_xml_file = "data/entities/misc/custom_cards/lifetime_infinite.xml",
 		action 		= function()
-			c.extra_entities = c.extra_entities .. "mods/nobys_things/mod_data/entities/misc/infinite_lifetime.xml,"
+			c.extra_entities = c.extra_entities .. "mods/nobys_things/mod_data/entities/misc/infinite_lifetime.xml,data/entities/particles/tinyspark_yellow.xml,"
 			c.fire_rate_wait = c.fire_rate_wait + 13
 			draw_actions( 1, true )
+		end,
+	},
+	
+	--* LOGIC SPELLS 
+
+	{
+		id          = "DRAW_EAT",
+		name 		= "Eat 1 draw",
+		description = "Takes 1 place in a multicast but self-discards",
+		sprite 		= "mods/nobys_things/mod_data/images/ui_gfx/eat_draw.png",
+		sprite_unidentified = "data/images/ui_gfx/gun_actions/i_shape_unidentified.png",
+		type 		= ACTION_TYPE_OTHER,
+		spawn_level                       = "10", -- I_SHAPE
+		spawn_probability                 = "0.3", -- I_SHAPE
+		price = 30,
+		mana = 0,
+		--max_uses = 100,
+		action = function()
+			local data = hand[#hand]
+			if ( #hand > 0 ) and ( data != nil ) and ( data.id == "DRAW_EAT" ) then
+				table.insert( discarded, data )
+				table.remove( hand, #hand )
+			end
 		end,
 	},
 }
