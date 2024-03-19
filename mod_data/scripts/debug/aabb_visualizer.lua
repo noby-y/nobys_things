@@ -14,7 +14,7 @@ function visualize_entity(entity_id)
 		for i,comp in ipairs( comps ) do
 			comp_type = ComponentGetTypeName(comp)
 			
-			local alpha = ComponentGetIsEnabled(comp) and 0.7 or 0.2
+			local alpha = ComponentGetIsEnabled(comp) and 0.1 or 0.2
 			local color = "blue"
 			--* Colors:
 			--*		"blue"
@@ -68,6 +68,7 @@ function visualize_entity(entity_id)
 			local visualizer_entity = EntityCreateNew("aabb_visualizer: " .. comp_type)
 			-- local x, y, rot = EntityGetTransform(entity_id)
 			-- EntitySetTransform(visualizer_entity, x, y, rot)
+			EntityAddTag(visualizer_entity, "aabb_visualizer")
 			EntityAddComponent2(visualizer_entity, "InheritTransformComponent", {
 				rotate_based_on_x_scale = false
 			})
