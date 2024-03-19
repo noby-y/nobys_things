@@ -14,7 +14,7 @@ function visualize_entity(entity_id)
 		for i,comp in ipairs( comps ) do
 			comp_type = ComponentGetTypeName(comp)
 			
-			local alpha = ComponentGetIsEnabled(comp) and 0.1 or 0.2
+			local alpha = ComponentGetIsEnabled(comp) and 0.6 or 0.2
 			local color = "blue"
 			--* Colors:
 			--*		"blue"
