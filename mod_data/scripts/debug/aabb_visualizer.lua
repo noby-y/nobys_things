@@ -171,7 +171,7 @@ function visualize_rectangle(visualizer_entity, aabb, image_path, alpha)
 	})
 end	
 	
-function visualize_circle(visualizer_entity, aabb)
+function visualize_circle(visualizer_entity, radius)
 	EntityAddComponent2(visualizer_entity, "ParticleEmitterComponent", {
 		area_circle_radius.min = radius,
 		area_circle_radius.max = radius,
@@ -179,3 +179,5 @@ function visualize_circle(visualizer_entity, aabb)
 	})
 end
 
+
+print("Dofile works!")
