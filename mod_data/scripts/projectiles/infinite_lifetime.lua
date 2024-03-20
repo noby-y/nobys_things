@@ -8,10 +8,10 @@ entity_id = EntityGetRootEntity( entity_id )
 
 if ( entity_id ~= NULL_ENTITY ) then
 	edit_component( entity_id, "ProjectileComponent", function(comp,vars)
-		ComponentSetValue( comp, "lifetime", -1 )
+		ComponentSetValue2( comp, "lifetime", -1 )
 	end)
 	
 	edit_component( entity_id, "LifetimeComponent", function(comp,vars)
-		ComponentSetValue( comp, "lifetime", -1 )
+		ComponentSetValue2( comp, "lifetime", -1 )
 	end)
 end
