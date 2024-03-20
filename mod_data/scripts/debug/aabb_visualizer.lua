@@ -1,4 +1,85 @@
+
+
 function visualize_entity(entity_id)
+
+	function create_visualizer(entity_id, comp_type)
+		local visualizer_entity = EntityCreateNew("aabb_visualizer: " .. comp_type)
+		-- local x, y, rot = EntityGetTransform(entity_id)
+		-- EntitySetTransform(visualizer_entity, x, y, rot)
+		EntityAddTag(visualizer_entity, "aabb_visualizer")
+		print("visualizer_entity = " .. visualizer_entity)
+		EntityAddComponent2(visualizer_entity, "InheritTransformComponent", {
+			rotate_based_on_x_scale = false
+		})
+		EntityAddChild(entity_id, visualizer_entity)
+		return visualizer_entity
+	end
+	
+	function visualize_rectangle(visualizer_entity, aabb, image_path, alpha)
+		local width = aabb.max_x - aabb.min_x - 1
+		local height = aabb.max_y - aabb.min_y + 1
+	
+		-- * HORIZONTAL LINE TOP
+		EntityAddComponent2(visualizer_entity, "SpriteComponent", {
+			image_file = image_path,
+			special_scale_x = width,
+			special_scale_y = 1,
+			offset_x = -(aabb.min_x + 1) / width,
+			offset_y = -aabb.min_y,
+			has_special_scale = true,
+			alpha = alpha,
+			z_index = -99,
+			smooth_filtering = true,
+		})
+	
+		-- * HORIZONTAL LINE BOTTOM
+		EntityAddComponent2(visualizer_entity, "SpriteComponent", {
+			image_file = image_path,
+			special_scale_x = width,
+			special_scale_y = 1,
+			offset_x = -(aabb.min_x + 1) / width,
+			offset_y = -aabb.max_y,
+			has_special_scale = true,
+			alpha = alpha,
+			z_index = -99,
+			smooth_filtering = true,
+		})
+	
+		-- * VERTICAL LINE LEFT
+		EntityAddComponent2(visualizer_entity, "SpriteComponent", {
+			image_file = image_path,
+			special_scale_x = 1,
+			special_scale_y = height,
+			offset_x = -aabb.min_x,
+			offset_y = -aabb.min_y / height,
+			has_special_scale = true,
+			alpha = alpha,
+			z_index = -99,
+			smooth_filtering = true,
+		})
+	
+		-- * VERTICAL LINE RIGHT
+		EntityAddComponent2(visualizer_entity, "SpriteComponent", {
+			image_file = image_path,
+			special_scale_x = 1,
+			special_scale_y = height,
+			offset_x = -aabb.max_x,
+			offset_y = -aabb.min_y / height,
+			has_special_scale = true,
+			alpha = alpha,
+			z_index = -99,
+			smooth_filtering = true,
+		})
+	end	
+		
+	function visualize_circle(visualizer_entity, radius)
+		EntityAddComponent2(visualizer_entity, "ParticleEmitterComponent", {
+			["area_circle_radius.min"] = radius,
+			["area_circle_radius.max"] = radius,
+			color = 1,
+		})
+	end
+	print("Dofile works!")
 	--* Component types:
 	--* 	"HitboxComponent",
 	--* 	"AreaDamageComponent",
@@ -59,9 +140,9 @@ function visualize_entity(entity_id)
 			end
 
 			local image_path = "mods/nobys_things/mod_data/images/debug_gfx/" .. color .. ".png"
-			create_visualizer(entity_id, comp_type)
+			local visualizer_entity = create_visualizer(entity_id, comp_type)
 			visualize_rectangle(visualizer_entity, aabb, image_path, alpha)
-			goto skip_comp
+			-- goto skip_comp
 			
 			::circle_comp_check::
 			
@@ -93,90 +174,12 @@ function visualize_entity(entity_id)
 			end
 			
 			-- local image_path = "mods/nobys_things/mod_data/images/debug_gfx/" .. color .. ".png"
-			create_visualizer(entity_id, comp_type)
+			local visualizer_entity = create_visualizer(entity_id, comp_type)
 			visualize_circle(visualizer_entity, aabb.radius)
 
 			::skip_comp::
 		end
 	end
-end
-
-
-function create_visualizer(entity_id, comp_type)
-	local visualizer_entity = EntityCreateNew("aabb_visualizer: " .. comp_type)
-	-- local x, y, rot = EntityGetTransform(entity_id)
-	-- EntitySetTransform(visualizer_entity, x, y, rot)
-	EntityAddTag(visualizer_entity, "aabb_visualizer")
-	print("visualizer_entity = " .. visualizer_entity)
-	EntityAddComponent2(visualizer_entity, "InheritTransformComponent", {
-		rotate_based_on_x_scale = false
-	})
-	EntityAddChild(entity_id, visualizer_entity)
-end
-
-function visualize_rectangle(visualizer_entity, aabb, image_path, alpha)
-	local width = aabb.max_x - aabb.min_x - 1
-	local height = aabb.max_y - aabb.min_y + 1
-
-	-- * HORIZONTAL LINE TOP
-	EntityAddComponent2(visualizer_entity, "SpriteComponent", {
-		image_file = image_path,
-		special_scale_x = width,
-		special_scale_y = 1,
-		offset_x = -(aabb.min_x + 1) / width,
-		offset_y = -aabb.min_y,
-		has_special_scale = true,
-		alpha = alpha,
-		z_index = -99,
-		smooth_filtering = true,
-	})
-
-	-- * HORIZONTAL LINE BOTTOM
-	EntityAddComponent2(visualizer_entity, "SpriteComponent", {
-		image_file = image_path,
-		special_scale_x = width,
-		special_scale_y = 1,
-		offset_x = -(aabb.min_x + 1) / width,
-		offset_y = -aabb.max_y,
-		has_special_scale = true,
-		alpha = alpha,
-		z_index = -99,
-		smooth_filtering = true,
-	})
-
-	-- * VERTICAL LINE LEFT
-	EntityAddComponent2(visualizer_entity, "SpriteComponent", {
-		image_file = image_path,
-		special_scale_x = 1,
-		special_scale_y = height,
-		offset_x = -aabb.min_x,
-		offset_y = -aabb.min_y / height,
-		has_special_scale = true,
-		alpha = alpha,
-		z_index = -99,
-		smooth_filtering = true,
-	})
-
-	-- * VERTICAL LINE RIGHT
-	EntityAddComponent2(visualizer_entity, "SpriteComponent", {
-		image_file = image_path,
-		special_scale_x = 1,
-		special_scale_y = height,
-		offset_x = -aabb.max_x,
-		offset_y = -aabb.min_y / height,
-		has_special_scale = true,
-		alpha = alpha,
-		z_index = -99,
-		smooth_filtering = true,
-	})
-end	
-	
-function visualize_circle(visualizer_entity, radius)
-	EntityAddComponent2(visualizer_entity, "ParticleEmitterComponent", {
-		area_circle_radius.min = radius,
-		area_circle_radius.max = radius,
-		color = 1,
-	})
 end
 
 
