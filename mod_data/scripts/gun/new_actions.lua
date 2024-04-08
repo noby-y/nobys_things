@@ -63,7 +63,7 @@ local new_actions = {
 	{
 		id          = "PENETRATING_SHOT",
 		name 		= "Penetrating shot",
-		description = "Makes the projectile not die when colliding with enemies, bit it can only hit each enemy once",
+		description = "Makes the projectile not die when colliding with enemies, but it can only hit each enemy once",
 		sprite 		= "mods/nobys_things/mod_data/images/ui_gfx/penetrating_shot.png",
 		sprite_unidentified = "data/ui_gfx/gun_actions/homing_unidentified.png",
 		type 		= ACTION_TYPE_MODIFIER,
