@@ -89,8 +89,8 @@ local new_actions = {
 		sprite 		= "mods/nobys_things/mod_data/images/ui_gfx/eat_draw.png",
 		sprite_unidentified = "data/images/ui_gfx/gun_actions/i_shape_unidentified.png",
 		type 		= ACTION_TYPE_OTHER,
-		spawn_level                       = "10", -- I_SHAPE
-		spawn_probability                 = "0.3", -- I_SHAPE
+		spawn_level                       = "10",
+		spawn_probability                 = "0.3",
 		price = 30,
 		mana = 0,
 		--max_uses = 100,
@@ -100,6 +100,23 @@ local new_actions = {
 				table.insert( discarded, data )
 				table.remove( hand, #hand )
 			end
+		end,
+	},
+
+	{
+		id          = "STOP_PROJECTILES",
+		name 		= "Stop projectiles",
+		description = "Prevents any projectiles after it from spawning",
+		sprite 		= "mods/nobys_things/mod_data/images/ui_gfx/stop_projectiles.png",
+		sprite_unidentified = "data/images/ui_gfx/gun_actions/i_shape_unidentified.png",
+		type 		= ACTION_TYPE_OTHER,
+		spawn_level                       = "10",
+		spawn_probability                 = "0.3",
+		price = 0,
+		mana = 0,
+		--max_uses = 100,
+		action = function()
+			add_projectile("")
 		end,
 	},
 }
