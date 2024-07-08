@@ -136,6 +136,65 @@ local new_actions = {
 			add_projectile("")
 		end,
 	},
+
+	{
+		id          = "COUNT_CARDS",
+		name 		= "Count cards",
+		description = "counts spells in Deck / Hand / Discard",
+		sprite 		= "data/ui_gfx/gun_actions/i_shape_unidentified.png",
+		sprite_unidentified = "data/ui_gfx/gun_actions/i_shape_unidentified.png",
+		type 		= ACTION_TYPE_OTHER,
+		spawn_level                       = "",
+		spawn_probability                 = "",
+		price = 0,
+		mana = 10,
+		--max_uses = 100,
+		action = function()
+			-- if ( #hand > 0 ) then
+			-- 	print("Deck size = " .. #deck)
+			-- 	print("Hand size = " .. #hand)
+			-- 	print("Discard size = " .. #discarded)
+			-- end
+			if ( #hand > 3800 ) then
+				print("Hand size = " .. #hand)
+			end
+			-- if ( #discarded > 3800 ) then
+				print("Discard size = " .. #discarded)
+			-- end
+		end,
+	},
+	{
+		id          = "WASTE_MANA",
+		name 		= "Waste mana",
+		description = "wastes a lot of mana",
+		sprite 		= "data/ui_gfx/gun_actions/w_shape_unidentified.png",
+		sprite_unidentified = "data/ui_gfx/gun_actions/i_shape_unidentified.png",
+		type 		= ACTION_TYPE_OTHER,
+		spawn_level                       = "",
+		spawn_probability                 = "",
+		price = 0,
+		mana = 1000,
+		--max_uses = 100,
+		action = function()
+		end,
+	},
+	{
+		id          = "TEST_PROJ",
+		name 		= "Test projectile",
+		description = "Projectile for testing",
+		sprite 		= "data/ui_gfx/gun_actions/digger.png",
+		sprite_unidentified = "data/ui_gfx/gun_actions/digger_unidentified.png",
+		related_projectiles	= {"data/entities/projectiles/deck/digger.xml"},
+		type 		= ACTION_TYPE_OTHER,
+		spawn_level                       = "",
+		spawn_probability                 = "",
+		price = 70,
+		mana = 0,
+		sound_loop_tag = "sound_digger",
+		action 		= function()
+			add_projectile("mods/nobys_things/mod_data/entities/projectiles/digger.xml")
+		end,
+	},
 }
 
 table_insert_all(new_actions)
