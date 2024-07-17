@@ -1,0 +1,15 @@
+<Entity>
+
+    <LuaComponent
+		script_source_file="mods/nobys_things/mod_data/scripts/projectiles/log_position.lua"
+		execute_on_added="1"
+		execute_every_n_frame="1"
+		>
+	</LuaComponent>
+
+	<VariableStorageComponent
+		name="frame_counter"
+		value_int="0"
+	></VariableStorageComponent>
+
+</Entity>

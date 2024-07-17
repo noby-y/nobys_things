@@ -98,7 +98,7 @@ local new_actions = {
 	},
 	
 	--* LOGIC SPELLS 
-
+	
 	{
 		id          = "DRAW_EAT",
 		name 		= "Eat 1 draw",
@@ -119,7 +119,7 @@ local new_actions = {
 			end
 		end,
 	},
-
+	
 	{
 		id          = "STOP_PROJECTILES",
 		name 		= "Stop projectiles",
@@ -136,7 +136,7 @@ local new_actions = {
 			add_projectile("")
 		end,
 	},
-
+	
 	{
 		id          = "COUNT_CARDS",
 		name 		= "Count cards",
@@ -147,7 +147,7 @@ local new_actions = {
 		spawn_level                       = "",
 		spawn_probability                 = "",
 		price = 0,
-		mana = 10,
+		mana = 0,
 		--max_uses = 100,
 		action = function()
 			-- if ( #hand > 0 ) then
@@ -159,7 +159,7 @@ local new_actions = {
 				print("Hand size = " .. #hand)
 			end
 			-- if ( #discarded > 3800 ) then
-				print("Discard size = " .. #discarded)
+			print("Discard size = " .. #discarded)
 			-- end
 		end,
 	},
@@ -188,11 +188,28 @@ local new_actions = {
 		type 		= ACTION_TYPE_OTHER,
 		spawn_level                       = "",
 		spawn_probability                 = "",
-		price = 70,
+		price = 0,
 		mana = 0,
 		sound_loop_tag = "sound_digger",
 		action 		= function()
 			add_projectile("mods/nobys_things/mod_data/entities/projectiles/digger.xml")
+		end,
+	},
+	{
+		id          = "LOG_POSITION",
+		name 		= "Log position",
+		description = "Logs projectile's position in the console",
+		sprite 		= "data/ui_gfx/gun_actions/y_shape_unidentified.png",
+		sprite_unidentified = "data/ui_gfx/gun_actions/y_shape_unidentified.png",
+		type 		= ACTION_TYPE_OTHER,
+		spawn_level                       = "",
+		spawn_probability                 = "",
+		price = 0,
+		mana = 0,
+		sound_loop_tag = "sound_digger",
+		action 		= function()
+			c.extra_entities = c.extra_entities .. "mods/nobys_things/mod_data/entities/misc/log_position.xml,"
+			draw_actions( 1, true )
 		end,
 	},
 }
