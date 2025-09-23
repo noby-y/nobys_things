@@ -57,6 +57,7 @@ local new_actions = {
 		action = function()
 			c.gravity = 0
 			c.extra_entities = c.extra_entities .. "mods/nobys_things/mod_data/entities/misc/gravity_disable.xml,"
+			c.extra_entities = c.extra_entities .. "mods/nobys_things/mod_data/entities/misc/gravity_disable.xml,"
 			draw_actions( 1, true )
 		end,
 	},
@@ -97,6 +98,39 @@ local new_actions = {
 		end,
 	},
 	
+	{
+		id          = "LIFETIME_PLUS",
+		name 		= "Lifetime +1",
+		description = "Increases lifetime by 1 frame",
+		sprite 		= "mods/nobys_things/mod_data/images/ui_gfx/lifetime_plus_one.png",
+		sprite_unidentified = "data/ui_gfx/gun_actions/spread_reduce_unidentified.png",
+		type 		= ACTION_TYPE_MODIFIER,
+		spawn_level                       = "6,10", -- LIFETIME
+		spawn_probability                 = "0.1,0.1", -- LIFETIME
+		price = 250,
+		mana = 1,
+		action 		= function()
+			c.lifetime_add 		= c.lifetime_add + 1
+			draw_actions( 1, true )
+		end,
+    },
+
+	{
+		id          = "LIFETIME_MINUS",
+		name 		= "Lifetime -1",
+		description = "Decreases lifetime by 1 frame",
+		sprite 		= "mods/nobys_things/mod_data/images/ui_gfx/lifetime_minus_one.png",
+		sprite_unidentified = "data/ui_gfx/gun_actions/spread_reduce_unidentified.png",
+		type 		= ACTION_TYPE_MODIFIER,
+		spawn_level                       = "6,10", -- LIFETIME
+		spawn_probability                 = "0.1,0.1", -- LIFETIME
+		price = 250,
+		mana = 1,
+		action 		= function()
+			c.lifetime_add 		= c.lifetime_add - 1
+			draw_actions( 1, true )
+		end,
+    },
 	--* LOGIC SPELLS 
 	
 	{
@@ -133,6 +167,8 @@ local new_actions = {
 		mana = 0,
 		--max_uses = 100,
 		action = function()
+			c.fire_rate_wait = c.fire_rate_wait - 600
+			current_reload_time = current_reload_time - 600
 			add_projectile("")
 		end,
 	},
@@ -184,15 +220,14 @@ local new_actions = {
 		description = "Projectile for testing",
 		sprite 		= "data/ui_gfx/gun_actions/digger.png",
 		sprite_unidentified = "data/ui_gfx/gun_actions/digger_unidentified.png",
-		related_projectiles	= {"data/entities/projectiles/deck/digger.xml"},
+		related_projectiles	= {"mods/nobys_things/mod_data/entities/projectiles/test_proj.xml"},
 		type 		= ACTION_TYPE_OTHER,
 		spawn_level                       = "",
 		spawn_probability                 = "",
 		price = 0,
 		mana = 0,
-		sound_loop_tag = "sound_digger",
 		action 		= function()
-			add_projectile("mods/nobys_things/mod_data/entities/projectiles/digger.xml")
+			add_projectile("mods/nobys_things/mod_data/entities/projectiles/test_proj.xml")
 		end,
 	},
 	{
