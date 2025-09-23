@@ -1,6 +1,6 @@
 dofile_once( "data/scripts/lib/utilities.lua" )
 
-local entity_id    = GetUpdatedEntityID()
+local entity_id = GetUpdatedEntityID()
 
 local frame_number
 local vsc = EntityGetComponent( entity_id, "VariableStorageComponent" )
