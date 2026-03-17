@@ -44,8 +44,8 @@ local new_actions = {
 	},
 	{
 		id          = "GRAVITY_DISABLE",
-		name 		= "Disable gravity",
-		description = "Makes projectile unaffected by gravity",
+		name 		= "Remove gravity",
+		description = "Removes initial gravity from the projectile",
 		sprite 		= "mods/nobys_things/mod_data/images/ui_gfx/gravity_disable.png",
 		sprite_unidentified = "data/ui_gfx/gun_actions/i_shape_unidentified.png",
 		type 		= ACTION_TYPE_MODIFIER,
@@ -57,7 +57,23 @@ local new_actions = {
 		action = function()
 			c.gravity = 0
 			c.extra_entities = c.extra_entities .. "mods/nobys_things/mod_data/entities/misc/gravity_disable.xml,"
-			c.extra_entities = c.extra_entities .. "mods/nobys_things/mod_data/entities/misc/gravity_disable.xml,"
+			draw_actions( 1, true )
+		end,
+	},
+	{
+		id          = "FRICTION_DISABLE",
+		name 		= "Remove friction/acceleration",
+		description = "Removes initial friction/acceleration from the projectile",
+		sprite 		= "mods/nobys_things/mod_data/images/ui_gfx/friction_disable.png",
+		sprite_unidentified = "data/ui_gfx/gun_actions/i_shape_unidentified.png",
+		type 		= ACTION_TYPE_MODIFIER,
+		spawn_level                       = "2,3,4,5,6,10", -- GRAVITY_ANTI
+		spawn_probability                 = "0.5,0.4,0.4,0.3,0.3,0.3", -- GRAVITY_ANTI
+		price = 30,
+		mana = 10,
+		--max_uses = 100,
+		action = function()
+			c.extra_entities = c.extra_entities .. "mods/nobys_things/mod_data/entities/misc/friction_disable.xml,"
 			draw_actions( 1, true )
 		end,
 	},
@@ -243,7 +259,26 @@ local new_actions = {
 		mana = 0,
 		sound_loop_tag = "sound_digger",
 		action 		= function()
+			print("c.speed_multiplier = " .. tostring(c.speed_multiplier))
 			c.extra_entities = c.extra_entities .. "mods/nobys_things/mod_data/entities/misc/log_position.xml,"
+			draw_actions( 1, true )
+		end,
+	},
+	{
+		id          = "SHOT_STATE_VALUE_TEST",
+		name 		= "Value test",
+		description = "Test for a particular shot state value",
+		sprite 		= "data/ui_gfx/gun_actions/y_shape_unidentified.png",
+		sprite_unidentified = "data/ui_gfx/gun_actions/y_shape_unidentified.png",
+		type 		= ACTION_TYPE_OTHER,
+		spawn_level                       = "",
+		spawn_probability                 = "",
+		price = 0,
+		mana = 0,
+		sound_loop_tag = "sound_digger",
+		action 		= function()
+			shot_effects.recoil_knockback = shot_effects.recoil_knockback + 2^500
+			print("shot_effects.recoil_knockback = " .. tostring(shot_effects.recoil_knockback))
 			draw_actions( 1, true )
 		end,
 	},
