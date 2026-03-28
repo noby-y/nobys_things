@@ -188,6 +188,25 @@ local new_actions = {
 			add_projectile("")
 		end,
 	},
+
+	{
+		id          = "DESTRUCTION_ALL",
+		name 		= "Kill all nearby enemies",
+		description = "$actiondesc_destruction",
+		sprite 		= "data/ui_gfx/gun_actions/destruction.png",
+		sprite_unidentified = "data/ui_gfx/gun_actions/rocket_unidentified.png",
+		related_projectiles	= {"data/entities/projectiles/deck/destruction.xml"},
+		type 		= ACTION_TYPE_OTHER,
+		spawn_level                       = "",
+		spawn_probability                 = "",
+		price = 0,
+		mana = 240,
+		max_uses    = 5,
+		ai_never_uses = true,
+		action 		= function()
+			add_projectile("mods/nobys_things/mod_data/entities/projectiles/deck/destruction_all.xml")
+		end,
+	},
 	
 	{
 		id          = "COUNT_CARDS",
@@ -259,7 +278,6 @@ local new_actions = {
 		mana = 0,
 		sound_loop_tag = "sound_digger",
 		action 		= function()
-			print("c.speed_multiplier = " .. tostring(c.speed_multiplier))
 			c.extra_entities = c.extra_entities .. "mods/nobys_things/mod_data/entities/misc/log_position.xml,"
 			draw_actions( 1, true )
 		end,
