@@ -23,8 +23,8 @@ actions =
 	},]]--
 	{
 		id          = "BOMB",
-		name 		= "$action_bomb",
-		description = "$actiondesc_bomb",
+		name 		= "$action_bomb", -- Bomb
+		description = "$actiondesc_bomb", -- Summons a bomb that destroys ground very efficiently
 		sprite 		= "data/ui_gfx/gun_actions/bomb.png",
 		sprite_unidentified = "data/ui_gfx/gun_actions/bomb_unidentified.png",
 		related_projectiles	= {"data/entities/projectiles/bomb.xml"},
@@ -42,8 +42,8 @@ actions =
 	},
 	{
 		id          = "LIGHT_BULLET",
-		name 		= "$action_light_bullet",
-		description = "$actiondesc_light_bullet",
+		name 		= "$action_light_bullet", -- Spark bolt
+		description = "$actiondesc_light_bullet", -- A weak but enchanting sparkling projectile
 		sprite 		= "data/ui_gfx/gun_actions/light_bullet.png",
 		sprite_unidentified = "data/ui_gfx/gun_actions/light_bullet_unidentified.png",
 		related_projectiles	= {"data/entities/projectiles/deck/light_bullet.xml"},
@@ -63,8 +63,8 @@ actions =
 	},
 	{
 		id          = "LIGHT_BULLET_TRIGGER",
-		name 		= "$action_light_bullet_trigger",
-		description = "$actiondesc_light_bullet_trigger",
+		name 		= "$action_light_bullet_trigger", -- Spark bolt with trigger
+		description = "$actiondesc_light_bullet_trigger", -- A spark bolt that casts another spell upon collision
 		sprite 		= "data/ui_gfx/gun_actions/light_bullet_trigger.png",
 		sprite_unidentified = "data/ui_gfx/gun_actions/light_bullet_trigger_unidentified.png",
 		related_projectiles	= {"data/entities/projectiles/deck/light_bullet.xml"},
@@ -83,8 +83,8 @@ actions =
 	},
 	{
 		id          = "LIGHT_BULLET_TRIGGER_2",
-		name 		= "$action_light_bullet_trigger_2",
-		description = "$actiondesc_light_bullet_trigger_2",
+		name 		= "$action_light_bullet_trigger_2", -- Spark bolt with double trigger
+		description = "$actiondesc_light_bullet_trigger_2", -- A spark bolt that casts two new spells upon collision
 		sprite 		= "data/ui_gfx/gun_actions/light_bullet_trigger_2.png",
 		related_projectiles	= {"data/entities/projectiles/deck/light_bullet_blue.xml"},
 		type 		= ACTION_TYPE_PROJECTILE,
@@ -102,8 +102,8 @@ actions =
 	},
 	{
 		id          = "LIGHT_BULLET_TIMER",
-		name 		= "$action_light_bullet_timer",
-		description = "$actiondesc_light_bullet_timer",
+		name 		= "$action_light_bullet_timer", -- Spark bolt with timer
+		description = "$actiondesc_light_bullet_timer", -- A spark bolt that casts another spell after a timer runs out
 		sprite 		= "data/ui_gfx/gun_actions/light_bullet_timer.png",
 		sprite_unidentified = "data/ui_gfx/gun_actions/light_bullet_timer_unidentified.png",
 		related_projectiles	= {"data/entities/projectiles/deck/light_bullet.xml"},
@@ -122,8 +122,8 @@ actions =
 	},
 	{
 		id          = "BULLET",
-		name 		= "$action_bullet",
-		description = "$actiondesc_bullet",
+		name 		= "$action_bullet", -- Magic arrow
+		description = "$actiondesc_bullet", -- A handy magical arrow
 		sprite 		= "data/ui_gfx/gun_actions/bullet.png",
 		sprite_unidentified = "data/ui_gfx/gun_actions/bullet_unidentified.png",
 		related_projectiles	= {"data/entities/projectiles/deck/bullet.xml"},
@@ -144,8 +144,8 @@ actions =
 	},
 	{
 		id          = "BULLET_TRIGGER",
-		name 		= "$action_bullet_trigger",
-		description = "$actiondesc_bullet_trigger",
+		name 		= "$action_bullet_trigger", -- Magic arrow with trigger
+		description = "$actiondesc_bullet_trigger", -- A magical arrow that casts another spell upon collision
 		sprite 		= "data/ui_gfx/gun_actions/bullet_trigger.png",
 		sprite_unidentified = "data/ui_gfx/gun_actions/bullet_trigger_unidentified.png",
 		related_projectiles	= {"data/entities/projectiles/deck/bullet.xml"},
@@ -166,8 +166,8 @@ actions =
 	},
 	{
 		id          = "BULLET_TIMER",
-		name 		= "$action_bullet_timer",
-		description = "$actiondesc_bullet_timer",
+		name 		= "$action_bullet_timer", -- Magic arrow with timer
+		description = "$actiondesc_bullet_timer", -- A magical arrow that casts another spell after a timer runs out
 		sprite 		= "data/ui_gfx/gun_actions/bullet_timer.png",
 		sprite_unidentified = "data/ui_gfx/gun_actions/bullet_timer_unidentified.png",
 		related_projectiles	= {"data/entities/projectiles/deck/bullet.xml"},
@@ -188,8 +188,8 @@ actions =
 	},
 	{
 		id          = "HEAVY_BULLET",
-		name 		= "$action_heavy_bullet",
-		description = "$actiondesc_heavy_bullet",
+		name 		= "$action_heavy_bullet", -- Magic bolt
+		description = "$actiondesc_heavy_bullet", -- A powerful magical bolt
 		sprite 		= "data/ui_gfx/gun_actions/heavy_bullet.png",
 		sprite_unidentified = "data/ui_gfx/gun_actions/heavy_bullet_unidentified.png",
 		related_projectiles	= {"data/entities/projectiles/deck/bullet_heavy.xml"},
@@ -211,8 +211,8 @@ actions =
 	},
 	{
 		id          = "HEAVY_BULLET_TRIGGER",
-		name 		= "$action_heavy_bullet_trigger",
-		description = "$actiondesc_heavy_bullet_trigger",
+		name 		= "$action_heavy_bullet_trigger", -- Magic bolt with trigger
+		description = "$actiondesc_heavy_bullet_trigger", -- A powerful magical bolt that casts another spell upon collision
 		sprite 		= "data/ui_gfx/gun_actions/heavy_bullet_trigger.png",
 		sprite_unidentified = "data/ui_gfx/gun_actions/heavy_bullet_trigger_unidentified.png",
 		related_projectiles	= {"data/entities/projectiles/deck/bullet_heavy.xml"},
@@ -234,8 +234,8 @@ actions =
 	},
 	{
 		id          = "HEAVY_BULLET_TIMER",
-		name 		= "$action_heavy_bullet_timer",
-		description = "$actiondesc_heavy_bullet_timer",
+		name 		= "$action_heavy_bullet_timer", -- Magic bolt with timer
+		description = "$actiondesc_heavy_bullet_timer", -- A powerful magical bolt that casts another spell after a timer runs out
 		sprite 		= "data/ui_gfx/gun_actions/heavy_bullet_timer.png",
 		sprite_unidentified = "data/ui_gfx/gun_actions/heavy_bullet_timer_unidentified.png",
 		related_projectiles	= {"data/entities/projectiles/deck/bullet_heavy.xml"},
@@ -257,8 +257,8 @@ actions =
 	},
 	{
 		id          = "AIR_BULLET",
-		name 		= "$action_air_bullet",
-		description = "$actiondesc_air_bullet",
+		name 		= "$action_air_bullet", -- Burst of air
+		description = "$actiondesc_air_bullet", -- A brittle burst of air capable of greatly pushing objects
 		sprite 		= "data/ui_gfx/gun_actions/air_bullet.png",
 		sprite_unidentified = "data/ui_gfx/gun_actions/air_bullet_unidentified.png",
 		related_projectiles	= {"data/entities/projectiles/deck/light_bullet_air.xml"},
@@ -278,8 +278,8 @@ actions =
 	},
 	{
 		id          = "SLOW_BULLET",
-		name 		= "$action_slow_bullet",
-		description = "$actiondesc_slow_bullet",
+		name 		= "$action_slow_bullet", -- Energy orb
+		description = "$actiondesc_slow_bullet", -- A slow but powerful orb of energy
 		sprite 		= "data/ui_gfx/gun_actions/slow_bullet.png",
 		sprite_unidentified = "data/ui_gfx/gun_actions/slow_bullet_unidentified.png",
 		related_projectiles	= {"data/entities/projectiles/deck/bullet_slow.xml"},
@@ -300,8 +300,8 @@ actions =
 	},
 	{
 		id          = "SLOW_BULLET_TRIGGER",
-		name 		= "$action_slow_bullet_trigger",
-		description = "$actiondesc_slow_bullet_trigger",
+		name 		= "$action_slow_bullet_trigger", -- Energy orb with a trigger
+		description = "$actiondesc_slow_bullet_trigger", -- A slow but powerful orb of energy that casts another spell upon collision
 		sprite 		= "data/ui_gfx/gun_actions/slow_bullet_trigger.png",
 		sprite_unidentified = "data/ui_gfx/gun_actions/slow_bullet_trigger_unidentified.png",
 		related_projectiles	= {"data/entities/projectiles/deck/bullet_slow.xml"},
@@ -322,8 +322,8 @@ actions =
 	},
 	{
 		id          = "SLOW_BULLET_TIMER",
-		name 		= "$action_slow_bullet_timer",
-		description = "$actiondesc_slow_bullet_timer",
+		name 		= "$action_slow_bullet_timer", -- Energy orb with a timer
+		description = "$actiondesc_slow_bullet_timer", -- A slow but powerful orb of energy that casts another spell after a timer runs out
 		sprite 		= "data/ui_gfx/gun_actions/slow_bullet_timer.png",
 		sprite_unidentified = "data/ui_gfx/gun_actions/slow_bullet_timer_unidentified.png",
 		related_projectiles	= {"data/entities/projectiles/deck/bullet_slow.xml"},
@@ -344,8 +344,8 @@ actions =
 	},
 	{
 		id          = "HOOK",
-		name 		= "$action_hook",
-		description = "$actiondesc_hook",
+		name 		= "$action_hook", -- Hookbolt
+		description = "$actiondesc_hook", -- A glowing hook that pulls the caster towards itself upon collision
 		sprite 		= "data/ui_gfx/gun_actions/hook.png",
 		sprite_unidentified = "data/ui_gfx/gun_actions/bullet_unidentified.png",
 		related_projectiles	= {"data/entities/projectiles/deck/hook.xml"},
@@ -363,8 +363,8 @@ actions =
 	},
 	{
 		id          = "BLACK_HOLE",
-		name 		= "$action_black_hole",
-		description = "$actiondesc_black_hole",
+		name 		= "$action_black_hole", -- Black hole
+		description = "$actiondesc_black_hole", -- A slow orb of void that eats through all obstacles
 		sprite 		= "data/ui_gfx/gun_actions/black_hole.png",
 		sprite_unidentified = "data/ui_gfx/gun_actions/black_hole_unidentified.png",
 		related_projectiles	= {"data/entities/projectiles/deck/black_hole.xml"},
@@ -384,8 +384,8 @@ actions =
 	},
 	{
 		id          = "BLACK_HOLE_DEATH_TRIGGER",
-		name 		= "$action_black_hole_death_trigger",
-		description = "$actiondesc_black_hole_death_trigger",
+		name 		= "$action_black_hole_death_trigger", -- Black Hole with Death Trigger
+		description = "$actiondesc_black_hole_death_trigger", -- A slow orb of void that eats through all obstacles and casts another spell as it expires
 		sprite 		= "data/ui_gfx/gun_actions/black_hole_timer.png",
 		sprite_unidentified = "data/ui_gfx/gun_actions/black_hole_unidentified.png",
 		related_projectiles	= {"data/entities/projectiles/deck/black_hole.xml"},
@@ -405,8 +405,8 @@ actions =
 	},
 	{
 		id          = "WHITE_HOLE",
-		name 		= "$action_white_hole",
-		description = "$actiondesc_white_hole",
+		name 		= "$action_white_hole", -- White hole
+		description = "$actiondesc_white_hole", -- An orb of positive energy that destroys everything in its path
 		sprite 		= "data/ui_gfx/gun_actions/white_hole.png",
 		sprite_unidentified = "data/ui_gfx/gun_actions/black_hole_unidentified.png",
 		related_projectiles	= {"data/entities/projectiles/deck/white_hole.xml"},
@@ -426,8 +426,8 @@ actions =
 	},
 	{
 		id          = "BLACK_HOLE_BIG",
-		name 		= "$action_black_hole_big",
-		description = "$actiondesc_black_hole_big",
+		name 		= "$action_black_hole_big", -- Giga black hole
+		description = "$actiondesc_black_hole_big", -- A growing orb of negative energy that destroys everything in its reach
 		sprite 		= "data/ui_gfx/gun_actions/black_hole_big.png",
 		sprite_unidentified = "data/ui_gfx/gun_actions/black_hole_big_unidentified.png",
 		related_projectiles	= {"data/entities/projectiles/deck/black_hole_big.xml"},
@@ -446,8 +446,8 @@ actions =
 	},
 	{
 		id          = "WHITE_HOLE_BIG",
-		name 		= "$action_white_hole_big",
-		description = "$actiondesc_white_hole_big",
+		name 		= "$action_white_hole_big", -- Giga white hole
+		description = "$actiondesc_white_hole_big", -- A growing orb of positive energy that destroys everything in its reach
 		sprite 		= "data/ui_gfx/gun_actions/white_hole_big.png",
 		sprite_unidentified = "data/ui_gfx/gun_actions/black_hole_big_unidentified.png",
 		related_projectiles	= {"data/entities/projectiles/deck/white_hole_big.xml"},
@@ -466,8 +466,8 @@ actions =
 	},
 	{
 		id          = "BLACK_HOLE_GIGA",
-		name 		= "$action_black_hole_giga",
-		description = "$actiondesc_black_hole_giga",
+		name 		= "$action_black_hole_giga", -- Omega Black Hole
+		description = "$actiondesc_black_hole_giga", -- Even light dies eventually...
 		sprite 		= "data/ui_gfx/gun_actions/black_hole_giga.png",
 		sprite_unidentified = "data/ui_gfx/gun_actions/black_hole_big_unidentified.png",
 		related_projectiles	= {"data/entities/projectiles/deck/black_hole_giga.xml"},
@@ -493,8 +493,8 @@ actions =
 	},
 	{
 		id          = "WHITE_HOLE_GIGA",
-		name 		= "$action_white_hole_giga",
-		description = "$actiondesc_white_hole_giga",
+		name 		= "$action_white_hole_giga", -- Omega white hole
+		description = "$actiondesc_white_hole_giga", -- A massive orb of positive energy that destroys everything in its reach
 		sprite 		= "data/ui_gfx/gun_actions/white_hole_giga.png",
 		sprite_unidentified = "data/ui_gfx/gun_actions/black_hole_big_unidentified.png",
 		related_projectiles	= {"data/entities/projectiles/deck/white_hole_giga.xml"},
@@ -520,8 +520,8 @@ actions =
 	},
 	{
 		id          = "TENTACLE_PORTAL",
-		name 		= "$action_tentacle_portal",
-		description = "$actiondesc_tentacle_portal",
+		name 		= "$action_tentacle_portal", -- Eldritch portal
+		description = "$actiondesc_tentacle_portal", -- Summons a one-way portal to a sinister realm
 		sprite 		= "data/ui_gfx/gun_actions/tentacle_portal.png",
 		sprite_unidentified = "data/ui_gfx/gun_actions/slimeball_unidentified.png",
 		related_projectiles	= {"data/entities/projectiles/deck/tentacle_portal.xml"},
@@ -538,8 +538,8 @@ actions =
 	},
 	--[[{
 		id          = "DECOY",
-		name 		= "$action_decoy",
-		description = "$actiondesc_decoy",
+		name 		= "$action_decoy", -- Decoy
+		description = "$actiondesc_decoy", -- Creates a decoy for distracting enemies
 		sprite 		= "data/ui_gfx/gun_actions/decoy.png",
 		sprite_unidentified = "data/ui_gfx/gun_actions/decoy_unidentified.png",
 		type 		= ACTION_TYPE_PROJECTILE,
@@ -556,8 +556,8 @@ actions =
 	},
 	{
 		id          = "DECOY_TRIGGER",
-		name 		= "$action_decoy_trigger",
-		description = "$actiondesc_decoy_trigger",
+		name 		= "$action_decoy_trigger", -- Decoy with trigger
+		description = "$actiondesc_decoy_trigger", -- Creates a decoy for distracting enemies that casts another spell after a timer runs out
 		sprite 		= "data/ui_gfx/gun_actions/decoy_trigger.png",
 		sprite_unidentified = "data/ui_gfx/gun_actions/decoy_trigger_unidentified.png",
 		type 		= ACTION_TYPE_PROJECTILE,
@@ -574,8 +574,8 @@ actions =
 	},]]--
 	{
 		id          = "SPITTER",
-		name 		= "$action_spitter",
-		description = "$actiondesc_spitter",
+		name 		= "$action_spitter", -- Spitter bolt
+		description = "$actiondesc_spitter", -- A short-lived magical bolt
 		sprite 		= "data/ui_gfx/gun_actions/spitter.png",
 		sprite_unidentified = "data/ui_gfx/gun_actions/spitter_unidentified.png",
 		related_projectiles	= {"data/entities/projectiles/deck/spitter.xml"},
@@ -596,8 +596,8 @@ actions =
 	},
 	{
 		id          = "SPITTER_TIMER",
-		name 		= "$action_spitter_timer",
-		description = "$actiondesc_spitter_timer",
+		name 		= "$action_spitter_timer", -- Spitter bolt with timer
+		description = "$actiondesc_spitter_timer", -- A short-lived magical bolt that casts another spell after a timer runs out
 		sprite 		= "data/ui_gfx/gun_actions/spitter_timer.png",
 		sprite_unidentified = "data/ui_gfx/gun_actions/spitter_timer_unidentified.png",
 		related_projectiles	= {"data/entities/projectiles/deck/spitter.xml"},
@@ -618,8 +618,8 @@ actions =
 	},
 	{
 		id          = "SPITTER_TIER_2",
-		name 		= "$action_spitter_tier_2",
-		description = "$actiondesc_spitter_tier_2",
+		name 		= "$action_spitter_tier_2", -- Large spitter bolt
+		description = "$actiondesc_spitter_tier_2", -- A more powerful version of Spitter Bolt
 		sprite 		= "data/ui_gfx/gun_actions/spitter_green.png",
 		sprite_unidentified = "data/ui_gfx/gun_actions/spitter_unidentified.png",
 		related_projectiles	= {"data/entities/projectiles/deck/spitter_tier_2.xml"},
@@ -640,8 +640,8 @@ actions =
 	},
 	{
 		id          = "SPITTER_TIER_2_TIMER",
-		name 		= "$action_spitter_tier_2_timer",
-		description = "$actiondesc_spitter_tier_2_timer",
+		name 		= "$action_spitter_tier_2_timer", -- Large spitter bolt with timer
+		description = "$actiondesc_spitter_tier_2_timer", -- A more powerful version of Spitter Bolt that casts another spell after a timer runs out
 		sprite 		= "data/ui_gfx/gun_actions/spitter_green_timer.png",
 		sprite_unidentified = "data/ui_gfx/gun_actions/spitter_unidentified.png",
 		related_projectiles	= {"data/entities/projectiles/deck/spitter_tier_2.xml"},
@@ -662,8 +662,8 @@ actions =
 	},
 	{
 		id          = "SPITTER_TIER_3",
-		name 		= "$action_spitter_tier_3",
-		description = "$actiondesc_spitter_tier_3",
+		name 		= "$action_spitter_tier_3", -- Giant spitter bolt
+		description = "$actiondesc_spitter_tier_3", -- The most powerful version of Spitter Bolt
 		sprite 		= "data/ui_gfx/gun_actions/spitter_purple.png",
 		sprite_unidentified = "data/ui_gfx/gun_actions/spitter_unidentified.png",
 		related_projectiles	= {"data/entities/projectiles/deck/spitter_tier_3.xml"},
@@ -684,8 +684,8 @@ actions =
 	},
 	{
 		id          = "SPITTER_TIER_3_TIMER",
-		name 		= "$action_spitter_tier_3_timer",
-		description = "$actiondesc_spitter_tier_3_timer",
+		name 		= "$action_spitter_tier_3_timer", -- Giant spitter bolt with timer
+		description = "$actiondesc_spitter_tier_3_timer", -- The most powerful version of Spitter Bolt that casts another spell after a timer runs out
 		sprite 		= "data/ui_gfx/gun_actions/spitter_purple_timer.png",
 		sprite_unidentified = "data/ui_gfx/gun_actions/spitter_unidentified.png",
 		related_projectiles	= {"data/entities/projectiles/deck/spitter_tier_3.xml"},
@@ -706,8 +706,8 @@ actions =
 	},
 	{
 		id          = "BUBBLESHOT",
-		name 		= "$action_bubbleshot",
-		description = "$actiondesc_bubbleshot",
+		name 		= "$action_bubbleshot", -- Bubble spark
+		description = "$actiondesc_bubbleshot", -- "A bouncy
 		sprite 		= "data/ui_gfx/gun_actions/bubbleshot.png",
 		sprite_unidentified = "data/ui_gfx/gun_actions/bubbleshot_unidentified.png",
 		related_projectiles	= {"data/entities/projectiles/deck/bubbleshot.xml"},
@@ -726,8 +726,8 @@ actions =
 	},
 	{
 		id          = "BUBBLESHOT_TRIGGER",
-		name 		= "$action_bubbleshot_trigger",
-		description = "$actiondesc_bubbleshot_trigger",
+		name 		= "$action_bubbleshot_trigger", -- Bubble spark with trigger
+		description = "$actiondesc_bubbleshot_trigger", -- "A bouncy
 		sprite 		= "data/ui_gfx/gun_actions/bubbleshot_trigger.png",
 		sprite_unidentified = "data/ui_gfx/gun_actions/bubbleshot_trigger_unidentified.png",
 		related_projectiles	= {"data/entities/projectiles/deck/bubbleshot.xml"},
@@ -746,8 +746,8 @@ actions =
 	},
 	{
 		id          = "DISC_BULLET",
-		name 		= "$action_disc_bullet",
-		description = "$actiondesc_disc_bullet",
+		name 		= "$action_disc_bullet", -- Disc projectile
+		description = "$actiondesc_disc_bullet", -- Summons a sharp disc projectile
 		sprite 		= "data/ui_gfx/gun_actions/disc_bullet.png",
 		sprite_unidentified = "data/ui_gfx/gun_actions/disc_bullet_unidentified.png",
 		related_projectiles	= {"data/entities/projectiles/deck/disc_bullet.xml"},
@@ -767,8 +767,8 @@ actions =
 	},
 	{
 		id          = "DISC_BULLET_BIG",
-		name 		= "$action_disc_bullet_big",
-		description = "$actiondesc_disc_bullet_big",
+		name 		= "$action_disc_bullet_big", -- Giga disc projectile
+		description = "$actiondesc_disc_bullet_big", -- "Summons a large
 		sprite 		= "data/ui_gfx/gun_actions/disc_bullet_big.png",
 		sprite_unidentified = "data/ui_gfx/gun_actions/disc_bullet_unidentified.png",
 		related_projectiles	= {"data/entities/projectiles/deck/disc_bullet_big.xml"},
@@ -788,8 +788,8 @@ actions =
 	},
 	{
 		id          = "DISC_BULLET_BIGGER",
-		name 		= "$action_omega_disc_bullet",
-		description = "$actiondesc_omega_disc_bullet",
+		name 		= "$action_omega_disc_bullet", -- Summon Omega Sawblade
+		description = "$actiondesc_omega_disc_bullet", -- That's a lot of sawblade
 		sprite 		= "data/ui_gfx/gun_actions/omega_disc_bullet.png",
 		sprite_unidentified = "data/ui_gfx/gun_actions/disc_bullet_unidentified.png",
 		spawn_requires_flag = "card_unlocked_everything",
@@ -811,8 +811,8 @@ actions =
 	},
 	{
 		id          = "BOUNCY_ORB",
-		name 		= "$action_bouncy_orb",
-		description = "$actiondesc_bouncy_orb",
+		name 		= "$action_bouncy_orb", -- Energy sphere
+		description = "$actiondesc_bouncy_orb", -- "A fast
 		sprite 		= "data/ui_gfx/gun_actions/bouncy_orb.png",
 		sprite_unidentified = "data/ui_gfx/gun_actions/disc_bullet_unidentified.png",
 		related_projectiles	= {"data/entities/projectiles/deck/bouncy_orb.xml"},
@@ -831,8 +831,8 @@ actions =
 	},
 	{
 		id          = "BOUNCY_ORB_TIMER",
-		name 		= "$action_bouncy_orb_timer",
-		description = "$actiondesc_bouncy_orb_timer",
+		name 		= "$action_bouncy_orb_timer", -- Energy sphere with timer
+		description = "$actiondesc_bouncy_orb_timer", -- "A fast
 		sprite 		= "data/ui_gfx/gun_actions/bouncy_orb_timer.png",
 		sprite_unidentified = "data/ui_gfx/gun_actions/disc_bullet_unidentified.png",
 		related_projectiles	= {"data/entities/projectiles/deck/bouncy_orb.xml"},
@@ -851,8 +851,8 @@ actions =
 	},
 	{
 		id          = "RUBBER_BALL",
-		name 		= "$action_rubber_ball",
-		description = "$actiondesc_rubber_ball",
+		name 		= "$action_rubber_ball", -- Bouncing burst
+		description = "$actiondesc_rubber_ball", -- A very bouncy projectile
 		sprite 		= "data/ui_gfx/gun_actions/rubber_ball.png",
 		sprite_unidentified = "data/ui_gfx/gun_actions/rubber_ball_unidentified.png",
 		related_projectiles	= {"data/entities/projectiles/deck/rubber_ball.xml"},
@@ -871,8 +871,8 @@ actions =
 	},
 	{
 		id          = "ARROW",
-		name 		= "$action_arrow",
-		description = "$actiondesc_arrow",
+		name 		= "$action_arrow", -- Arrow
+		description = "$actiondesc_arrow", -- Summons an arrow
 		sprite 		= "data/ui_gfx/gun_actions/arrow.png",
 		sprite_unidentified = "data/ui_gfx/gun_actions/arrow_unidentified.png",
 		related_projectiles	= {"data/entities/projectiles/deck/arrow.xml"},
@@ -892,8 +892,8 @@ actions =
 	},
 	{
 		id          = "POLLEN",
-		name 		= "$action_pollen",
-		description = "$actiondesc_pollen",
+		name 		= "$action_pollen", -- Pollen
+		description = "$actiondesc_pollen", -- "A small
 		sprite 		= "data/ui_gfx/gun_actions/pollen.png",
 		sprite_unidentified = "data/ui_gfx/gun_actions/arrow_unidentified.png",
 		related_projectiles	= {"data/entities/projectiles/deck/pollen.xml"},
@@ -912,8 +912,8 @@ actions =
 	},
 	{
 		id          = "LANCE",
-		name 		= "$action_lance",
-		description = "$actiondesc_lance",
+		name 		= "$action_lance", -- Glowing lance
+		description = "$actiondesc_lance", -- A magical lance that cuts through soft materials
 		sprite 		= "data/ui_gfx/gun_actions/lance.png",
 		sprite_unidentified = "data/ui_gfx/gun_actions/lance_unidentified.png",
 		related_projectiles	= {"data/entities/projectiles/deck/lance.xml"},
@@ -934,8 +934,8 @@ actions =
 	},
 	{
 		id          = "LANCE_HOLY",
-		name 		= "$action_holy",
-		description = "$actiondesc_holy",
+		name 		= "$action_holy", -- Holy Lance
+		description = "$actiondesc_holy", -- "A fast-flying
 		sprite 		= "data/ui_gfx/gun_actions/lance_holy.png",
 		sprite_unidentified = "data/ui_gfx/gun_actions/lance_unidentified.png",
 		related_projectiles	= {"data/entities/projectiles/deck/lance_holy.xml"},
@@ -956,8 +956,8 @@ actions =
 	},
 	{
 		id          = "ROCKET",
-		name 		= "$action_rocket",
-		description = "$actiondesc_rocket",
+		name 		= "$action_rocket", -- Magic missile
+		description = "$actiondesc_rocket", -- "A fiery
 		sprite 		= "data/ui_gfx/gun_actions/rocket.png",
 		sprite_unidentified = "data/ui_gfx/gun_actions/rocket_unidentified.png",
 		related_projectiles	= {"data/entities/projectiles/deck/rocket.xml"},
@@ -978,8 +978,8 @@ actions =
 	},
 	{
 		id          = "ROCKET_TIER_2",
-		name 		= "$action_rocket_tier_2",
-		description = "$actiondesc_rocket_tier_2",
+		name 		= "$action_rocket_tier_2", -- Large magic missile
+		description = "$actiondesc_rocket_tier_2", -- A more powerful version of Magic missile
 		sprite 		= "data/ui_gfx/gun_actions/rocket_tier_2.png",
 		sprite_unidentified = "data/ui_gfx/gun_actions/rocket_unidentified.png",
 		related_projectiles	= {"data/entities/projectiles/deck/rocket_tier_2.xml"},
@@ -1000,8 +1000,8 @@ actions =
 	},
 	{
 		id          = "ROCKET_TIER_3",
-		name 		= "$action_rocket_tier_3",
-		description = "$actiondesc_rocket_tier_3",
+		name 		= "$action_rocket_tier_3", -- Giant magic missile
+		description = "$actiondesc_rocket_tier_3", -- The most powerful version of Magic missile
 		sprite 		= "data/ui_gfx/gun_actions/rocket_tier_3.png",
 		sprite_unidentified = "data/ui_gfx/gun_actions/rocket_unidentified.png",
 		related_projectiles	= {"data/entities/projectiles/deck/rocket_tier_3.xml"},
@@ -1022,8 +1022,8 @@ actions =
 	},
 	{
 		id          = "GRENADE",
-		name 		= "$action_grenade",
-		description = "$actiondesc_grenade",
+		name 		= "$action_grenade", -- Firebolt
+		description = "$actiondesc_grenade", -- "A bouncy
 		sprite 		= "data/ui_gfx/gun_actions/grenade.png",
 		sprite_unidentified = "data/ui_gfx/gun_actions/grenade_unidentified.png",
 		related_projectiles	= {"data/entities/projectiles/deck/grenade.xml"},
@@ -1045,8 +1045,8 @@ actions =
 	},
 	{
 		id          = "GRENADE_TRIGGER",
-		name 		= "$action_grenade_trigger",
-		description = "$actiondesc_grenade_trigger",
+		name 		= "$action_grenade_trigger", -- Firebolt with trigger
+		description = "$actiondesc_grenade_trigger", -- "A bouncy
 		sprite 		= "data/ui_gfx/gun_actions/grenade_trigger.png",
 		sprite_unidentified = "data/ui_gfx/gun_actions/grenade_trigger_unidentified.png",
 		related_projectiles	= {"data/entities/projectiles/deck/grenade.xml"},
@@ -1068,8 +1068,8 @@ actions =
 	},
 	{
 		id          = "GRENADE_TIER_2",
-		name 		= "$action_grenade_tier_2",
-		description = "$actiondesc_grenade_tier_2",
+		name 		= "$action_grenade_tier_2", -- Large firebolt
+		description = "$actiondesc_grenade_tier_2", -- A more powerful version of Firebolt
 		sprite 		= "data/ui_gfx/gun_actions/grenade_tier_2.png",
 		sprite_unidentified = "data/ui_gfx/gun_actions/grenade_unidentified.png",
 		related_projectiles	= {"data/entities/projectiles/deck/grenade_tier_2.xml"},
@@ -1091,8 +1091,8 @@ actions =
 	},
 	{
 		id          = "GRENADE_TIER_3",
-		name 		= "$action_grenade_tier_3",
-		description = "$actiondesc_grenade_tier_3",
+		name 		= "$action_grenade_tier_3", -- Giant firebolt
+		description = "$actiondesc_grenade_tier_3", -- The most powerful version of Firebolt
 		sprite 		= "data/ui_gfx/gun_actions/grenade_tier_3.png",
 		sprite_unidentified = "data/ui_gfx/gun_actions/grenade_unidentified.png",
 		related_projectiles	= {"data/entities/projectiles/deck/grenade_tier_3.xml"},
@@ -1114,8 +1114,8 @@ actions =
 	},
 	{
 		id          = "GRENADE_ANTI",
-		name 		= "$action_grenade_anti",
-		description = "$actiondesc_grenade_anti",
+		name 		= "$action_grenade_anti", -- Odd Firebolt
+		description = "$actiondesc_grenade_anti", -- "A somewhat peculiar bouncy
 		sprite 		= "data/ui_gfx/gun_actions/grenade_anti.png",
 		sprite_unidentified = "data/ui_gfx/gun_actions/grenade_unidentified.png",
 		related_projectiles	= {"data/entities/projectiles/deck/grenade_anti.xml"},
@@ -1137,8 +1137,8 @@ actions =
 	},
 	{
 		id          = "GRENADE_LARGE",
-		name 		= "$action_grenade_large",
-		description = "$actiondesc_grenade_large",
+		name 		= "$action_grenade_large", -- Dropper bolt
+		description = "$actiondesc_grenade_large", -- A very heavy explosive bolt
 		sprite 		= "data/ui_gfx/gun_actions/grenade_large.png",
 		sprite_unidentified = "data/ui_gfx/gun_actions/grenade_unidentified.png",
 		related_projectiles	= {"data/entities/projectiles/deck/grenade_large.xml"},
@@ -1160,8 +1160,8 @@ actions =
 	},
 	{
 		id 			= "MINE",
-		name 		= "$action_mine",
-		description = "$actiondesc_mine",
+		name 		= "$action_mine", -- Unstable crystal
+		description = "$actiondesc_mine", -- A crystal that explodes when someone comes nearby
 		sprite 		= "data/ui_gfx/gun_actions/mine.png",
 		sprite_unidentified = "data/ui_gfx/gun_actions/mine_unidentified.png",
 		related_projectiles	= {"data/entities/projectiles/deck/mine.xml"},
@@ -1187,8 +1187,8 @@ actions =
 	},
 	{
 		id 			= "MINE_DEATH_TRIGGER",
-		name 		= "$action_mine_death_trigger",
-		description = "$actiondesc_mine_death_trigger",
+		name 		= "$action_mine_death_trigger", -- Unstable crystal with trigger
+		description = "$actiondesc_mine_death_trigger", -- A crystal that explodes and casts another spell when someone comes nearby
 		sprite 		= "data/ui_gfx/gun_actions/mine_death_trigger.png",
 		sprite_unidentified = "data/ui_gfx/gun_actions/mine_death_trigger_unidentified.png",
 		related_projectiles	= {"data/entities/projectiles/deck/mine.xml"},
@@ -1214,8 +1214,8 @@ actions =
 	},
 	{
 		id 			= "PIPE_BOMB",
-		name 		= "$action_pipe_bomb",
-		description = "$actiondesc_pipe_bomb",
+		name 		= "$action_pipe_bomb", -- Dormant crystal
+		description = "$actiondesc_pipe_bomb", -- A crystal that explodes when caught in an explosion
 		sprite 		= "data/ui_gfx/gun_actions/pipe_bomb.png",
 		sprite_unidentified = "data/ui_gfx/gun_actions/pipe_bomb_unidentified.png",
 		related_projectiles	= {"data/entities/projectiles/deck/pipe_bomb.xml"},
@@ -1240,8 +1240,8 @@ actions =
 	},
 	{
 		id          = "PIPE_BOMB_DEATH_TRIGGER",
-		name 		= "$action_pipe_bomb_death_trigger",
-		description = "$actiondesc_pipe_bomb_death_trigger",
+		name 		= "$action_pipe_bomb_death_trigger", -- Dormant crystal with trigger
+		description = "$actiondesc_pipe_bomb_death_trigger", -- A crystal that explodes and casts another spell when caught in an explosion
 		sprite 		= "data/ui_gfx/gun_actions/pipe_bomb_death_trigger.png",
 		sprite_unidentified = "data/ui_gfx/gun_actions/pipe_bomb_death_trigger_unidentified.png",
 		related_projectiles	= {"data/entities/projectiles/deck/pipe_bomb.xml"},
@@ -1267,8 +1267,8 @@ actions =
 	},
 	{
 		id          = "FISH",
-		name 		= "$action_fish",
-		description = "$actiondesc_fish",
+		name 		= "$action_fish", -- Summon fish
+		description = "$actiondesc_fish", -- FISH!
 		spawn_requires_flag = "card_unlocked_fish",
 		sprite 		= "data/ui_gfx/gun_actions/fish.png",
 		sprite_unidentified = "data/ui_gfx/gun_actions/fish_unidentified.png",
@@ -1286,8 +1286,8 @@ actions =
 	},
 	{
 		id          = "EXPLODING_DEER",
-		name 		= "$action_exploding_deer",
-		description = "$actiondesc_exploding_deer",
+		name 		= "$action_exploding_deer", -- Summon deercoy
+		description = "$actiondesc_exploding_deer", -- Summons a seemingly-innocuous deer
 		spawn_requires_flag = "card_unlocked_exploding_deer",
 		sprite 		= "data/ui_gfx/gun_actions/exploding_deer.png",
 		sprite_unidentified = "data/ui_gfx/gun_actions/exploding_deer_unidentified.png",
@@ -1305,8 +1305,8 @@ actions =
 	},
 	{
 		id          = "EXPLODING_DUCKS",
-		name 		= "$action_exploding_ducks",
-		description = "$actiondesc_exploding_ducks",
+		name 		= "$action_exploding_ducks", -- Flock of Ducks
+		description = "$actiondesc_exploding_ducks", -- Summons a chaotic flock of spicy ducks
 		spawn_requires_flag = "card_unlocked_exploding_deer",
 		sprite 		= "data/ui_gfx/gun_actions/duck_2.png",
 		sprite_unidentified = "data/ui_gfx/gun_actions/exploding_deer_unidentified.png",
@@ -1327,8 +1327,8 @@ actions =
 	},
 	{
 		id          = "WORM_SHOT",
-		name 		= "$action_worm_shot",
-		description = "$actiondesc_worm_shot",
+		name 		= "$action_worm_shot", -- Worm Launcher
+		description = "$actiondesc_worm_shot", -- Summons a giant worm to cause havoc for a moment!
 		spawn_requires_flag = "card_unlocked_exploding_deer",
 		sprite 		= "data/ui_gfx/gun_actions/worm.png",
 		sprite_unidentified = "data/ui_gfx/gun_actions/exploding_deer_unidentified.png",
@@ -1350,8 +1350,8 @@ actions =
 	--[[
 	{
 		id          = "PIPE_BOMB_DETONATOR",
-		name 		= "$action_pipe_bomb_detonator",
-		description = "$actiondesc_pipe_bomb_detonator",
+		name 		= "$action_pipe_bomb_detonator", -- Dormant crystal detonation
+		description = "$actiondesc_pipe_bomb_detonator", -- All nearby dormant crystals explode
 		sprite 		= "data/ui_gfx/gun_actions/pipe_bomb_detonator.png",
 		sprite_unidentified = "data/ui_gfx/gun_actions/pipe_bomb_detonator_unidentified.png",
 		related_projectiles	= {"data/entities/projectiles/deck/pipe_bomb_detonator.xml"},
@@ -1370,8 +1370,8 @@ actions =
 	]]--
 	{
 		id          = "BOMB_DETONATOR",
-		name 		= "$action_bomb_detonator",
-		description = "$actiondesc_bomb_detonator",
+		name 		= "$action_bomb_detonator", -- Explosive Detonator
+		description = "$actiondesc_bomb_detonator", -- All nearby explosive spells cast by you instantly detonate
 		sprite 		= "data/ui_gfx/gun_actions/pipe_bomb_detonator.png",
 		sprite_unidentified = "data/ui_gfx/gun_actions/meteor_unidentified.png",
 		related_projectiles	= {"data/entities/projectiles/deck/bomb_detonator.xml"},
@@ -1386,8 +1386,8 @@ actions =
 	},
 	{
 		id          = "LASER",
-		name 		= "$action_laser",
-		description = "$actiondesc_laser",
+		name 		= "$action_laser", -- Concentrated light
+		description = "$actiondesc_laser", -- A pinpointed beam of light
 		sprite 		= "data/ui_gfx/gun_actions/laser.png",
 		sprite_unidentified = "data/ui_gfx/gun_actions/laser_unidentified.png",
 		related_projectiles	= {"data/entities/projectiles/deck/laser.xml"},
@@ -1407,8 +1407,8 @@ actions =
 	},
 	{
 		id          = "MEGALASER",
-		name 		= "$action_megalaser",
-		description = "$actiondesc_megalaser",
+		name 		= "$action_megalaser", -- Intense concentrated light
+		description = "$actiondesc_megalaser", -- A spectral wand is summoned that casts a huge beam of light
 		sprite 		= "data/ui_gfx/gun_actions/megalaser.png",
 		sprite_unidentified = "data/ui_gfx/gun_actions/megalaser_unidentified.png",
 		related_projectiles	= {"data/entities/projectiles/deck/megalaser.xml"},
@@ -1433,8 +1433,8 @@ actions =
 	},
 	{
 		id          = "LIGHTNING",
-		name 		= "$action_lightning",
-		description = "$actiondesc_lightning",
+		name 		= "$action_lightning", -- Lightning bolt
+		description = "$actiondesc_lightning", -- The primordial force of nature
 		sprite 		= "data/ui_gfx/gun_actions/lightning.png",
 		sprite_unidentified = "data/ui_gfx/gun_actions/lightning_unidentified.png",
 		related_projectiles	= {"data/entities/projectiles/deck/lightning.xml"},
@@ -1453,8 +1453,8 @@ actions =
 	},
 	{
 		id          = "BALL_LIGHTNING",
-		name 		= "$action_ball_lightning",
-		description = "$actiondesc_ball_lightning",
+		name 		= "$action_ball_lightning", -- Ball Lightning
+		description = "$actiondesc_ball_lightning", -- Summons three short range electrical orbs
 		sprite 		= "data/ui_gfx/gun_actions/ball_lightning.png",
 		sprite_unidentified = "data/ui_gfx/gun_actions/lightning_unidentified.png",
 		related_projectiles	= {"data/entities/projectiles/deck/ball_lightning.xml",3},
@@ -1474,8 +1474,8 @@ actions =
 	},
 	{
 		id          = "LASER_EMITTER",
-		name 		= "$action_laser_emitter",
-		description = "$actiondesc_laser_emitter",
+		name 		= "$action_laser_emitter", -- Plasma beam
+		description = "$actiondesc_laser_emitter", -- "An instantaneous
 		sprite 		= "data/ui_gfx/gun_actions/laser_emitter.png",
 		sprite_unidentified = "data/ui_gfx/gun_actions/laser_unidentified.png",
 		related_projectiles	= {"data/entities/projectiles/deck/orb_laseremitter.xml"},
@@ -1493,8 +1493,8 @@ actions =
 	},
 	{
 		id          = "LASER_EMITTER_FOUR",
-		name 		= "$action_laser_emitter_four",
-		description = "$actiondesc_laser_emitter_four",
+		name 		= "$action_laser_emitter_four", -- Plasma Beam Cross
+		description = "$actiondesc_laser_emitter_four", -- "Four deadly plasma beams in a cross-shape. Look out
 		sprite 		= "data/ui_gfx/gun_actions/laser_emitter_four.png",
 		sprite_unidentified = "data/ui_gfx/gun_actions/laser_unidentified.png",
 		related_projectiles	= {"data/entities/projectiles/deck/orb_laseremitter.xml"},
@@ -1512,8 +1512,8 @@ actions =
 	},
 	{
 		id          = "LASER_EMITTER_CUTTER",
-		name 		= "$action_laser_emitter_cutter",
-		description = "$actiondesc_laser_emitter_cutter",
+		name 		= "$action_laser_emitter_cutter", -- Plasma Cutter
+		description = "$actiondesc_laser_emitter_cutter", -- A plasma beam specialized in cutting materials!
 		sprite 		= "data/ui_gfx/gun_actions/laser_emitter_cutter.png",
 		sprite_unidentified = "data/ui_gfx/gun_actions/laser_unidentified.png",
 		related_projectiles	= {"data/entities/projectiles/deck/orb_laseremitter_cutter.xml"},
@@ -1530,8 +1530,8 @@ actions =
 	},
 	{
 		id          = "DIGGER",
-		name 		= "$action_digger",
-		description = "$actiondesc_digger",
+		name 		= "$action_digger", -- Digging bolt
+		description = "$actiondesc_digger", -- A bolt that is ideal for mining operations
 		sprite 		= "data/ui_gfx/gun_actions/digger.png",
 		sprite_unidentified = "data/ui_gfx/gun_actions/digger_unidentified.png",
 		related_projectiles	= {"data/entities/projectiles/deck/digger.xml"},
@@ -1549,8 +1549,8 @@ actions =
 	},
 	{
 		id          = "POWERDIGGER",
-		name 		= "$action_powerdigger",
-		description = "$actiondesc_powerdigger",
+		name 		= "$action_powerdigger", -- Digging blast
+		description = "$actiondesc_powerdigger", -- More powerful digging
 		sprite 		= "data/ui_gfx/gun_actions/powerdigger.png",
 		sprite_unidentified = "data/ui_gfx/gun_actions/powerdigger_unidentified.png",
 		related_projectiles	= {"data/entities/projectiles/deck/powerdigger.xml"},
@@ -1568,8 +1568,8 @@ actions =
 	},
 	{
 		id          = "CHAINSAW",
-		name 		= "$action_chainsaw",
-		description = "$actiondesc_chainsaw",
+		name 		= "$action_chainsaw", -- Chainsaw
+		description = "$actiondesc_chainsaw", -- A good tool for cutting meat. Also has some magical properties...
 		sprite 		= "data/ui_gfx/gun_actions/chainsaw.png",
 		sprite_unidentified = "data/ui_gfx/gun_actions/chainsaw_unidentified.png",
 		related_projectiles	= {"data/entities/projectiles/deck/chainsaw.xml"},
@@ -1589,8 +1589,8 @@ actions =
 	},
 	{
 		id          = "LUMINOUS_DRILL",
-		name 		= "$action_luminous_drill",
-		description = "$actiondesc_luminous_drill",
+		name 		= "$action_luminous_drill", -- Luminous drill
+		description = "$actiondesc_luminous_drill", -- "A pinpointed
 		sprite 		= "data/ui_gfx/gun_actions/luminous_drill.png",
 		sprite_unidentified = "data/ui_gfx/gun_actions/chainsaw_unidentified.png",
 		related_projectiles	= {"data/entities/projectiles/deck/luminous_drill.xml"},
@@ -1609,8 +1609,8 @@ actions =
 	},
 	{
 		id          = "LASER_LUMINOUS_DRILL",
-		name 		= "$action_luminous_drill_timer",
-		description = "$actiondesc_luminous_drill_timer",
+		name 		= "$action_luminous_drill_timer", -- Luminous drill with timer
+		description = "$actiondesc_luminous_drill_timer", -- "A pinpointed
 		sprite 		= "data/ui_gfx/gun_actions/luminous_drill_timer.png",
 		sprite_unidentified = "data/ui_gfx/gun_actions/chainsaw_unidentified.png",
 		related_projectiles	= {"data/entities/projectiles/deck/luminous_drill.xml"},
@@ -1629,8 +1629,8 @@ actions =
 	},
 	{
 		id          = "TENTACLE",
-		name 		= "$action_tentacle",
-		description = "$actiondesc_tentacle",
+		name 		= "$action_tentacle", -- Summon Tentacle
+		description = "$actiondesc_tentacle", -- Calls a terrifying appendage from another dimension
 		spawn_requires_flag = "card_unlocked_tentacle",
 		sprite 		= "data/ui_gfx/gun_actions/tentacle.png",
 		sprite_unidentified = "data/ui_gfx/gun_actions/tentacle_unidentified.png",
@@ -1649,8 +1649,8 @@ actions =
 	},
 	{
 		id          = "TENTACLE_TIMER",
-		name 		= "$action_tentacle_timer",
-		description = "$actiondesc_tentacle_timer",
+		name 		= "$action_tentacle_timer", -- Summon Tentacle with timer
+		description = "$actiondesc_tentacle_timer", -- Calls a terrifying appendage from another dimension! Comes with a timer
 		spawn_requires_flag = "card_unlocked_tentacle",
 		sprite 		= "data/ui_gfx/gun_actions/tentacle_timer.png",
 		sprite_unidentified = "data/ui_gfx/gun_actions/tentacle_timer_unidentified.png",
@@ -1670,8 +1670,8 @@ actions =
 	--[[
 	{
 		id          = "BLOODTENTACLE",
-		name 		= "$action_bloodtentacle",
-		description = "$actiondesc_bloodtentacle",
+		name 		= "$action_bloodtentacle", -- Blood Tentacle
+		description = "$actiondesc_bloodtentacle", -- "When this tentacle hits an enemy
 		spawn_requires_flag = "card_unlocked_pyramid",
 		sprite 		= "data/ui_gfx/gun_actions/bloodtentacle.png",
 		sprite_unidentified = "data/ui_gfx/gun_actions/tentacle_unidentified.png",
@@ -1690,8 +1690,8 @@ actions =
 	]]--
 	{
 		id          = "HEAL_BULLET",
-		name 		= "$action_heal_bullet",
-		description = "$actiondesc_heal_bullet",
+		name 		= "$action_heal_bullet", -- Healing bolt
+		description = "$actiondesc_heal_bullet", -- A magical bolt that heals other beings
 		sprite 		= "data/ui_gfx/gun_actions/heal_bullet.png",
 		sprite_unidentified = "data/ui_gfx/gun_actions/heal_bullet_unidentified.png",
 		related_projectiles	= {"data/entities/projectiles/deck/heal_bullet.xml"},
@@ -1711,8 +1711,8 @@ actions =
 	},
 	{
 		id          = "ANTIHEAL",
-		name 		= "$action_antiheal",
-		description = "$actiondesc_antiheal",
+		name 		= "$action_antiheal", -- Deadly heal
+		description = "$actiondesc_antiheal", -- "A projectile that at first deals damage
 		sprite 		= "data/ui_gfx/gun_actions/antiheal.png",
 		sprite_unidentified = "data/ui_gfx/gun_actions/bullet_unidentified.png",
 		related_projectiles	= {"data/entities/projectiles/deck/healhurt.xml"},
@@ -1733,8 +1733,8 @@ actions =
 	},
 	{
 		id          = "SPIRAL_SHOT",
-		name 		= "$action_spiral_shot",
-		description = "$actiondesc_spiral_shot",
+		name 		= "$action_spiral_shot", -- Spiral shot
+		description = "$actiondesc_spiral_shot", -- A mystical whirlwind of magic sparks
 		spawn_requires_flag = "card_unlocked_spiral_shot",
 		sprite 		= "data/ui_gfx/gun_actions/spiral_shot.png",
 		sprite_unidentified = "data/ui_gfx/gun_actions/spiral_shot_unidentified.png",
@@ -1753,8 +1753,8 @@ actions =
 	},
 	{
 		id          = "MAGIC_SHIELD",
-		name 		= "$action_magic_shield",
-		description = "$actiondesc_magic_shield",
+		name 		= "$action_magic_shield", -- Magic guard
+		description = "$actiondesc_magic_shield", -- Four guarding lights rotate around you for a time
 		sprite 		= "data/ui_gfx/gun_actions/magic_shield.png",
 		sprite_unidentified = "data/ui_gfx/gun_actions/spiral_shot_unidentified.png",
 		related_projectiles	= {"data/entities/projectiles/deck/magic_shield_start.xml"},
@@ -1770,8 +1770,8 @@ actions =
 	},
 	{
 		id          = "BIG_MAGIC_SHIELD",
-		name 		= "$action_big_magic_shield",
-		description = "$actiondesc_big_magic_shield",
+		name 		= "$action_big_magic_shield", -- Big magic guard
+		description = "$actiondesc_big_magic_shield", -- Eight guarding lights rotate around you for a time
 		sprite 		= "data/ui_gfx/gun_actions/big_magic_shield.png",
 		sprite_unidentified = "data/ui_gfx/gun_actions/spiral_shot_unidentified.png",
 		related_projectiles	= {"data/entities/projectiles/deck/big_magic_shield_start.xml"},
@@ -1787,8 +1787,8 @@ actions =
 	},
 	{
 		id          = "CHAIN_BOLT",
-		name 		= "$action_chain_bolt",
-		description = "$actiondesc_chain_bolt",
+		name 		= "$action_chain_bolt", -- Chain bolt
+		description = "$actiondesc_chain_bolt", -- Fires a mysterious bolt that jumps from enemy to enemy
 		sprite 		= "data/ui_gfx/gun_actions/chain_bolt.png",
 		related_projectiles	= {"data/entities/projectiles/deck/chain_bolt.xml"},
 		type 		= ACTION_TYPE_PROJECTILE,
@@ -1804,8 +1804,8 @@ actions =
 	},
 	{
 		id          = "FIREBALL",
-		name 		= "$action_fireball",
-		description = "$actiondesc_fireball",
+		name 		= "$action_fireball", -- Fireball
+		description = "$actiondesc_fireball", -- A powerful exploding spell
 		sprite 		= "data/ui_gfx/gun_actions/fireball.png",
 		sprite_unidentified = "data/ui_gfx/gun_actions/fireball_unidentified.png",
 		related_projectiles	= {"data/entities/projectiles/deck/fireball.xml"},
@@ -1825,8 +1825,8 @@ actions =
 	},
 	{
 		id          = "METEOR",
-		name 		= "$action_meteor",
-		description = "$actiondesc_meteor",
+		name 		= "$action_meteor", -- Meteor
+		description = "$actiondesc_meteor", -- A destructive projectile from the skies!
 		sprite 		= "data/ui_gfx/gun_actions/meteor.png",
 		sprite_unidentified = "data/ui_gfx/gun_actions/meteor_unidentified.png",
 		related_projectiles	= {"data/entities/projectiles/deck/meteor.xml"},
@@ -1842,8 +1842,8 @@ actions =
 	},
 	{
 		id          = "FLAMETHROWER",
-		name 		= "$action_flamethrower",
-		description = "$actiondesc_flamethrower",
+		name 		= "$action_flamethrower", -- Flamethrower
+		description = "$actiondesc_flamethrower", -- A stream of fire!!
 		sprite 		= "data/ui_gfx/gun_actions/flamethrower.png",
 		sprite_unidentified = "data/ui_gfx/gun_actions/flamethrower_unidentified.png",
 		related_projectiles	= {"data/entities/projectiles/deck/flamethrower.xml"},
@@ -1861,8 +1861,8 @@ actions =
 	},
 	{
 		id          = "ICEBALL",
-		name 		= "$action_iceball",
-		description = "$actiondesc_iceball",
+		name 		= "$action_iceball", -- Iceball
+		description = "$actiondesc_iceball", -- A magical ball of frozen fire
 		sprite 		= "data/ui_gfx/gun_actions/iceball.png",
 		sprite_unidentified = "data/ui_gfx/gun_actions/fireball_unidentified.png",
 		related_projectiles	= {"data/entities/projectiles/deck/iceball.xml"},
@@ -1883,8 +1883,8 @@ actions =
 	--[[
 	{
 		id          = "ICETHROWER",
-		name 		= "$action_icethrower",
-		description = "$actiondesc_icethrower",
+		name 		= "$action_icethrower", -- Icethrower
+		description = "$actiondesc_icethrower", -- A stream of ice!!
 		sprite 		= "data/ui_gfx/gun_actions/icethrower.png",
 		type 		= ACTION_TYPE_PROJECTILE,
 		spawn_level                       = "", -- ICETHROWER
@@ -1901,8 +1901,8 @@ actions =
 	]]--
 	{
 		id          = "SLIMEBALL",
-		name 		= "$action_slimeball",
-		description = "$actiondesc_slimeball",
+		name 		= "$action_slimeball", -- Slimeball
+		description = "$actiondesc_slimeball", -- A dripping ball of poisonous slime
 		sprite 		= "data/ui_gfx/gun_actions/slimeball.png",
 		sprite_unidentified = "data/ui_gfx/gun_actions/slimeball_unidentified.png",
 		related_projectiles	= {"data/entities/projectiles/deck/slime.xml"},
@@ -1928,8 +1928,8 @@ actions =
 	},
 	{
 		id          = "DARKFLAME",
-		name 		= "$action_darkflame",
-		description = "$actiondesc_darkflame",
+		name 		= "$action_darkflame", -- Path of dark flame
+		description = "$actiondesc_darkflame", -- "A trail of dark
 		sprite 		= "data/ui_gfx/gun_actions/darkflame.png",
 		sprite_unidentified = "data/ui_gfx/gun_actions/darkflame_unidentified.png",
 		related_projectiles	= {"data/entities/projectiles/darkflame.xml"},
@@ -1947,8 +1947,8 @@ actions =
 	},
 	{
 		id          = "MISSILE",
-		name 		= "$action_missile",
-		description = "$actiondesc_missile",
+		name 		= "$action_missile", -- Summon missile
+		description = "$actiondesc_missile", -- A missile!!!
 		sprite 		= "data/ui_gfx/gun_actions/missile.png",
 		related_projectiles	= {"data/entities/projectiles/deck/rocket_player.xml"},
 		type 		= ACTION_TYPE_PROJECTILE,
@@ -1988,8 +1988,8 @@ actions =
 	},
 	{
 		id          = "PEBBLE",
-		name 		= "$action_pebble",
-		description = "$actiondesc_pebble",
+		name 		= "$action_pebble", -- Summon rock spirit
+		description = "$actiondesc_pebble", -- Summons an autonomous rock ally
 		sprite 		= "data/ui_gfx/gun_actions/pebble.png",
 		sprite_unidentified = "data/ui_gfx/gun_actions/pebble_unidentified.png",
 		related_projectiles	= {"data/entities/projectiles/deck/pebble_player.xml"},
@@ -2006,8 +2006,8 @@ actions =
 	},
 	{
 		id          = "DYNAMITE",
-		name 		= "$action_dynamite",
-		description = "$actiondesc_dynamite",
+		name 		= "$action_dynamite", -- Dynamite
+		description = "$actiondesc_dynamite", -- Summons a small explosive
 		sprite 		= "data/ui_gfx/gun_actions/dynamite.png",
 		sprite_unidentified = "data/ui_gfx/gun_actions/dynamite_unidentified.png",
 		related_projectiles	= {"data/entities/projectiles/deck/tnt.xml"},
@@ -2026,8 +2026,8 @@ actions =
 	},
 	{
 		id          = "GLITTER_BOMB",
-		name 		= "$action_glitter_bomb",
-		description = "$actiondesc_glitter_bomb",
+		name 		= "$action_glitter_bomb", -- Glitter bomb
+		description = "$actiondesc_glitter_bomb", -- Summons a bomb that explodes into volatile fragments
 		sprite 		= "data/ui_gfx/gun_actions/glitter_bomb.png",
 		sprite_unidentified = "data/ui_gfx/gun_actions/dynamite_unidentified.png",
 		related_projectiles	= {"data/entities/projectiles/deck/glitter_bomb.xml"},
@@ -2046,8 +2046,8 @@ actions =
 	},
 	{
 		id          = "BUCKSHOT",
-		name 		= "$action_buckshot",
-		description = "$actiondesc_buckshot",
+		name 		= "$action_buckshot", -- Triplicate bolt
+		description = "$actiondesc_buckshot", -- "A formation of three small
 		sprite 		= "data/ui_gfx/gun_actions/buckshot.png",
 		sprite_unidentified = "data/ui_gfx/gun_actions/dynamite_unidentified.png",
 		related_projectiles	= {"data/entities/projectiles/deck/buckshot_player.xml",3},
@@ -2066,8 +2066,8 @@ actions =
 	},
 	{
 		id          = "FREEZING_GAZE",
-		name 		= "$action_freezing_gaze",
-		description = "$actiondesc_freezing_gaze",
+		name 		= "$action_freezing_gaze", -- Freezing gaze
+		description = "$actiondesc_freezing_gaze", -- A heart-freezingly sinister aura
 		sprite 		= "data/ui_gfx/gun_actions/freezing_gaze.png",
 		sprite_unidentified = "data/ui_gfx/gun_actions/dynamite_unidentified.png",
 		related_projectiles	= {"data/entities/projectiles/deck/freezing_gaze_beam.xml",12},
@@ -2096,8 +2096,8 @@ actions =
 	},
 	{
 		id          = "GLOWING_BOLT",
-		name 		= "$action_glowing_bolt",
-		description = "$actiondesc_glowing_bolt",
+		name 		= "$action_glowing_bolt", -- Pinpoint of light
+		description = "$actiondesc_glowing_bolt", -- An extremely concentrated point of light that explodes after a moment
 		sprite 		= "data/ui_gfx/gun_actions/glowing_bolt.png",
 		sprite_unidentified = "data/ui_gfx/gun_actions/dynamite_unidentified.png",
 		related_projectiles	= {"data/entities/projectiles/deck/glowing_bolt.xml"},
@@ -2115,8 +2115,8 @@ actions =
 	--[[
 	{
 		id          = "BOMB_LEGACY",
-		name 		= "$action_bomb_legacy",
-		description = "$actiondesc_bomb_legacy",
+		name 		= "$action_bomb_legacy", -- Bomb
+		description = "$actiondesc_bomb_legacy", -- Summons a bomb that destroys ground very efficiently
 		sprite 		= "data/ui_gfx/gun_actions/bomb.png",
 		sprite_unidentified = "data/ui_gfx/gun_actions/bomb_unidentified.png",
 		type 		= ACTION_TYPE_PROJECTILE,
@@ -2133,8 +2133,8 @@ actions =
 	]]--
 	{
 		id          = "SPORE_POD",
-		name 		= "$action_spore_pod",
-		description = "$actiondesc_spore_pod",
+		name 		= "$action_spore_pod", -- Prickly Spore Pod
+		description = "$actiondesc_spore_pod", -- Summons a spore pod that attaches to a surface and then grows and explodes into spikes
 		sprite 		= "data/ui_gfx/gun_actions/spore_pod.png",
 		sprite_unidentified = "data/ui_gfx/gun_actions/spore_pod_unidentified.png",
 		related_projectiles	= {"data/entities/projectiles/deck/spore_pod.xml"},
@@ -2151,8 +2151,8 @@ actions =
 	},
 	{
 		id          = "GLUE_SHOT",
-		name 		= "$action_glue_shot",
-		description = "$actiondesc_glue_shot",
+		name 		= "$action_glue_shot", -- Glue Ball
+		description = "$actiondesc_glue_shot", -- A projectile that explodes into a sticky mess
 		sprite 		= "data/ui_gfx/gun_actions/glue_shot.png",
 		sprite_unidentified = "data/ui_gfx/gun_actions/dynamite_unidentified.png",
 		related_projectiles	= {"data/entities/projectiles/deck/glue_shot.xml"},
@@ -2169,8 +2169,8 @@ actions =
 	},
 	{
 		id          = "BOMB_HOLY",
-		name 		= "$action_bomb_holy",
-		description = "$actiondesc_bomb_holy",
+		name 		= "$action_bomb_holy", -- Holy Bomb
+		description = "$actiondesc_bomb_holy", -- Summons a bomb that... well...
 		spawn_requires_flag = "card_unlocked_bomb_holy",
 		sprite 		= "data/ui_gfx/gun_actions/bomb_holy.png",
 		sprite_unidentified = "data/ui_gfx/gun_actions/bomb_unidentified.png",
@@ -2191,8 +2191,8 @@ actions =
 	},
 	{
 		id          = "BOMB_HOLY_GIGA",
-		name 		= "$action_bomb_holy_giga",
-		description = "$actiondesc_bomb_holy_giga",
+		name 		= "$action_bomb_holy_giga", -- Giga Holy Bomb
+		description = "$actiondesc_bomb_holy_giga", -- Bigger and therefore holier
 		spawn_requires_flag = "card_unlocked_bomb_holy_giga",
 		sprite 		= "data/ui_gfx/gun_actions/bomb_holy_giga.png",
 		sprite_unidentified = "data/ui_gfx/gun_actions/bomb_unidentified.png",
@@ -2214,8 +2214,8 @@ actions =
 	},
 	{
 		id          = "PROPANE_TANK",
-		name 		= "$action_propane_tank",
-		description = "$actiondesc_propane_tank",
+		name 		= "$action_propane_tank", -- Propane tank
+		description = "$actiondesc_propane_tank", -- Summons a propane tank. Be careful what you wish for.
 		sprite 		= "data/ui_gfx/gun_actions/propane_tank.png",
 		sprite_unidentified = "data/ui_gfx/gun_actions/bomb_unidentified.png",
 		related_projectiles	= {"data/entities/projectiles/propane_tank.xml"},
@@ -2233,8 +2233,8 @@ actions =
 	},
 	{
 		id          = "BOMB_CART",
-		name 		= "$action_bomb_cart",
-		description = "$actiondesc_bomb_cart",
+		name 		= "$action_bomb_cart", -- Bomb cart
+		description = "$actiondesc_bomb_cart", -- Summons a self-propeled mine cart loaded with explosives
 		sprite 		= "data/ui_gfx/gun_actions/bomb_cart.png",
 		sprite_unidentified = "data/ui_gfx/gun_actions/bomb_unidentified.png",
 		related_projectiles	= {"data/entities/projectiles/bomb_cart.xml"},
@@ -2252,8 +2252,8 @@ actions =
 	},
 	{
 		id          = "CURSED_ORB",
-		name 		= "$action_cursed_orb",
-		description = "$actiondesc_cursed_orb",
+		name 		= "$action_cursed_orb", -- Cursed sphere
+		description = "$actiondesc_cursed_orb", -- A projectile that brings bad luck to anyone it hits
 		sprite 		= "data/ui_gfx/gun_actions/cursed_orb.png",
 		sprite_unidentified = "data/ui_gfx/gun_actions/disc_bullet_unidentified.png",
 		related_projectiles	= {"data/entities/projectiles/orb_cursed.xml"},
@@ -2270,8 +2270,8 @@ actions =
 	},
 	{
 		id          = "EXPANDING_ORB",
-		name 		= "$action_expanding_orb",
-		description = "$actiondesc_expanding_orb",
+		name 		= "$action_expanding_orb", -- Expanding Sphere
+		description = "$actiondesc_expanding_orb", -- A slow projectile that increases its damage over time
 		sprite 		= "data/ui_gfx/gun_actions/expanding_orb.png",
 		sprite_unidentified = "data/ui_gfx/gun_actions/disc_bullet_unidentified.png",
 		related_projectiles	= {"data/entities/projectiles/orb_expanding.xml"},
@@ -2288,8 +2288,8 @@ actions =
 	},
 	{
 		id          = "CRUMBLING_EARTH",
-		name 		= "$action_crumbling_earth",
-		description = "$actiondesc_crumbling_earth",
+		name 		= "$action_crumbling_earth", -- Earthquake
+		description = "$actiondesc_crumbling_earth", -- Calls the anger of the earth
 		spawn_requires_flag = "card_unlocked_crumbling_earth",
 		sprite 		= "data/ui_gfx/gun_actions/crumbling_earth.png",
 		sprite_unidentified = "data/ui_gfx/gun_actions/bomb_unidentified.png",
@@ -2306,8 +2306,8 @@ actions =
 	},
 	{
 		id          = "SUMMON_ROCK",
-		name 		= "$action_summon_rock",
-		description = "$actiondesc_summon_rock",
+		name 		= "$action_summon_rock", -- Rock
+		description = "$actiondesc_summon_rock", -- Create a mighty rock out of thin air
 		sprite 		= "data/ui_gfx/gun_actions/summon_rock.png",
 		sprite_unidentified = "data/ui_gfx/gun_actions/bomb_unidentified.png",
 		related_projectiles	= {"data/entities/projectiles/deck/rock.xml"},
@@ -2324,8 +2324,8 @@ actions =
 	},
 	{
 		id          = "SUMMON_EGG",
-		name 		= "$action_summon_egg",
-		description = "$actiondesc_summon_egg",
+		name 		= "$action_summon_egg", -- Summon egg
+		description = "$actiondesc_summon_egg", -- Summons an egg that houses a friendly creature
 		sprite 		= "data/ui_gfx/gun_actions/summon_egg.png",
 		sprite_unidentified = "data/ui_gfx/gun_actions/bomb_unidentified.png",
 		related_projectiles	= {"data/entities/items/pickup/egg_monster.xml"},
@@ -2346,7 +2346,7 @@ actions =
 	{
 		id          = "SUMMON_HOLLOW_EGG",
 		name 		= "$action_summon_hollow_egg",
-		description = "$actiondesc_summon_hollow_egg",
+		description = "$actiondesc_summon_hollow_egg", -- Summons an otherwise empty egg that casts a spell upon cracking open
 		sprite 		= "data/ui_gfx/gun_actions/summon_hollow_egg.png",
 		sprite_unidentified = "data/ui_gfx/gun_actions/bomb_unidentified.png",
 		related_projectiles	= {"data/entities/items/pickup/egg_hollow.xml"},
@@ -2362,8 +2362,8 @@ actions =
 	},
 	{
 		id          = "TNTBOX",
-		name 		= "$action_tntbox",
-		description = "$actiondesc_tntbox",
+		name 		= "$action_tntbox", -- Summon Explosive Box
+		description = "$actiondesc_tntbox", -- Summons a box of explosive matter
 		sprite 		= "data/ui_gfx/gun_actions/tntbox.png",
 		sprite_unidentified = "data/ui_gfx/gun_actions/bomb_unidentified.png",
 		related_projectiles	= {"data/entities/projectiles/deck/tntbox.xml"},
@@ -2380,8 +2380,8 @@ actions =
 	},
 	{
 		id          = "TNTBOX_BIG",
-		name 		= "$action_tntbox_big",
-		description = "$actiondesc_tntbox_big",
+		name 		= "$action_tntbox_big", -- Summon Large Explosive Box
+		description = "$actiondesc_tntbox_big", -- Summons a large box of explosive matter
 		sprite 		= "data/ui_gfx/gun_actions/tntbox_big.png",
 		sprite_unidentified = "data/ui_gfx/gun_actions/bomb_unidentified.png",
 		related_projectiles	= {"data/entities/projectiles/deck/tntbox_big.xml"},
@@ -2398,8 +2398,8 @@ actions =
 	},
 	{
 		id          = "SWARM_FLY",
-		name 		= "$action_swarm_fly",
-		description = "$actiondesc_swarm_fly",
+		name 		= "$action_swarm_fly", -- Summon fly swarm
+		description = "$actiondesc_swarm_fly", -- Summons five flies to aid you in battle
 		sprite 		= "data/ui_gfx/gun_actions/swarm_fly.png",
 		sprite_unidentified = "data/ui_gfx/gun_actions/spiral_shot_unidentified.png",
 		related_projectiles	= {"data/entities/projectiles/deck/swarm_fly.xml",5},
@@ -2420,8 +2420,8 @@ actions =
 	},
 	{
 		id          = "SWARM_FIREBUG",
-		name 		= "$action_swarm_firebug",
-		description = "$actiondesc_swarm_firebug",
+		name 		= "$action_swarm_firebug", -- Summon Firebug swarm
+		description = "$actiondesc_swarm_firebug", -- Summons four fire bugs to aid you in battle
 		sprite 		= "data/ui_gfx/gun_actions/swarm_firebug.png",
 		sprite_unidentified = "data/ui_gfx/gun_actions/spiral_shot_unidentified.png",
 		related_projectiles	= {"data/entities/projectiles/deck/swarm_firebug.xml",4},
@@ -2441,8 +2441,8 @@ actions =
 	},
 	{
 		id          = "SWARM_WASP",
-		name 		= "$action_swarm_wasp",
-		description = "$actiondesc_swarm_wasp",
+		name 		= "$action_swarm_wasp", -- Summon Wasp swarm
+		description = "$actiondesc_swarm_wasp", -- Summon six wasps to aid you in battle
 		sprite 		= "data/ui_gfx/gun_actions/swarm_wasp.png",
 		sprite_unidentified = "data/ui_gfx/gun_actions/spiral_shot_unidentified.png",
 		related_projectiles	= {"data/entities/projectiles/deck/swarm_wasp.xml",6},
@@ -2464,8 +2464,8 @@ actions =
 	},
 	{
 		id          = "FRIEND_FLY",
-		name 		= "$action_friend_fly",
-		description = "$actiondesc_friend_fly",
+		name 		= "$action_friend_fly", -- Summon Friendly fly
+		description = "$actiondesc_friend_fly", -- Summons a friendly fly that attacks your enemies!
 		sprite 		= "data/ui_gfx/gun_actions/friend_fly.png",
 		sprite_unidentified = "data/ui_gfx/gun_actions/spiral_shot_unidentified.png",
 		related_projectiles	= {"data/entities/projectiles/deck/friend_fly.xml"},
@@ -2484,8 +2484,8 @@ actions =
 	--[[
 	{
 		id          = "KNIFE",
-		name 		= "$action_knife",
-		description = "$actiondesc_knife",
+		name 		= "$action_knife", -- Throwing Knife
+		description = "$actiondesc_knife", -- Very deadly!
 		sprite 		= "data/ui_gfx/gun_actions/knife.png",
 		sprite_unidentified = "data/ui_gfx/gun_actions/bomb_unidentified.png",
 		type 		= ACTION_TYPE_PROJECTILE,
@@ -2501,8 +2501,8 @@ actions =
 	},
 	{
 		id          = "CIRCLESHOT_A",
-		name 		= "$action_circleshot_a",
-		description = "$actiondesc_circleshot_a",
+		name 		= "$action_circleshot_a", -- Circle shot
+		description = "$actiondesc_circleshot_a", -- Projectiles fly out in a circular pattern
 		sprite 		= "data/ui_gfx/gun_actions/phantomshot_a.png",
 		type 		= ACTION_TYPE_PROJECTILE,
 		spawn_level                       = "", -- CIRCLESHOT_A
@@ -2518,8 +2518,8 @@ actions =
 	},
 	{
 		id          = "CIRCLESHOT_B",
-		name 		= "$action_circleshot_b",
-		description = "$actiondesc_circleshot_b",
+		name 		= "$action_circleshot_b", -- Spiral shot
+		description = "$actiondesc_circleshot_b", -- Projectiles fly out in a spiral pattern
 		sprite 		= "data/ui_gfx/gun_actions/phantomshot_b.png",
 		type 		= ACTION_TYPE_PROJECTILE,
 		spawn_level                       = "", -- CIRCLESHOT_B
@@ -2536,8 +2536,8 @@ actions =
 	]]--
 	{
 		id          = "ACIDSHOT",
-		name 		= "$action_acidshot",
-		description = "$actiondesc_acidshot",
+		name 		= "$action_acidshot", -- Acid ball
+		description = "$actiondesc_acidshot", -- A terrifying acidic projectile
 		sprite 		= "data/ui_gfx/gun_actions/acidshot.png",
 		sprite_unidentified = "data/ui_gfx/gun_actions/acidshot_unidentified.png",
 		related_projectiles	= {"data/entities/projectiles/deck/acidshot.xml"},
@@ -2555,8 +2555,8 @@ actions =
 	},
 	{
 		id          = "THUNDERBALL",
-		name 		= "$action_thunderball",
-		description = "$actiondesc_thunderball",
+		name 		= "$action_thunderball", -- Thunder charge
+		description = "$actiondesc_thunderball", -- A projectile with immense stored electricity
 		sprite 		= "data/ui_gfx/gun_actions/thunderball.png",
 		sprite_unidentified = "data/ui_gfx/gun_actions/thunderball_unidentified.png",
 		related_projectiles	= {"data/entities/projectiles/thunderball.xml"},
@@ -2575,8 +2575,8 @@ actions =
 	--[[
 	{
 		id          = "BLOOMSHOT",
-		name 		= "$action_bloomshot",
-		description = "$actiondesc_bloomshot",
+		name 		= "$action_bloomshot", -- Slime arc
+		description = "$actiondesc_bloomshot", -- Spells cast alongside this will have arcs of slime flowing between them
 		sprite 		= "data/ui_gfx/gun_actions/bloomshot.png",
 		type 		= ACTION_TYPE_PROJECTILE,
 		spawn_level                       = "", -- BLOOMSHOT
@@ -2593,8 +2593,8 @@ actions =
 	},
 	{
 		id          = "ICECIRCLE",
-		name 		= "$action_icecircle",
-		description = "$actiondesc_icecircle",
+		name 		= "$action_icecircle", -- Ice circle
+		description = "$actiondesc_icecircle", -- Shoots icy projectiles in a circle
 		sprite 		= "data/ui_gfx/gun_actions/icecircle.png",
 		type 		= ACTION_TYPE_PROJECTILE,
 		spawn_level                       = "", -- ICECIRCLE
@@ -2611,8 +2611,8 @@ actions =
 	]]--
 	{
 		id          = "FIREBOMB",
-		name 		= "$action_firebomb",
-		description = "$actiondesc_firebomb",
+		name 		= "$action_firebomb", -- Firebomb
+		description = "$actiondesc_firebomb", -- "Slow
 		sprite 		= "data/ui_gfx/gun_actions/firebomb.png",
 		sprite_unidentified = "data/ui_gfx/gun_actions/firebomb_unidentified.png",
 		related_projectiles	= {"data/entities/projectiles/deck/firebomb.xml"},
@@ -2629,8 +2629,8 @@ actions =
 	},
 	{
 		id          = "SOILBALL",
-		name 		= "$action_soilball",
-		description = "$actiondesc_soilball",
+		name 		= "$action_soilball", -- Chunk of soil
+		description = "$actiondesc_soilball", -- Don't soil yourself
 		sprite 		= "data/ui_gfx/gun_actions/soil.png",
 		sprite_unidentified = "data/ui_gfx/gun_actions/firebomb_unidentified.png",
 		related_projectiles	= {"data/entities/projectiles/chunk_of_soil.xml"},
@@ -2646,8 +2646,8 @@ actions =
 	--[[
 	{
 		id          = "PINK_ORB",
-		name 		= "$action_pink_orb",
-		description = "$actiondesc_pink_orb",
+		name 		= "$action_pink_orb", -- Homing orb
+		description = "$actiondesc_pink_orb", -- "A dangerous
 		sprite 		= "data/ui_gfx/gun_actions/pink_orb.png",
 		type 		= ACTION_TYPE_PROJECTILE,
 		spawn_level                       = "", -- PINK_ORB
@@ -2664,8 +2664,8 @@ actions =
 	]]--
 	{
 		id          = "DEATH_CROSS",
-		name 		= "$action_death_cross",
-		description = "$actiondesc_death_cross",
+		name 		= "$action_death_cross", -- Death cross
+		description = "$actiondesc_death_cross", -- A deadly energy cross that explodes after a short time
 		sprite 		= "data/ui_gfx/gun_actions/death_cross.png",
 		sprite_unidentified = "data/ui_gfx/gun_actions/death_cross_unidentified.png",
 		related_projectiles	= {"data/entities/projectiles/deck/death_cross.xml"},
@@ -2682,8 +2682,8 @@ actions =
 	},
 	{
 		id          = "DEATH_CROSS_BIG",
-		name 		= "$action_death_cross_big",
-		description = "$actiondesc_death_cross_big",
+		name 		= "$action_death_cross_big", -- Giga death cross
+		description = "$actiondesc_death_cross_big", -- "A giant
 		sprite 		= "data/ui_gfx/gun_actions/death_cross_big.png",
 		sprite_unidentified = "data/ui_gfx/gun_actions/death_cross_unidentified.png",
 		related_projectiles	= {"data/entities/projectiles/deck/death_cross_big.xml"},
@@ -2702,8 +2702,8 @@ actions =
 	},
 	{
 		id          = "INFESTATION",
-		name 		= "$action_infestation",
-		description = "$actiondesc_infestation",
+		name 		= "$action_infestation", -- Infestation
+		description = "$actiondesc_infestation", -- A bunch of magical sparks that fly in every direction
 		sprite 		= "data/ui_gfx/gun_actions/infestation.png",
 		sprite_unidentified = "data/ui_gfx/gun_actions/rubber_ball_unidentified.png",
 		related_projectiles	= {"data/entities/projectiles/deck/infestation.xml",10},
@@ -2724,8 +2724,8 @@ actions =
 	},
 	{
 		id          = "WALL_HORIZONTAL",
-		name 		= "$action_wall_horizontal",
-		description = "$actiondesc_wall_horizontal",
+		name 		= "$action_wall_horizontal", -- Horizontal barrier
+		description = "$actiondesc_wall_horizontal", -- "A thin
 		sprite 		= "data/ui_gfx/gun_actions/wall_horizontal.png",
 		sprite_unidentified = "data/ui_gfx/gun_actions/teleport_projectile_unidentified.png",
 		related_projectiles	= {"data/entities/projectiles/deck/wall_horizontal.xml"},
@@ -2742,8 +2742,8 @@ actions =
 	},
 	{
 		id          = "WALL_VERTICAL",
-		name 		= "$action_wall_vertical",
-		description = "$actiondesc_wall_vertical",
+		name 		= "$action_wall_vertical", -- Vertical barrier
+		description = "$actiondesc_wall_vertical", -- "A thin
 		sprite 		= "data/ui_gfx/gun_actions/wall_vertical.png",
 		sprite_unidentified = "data/ui_gfx/gun_actions/teleport_projectile_unidentified.png",
 		related_projectiles	= {"data/entities/projectiles/deck/wall_vertical.xml"},
@@ -2760,8 +2760,8 @@ actions =
 	},
 	{
 		id          = "WALL_SQUARE",
-		name 		= "$action_wall_square",
-		description = "$actiondesc_wall_square",
+		name 		= "$action_wall_square", -- Square barrier
+		description = "$actiondesc_wall_square", -- "A thin
 		sprite 		= "data/ui_gfx/gun_actions/wall_square.png",
 		sprite_unidentified = "data/ui_gfx/gun_actions/teleport_projectile_unidentified.png",
 		related_projectiles	= {"data/entities/projectiles/deck/wall_square.xml"},
@@ -2778,8 +2778,8 @@ actions =
 	},
 	{
 		id          = "TEMPORARY_WALL",
-		name 		= "$action_temporary_wall",
-		description = "$actiondesc_temporary_wall",
+		name 		= "$action_temporary_wall", -- Summon Wall
+		description = "$actiondesc_temporary_wall", -- Summons a shortlived obstacle
 		sprite 		= "data/ui_gfx/gun_actions/temporary_wall.png",
 		sprite_unidentified = "data/ui_gfx/gun_actions/teleport_projectile_unidentified.png",
 		related_projectiles	= {"data/entities/projectiles/deck/temporary_wall.xml"},
@@ -2796,8 +2796,8 @@ actions =
 	},
 	{
 		id          = "TEMPORARY_PLATFORM",
-		name 		= "$action_temporary_platform",
-		description = "$actiondesc_temporary_platform",
+		name 		= "$action_temporary_platform", -- Summon Platform
+		description = "$actiondesc_temporary_platform", -- Summons a shortlived bit of ground
 		sprite 		= "data/ui_gfx/gun_actions/temporary_platform.png",
 		sprite_unidentified = "data/ui_gfx/gun_actions/teleport_projectile_unidentified.png",
 		related_projectiles	= {"data/entities/projectiles/deck/temporary_platform.xml"},
@@ -2814,8 +2814,8 @@ actions =
 	},
 	{
 		id          = "PURPLE_EXPLOSION_FIELD",
-		name 		= "$action_purple_explosion_field",
-		description = "$actiondesc_purple_explosion_field",
+		name 		= "$action_purple_explosion_field", -- Glittering field
+		description = "$actiondesc_purple_explosion_field", -- Small explosions appear randomly over a large area
 		sprite 		= "data/ui_gfx/gun_actions/purple_explosion_field.png",
 		sprite_unidentified = "data/ui_gfx/gun_actions/teleport_projectile_unidentified.png",
 		related_projectiles	= {"data/entities/projectiles/deck/purple_explosion_field.xml"},
@@ -2839,8 +2839,8 @@ actions =
 	},
 	{
 		id          = "DELAYED_SPELL",
-		name 		= "$action_delayed_spell",
-		description = "$actiondesc_delayed_spell",
+		name 		= "$action_delayed_spell", -- Delayed spellcast
+		description = "$actiondesc_delayed_spell", -- "A static
 		sprite 		= "data/ui_gfx/gun_actions/delayed_spell.png",
 		sprite_unidentified = "data/ui_gfx/gun_actions/teleport_projectile_unidentified.png",
 		related_projectiles	= {"data/entities/projectiles/deck/delayed_spell.xml"},
@@ -2856,8 +2856,8 @@ actions =
 	},
 	{
 		id          = "LONG_DISTANCE_CAST",
-		name 		= "$action_long_distance_cast",
-		description = "$actiondesc_long_distance_cast",
+		name 		= "$action_long_distance_cast", -- Long-distance cast
+		description = "$actiondesc_long_distance_cast", -- Casts a spell some distance away from the caster
 		sprite 		= "data/ui_gfx/gun_actions/long_distance_cast.png",
 		sprite_unidentified = "data/ui_gfx/gun_actions/teleport_projectile_unidentified.png",
 		related_projectiles	= {"data/entities/projectiles/deck/long_distance_cast.xml"},
@@ -2873,8 +2873,8 @@ actions =
 	},
 	{
 		id          = "TELEPORT_CAST",
-		name 		= "$action_teleport_cast",
-		description = "$actiondesc_teleport_cast",
+		name 		= "$action_teleport_cast", -- Teleporting cast
+		description = "$actiondesc_teleport_cast", -- Casts a spell from the closest enemy
 		sprite 		= "data/ui_gfx/gun_actions/teleport_cast.png",
 		sprite_unidentified = "data/ui_gfx/gun_actions/teleport_projectile_unidentified.png",
 		related_projectiles	= {"data/entities/projectiles/deck/teleport_cast.xml"},
@@ -2891,8 +2891,8 @@ actions =
 	},
 	{
 		id          = "SUPER_TELEPORT_CAST",
-		name 		= "$action_super_teleport_cast",
-		description = "$actiondesc_super_teleport_cast",
+		name 		= "$action_super_teleport_cast", -- Warp cast
+		description = "$actiondesc_super_teleport_cast", -- "Makes a spell immediately jump a long distance
 		sprite 		= "data/ui_gfx/gun_actions/super_teleport_cast.png",
 		sprite_unidentified = "data/ui_gfx/gun_actions/teleport_projectile_unidentified.png",
 		related_projectiles	= {"data/entities/projectiles/deck/super_teleport_cast.xml"},
@@ -2909,8 +2909,8 @@ actions =
 	},
 	{
 		id          = "CASTER_CAST",
-		name 		= "$action_caster_cast",
-		description = "$actiondesc_caster_cast",
+		name 		= "$action_caster_cast", -- Inner spell
+		description = "$actiondesc_caster_cast", -- Causes a projectile to be cast from where the caster is standing
 		sprite 		= "data/ui_gfx/gun_actions/caster_cast.png",
 		sprite_unidentified = "data/ui_gfx/gun_actions/teleport_projectile_unidentified.png",
 		related_projectiles	= {"data/entities/projectiles/deck/caster_cast.xml"},
@@ -2928,8 +2928,8 @@ actions =
 	--[[
 	{
 		id          = "COMMANDER_BULLET",
-		name 		= "$action_commander_bullet",
-		description = "$actiondesc_commander_bullet",
+		name 		= "$action_commander_bullet", -- Commander bolt
+		description = "$actiondesc_commander_bullet", -- Any projectiles shot alongside the command bolt will be attracted to it. Casts 3 extra spells upon being cast
 		sprite 		= "data/ui_gfx/gun_actions/commander_bullet.png",
 		sprite_unidentified = "data/ui_gfx/gun_actions/teleport_projectile_unidentified.png",
 		type 		= ACTION_TYPE_PROJECTILE,
@@ -2946,8 +2946,8 @@ actions =
 	},
 	{
 		id          = "PLASMA_FLARE",
-		name 		= "$action_plasma_flare",
-		description = "$actiondesc_plasma_flare",
+		name 		= "$action_plasma_flare", -- Plasma flare
+		description = "$actiondesc_plasma_flare", -- A magical projectile that accelerates quickly
 		sprite 		= "data/ui_gfx/gun_actions/plasma_flare.png",
 		type 		= ACTION_TYPE_PROJECTILE,
 		spawn_level                       = "", -- PLASMA_FLARE
@@ -2962,8 +2962,8 @@ actions =
 	},
 	{
 		id          = "KEYSHOT",
-		name 		= "$action_keyshot",
-		description = "$actiondesc_keyshot",
+		name 		= "$action_keyshot", -- Key shot
+		description = "$actiondesc_keyshot", -- A powerful projectile. Nothing out of ordinary
 		sprite 		= "data/ui_gfx/gun_actions/keyshot.png",
 		type 		= ACTION_TYPE_PROJECTILE,
 		spawn_level                       = "", -- KEYSHOT
@@ -2978,8 +2978,8 @@ actions =
 	},
 	{
 		id          = "MANA",
-		name 		= "$action_mana",
-		description = "$actiondesc_mana",
+		name 		= "$action_mana", -- Mana
+		description = "$actiondesc_mana", -- Extra mana
 		sprite 		= "data/ui_gfx/gun_actions/mana.png",
 		type 		= ACTION_TYPE_PROJECTILE,
 		spawn_level                       = "", -- MANA
@@ -2994,8 +2994,8 @@ actions =
 	},
 	{
 		id          = "SKULL",
-		name 		= "$action_skull",
-		description = "$actiondesc_skull",
+		name 		= "$action_skull", -- Skull
+		description = "$actiondesc_skull", -- Scary skull!!!
 		sprite 		= "data/ui_gfx/gun_actions/skull.png",
 		type 		= ACTION_TYPE_PROJECTILE,
 		spawn_level                       = "", -- SKULL
@@ -3010,8 +3010,8 @@ actions =
 	-- DEBUG REMOVE ME --
 	{
 		id          = "MATERIAL_DEBUG",
-		name 		= "$action_material_debug",
-		description = "$actiondesc_material_debug",
+		name 		= "$action_material_debug", -- shoots debug material
+		description = "$actiondesc_material_debug", -- ONLY TO BE USED IN DEBUG MODE!
 		sprite 		= "data/ui_gfx/gun_actions/material_debug.png",
 		type 		= ACTION_TYPE_MATERIAL,
 		spawn_level                       = "", -- MATERIAL_DEBUG
@@ -3026,8 +3026,8 @@ actions =
 	},
 	{
 		id          = "MATERIAL_LIQUID",
-		name 		= "$action_material_liquid",
-		description = "$actiondesc_material_liquid",
+		name 		= "$action_material_liquid", -- shoots liquid
+		description = "$actiondesc_material_liquid", -- Drop it in liquid and shoot it!
 		sprite 		= "data/ui_gfx/gun_actions/material_liquid.png",
 		type 		= ACTION_TYPE_MATERIAL,
 		spawn_level                       = "", -- MATERIAL_LIQUID
@@ -3044,8 +3044,8 @@ actions =
 	]]--
 	{
 		id          = "MIST_RADIOACTIVE",
-		name 		= "$action_mist_radioactive",
-		description = "$actiondesc_mist_radioactive",
+		name 		= "$action_mist_radioactive", -- Toxic mist
+		description = "$actiondesc_mist_radioactive", -- A cloud of toxic mist
 		sprite 		= "data/ui_gfx/gun_actions/mist_radioactive.png",
 		sprite_unidentified = "data/ui_gfx/gun_actions/slimeball_unidentified.png",
 		related_projectiles	= {"data/entities/projectiles/deck/mist_radioactive.xml"},
@@ -3062,8 +3062,8 @@ actions =
 	},
 	{
 		id          = "MIST_ALCOHOL",
-		name 		= "$action_mist_alcohol",
-		description = "$actiondesc_mist_alcohol",
+		name 		= "$action_mist_alcohol", -- mist of spirits
+		description = "$actiondesc_mist_alcohol", -- A cloud of potent alcohol
 		sprite 		= "data/ui_gfx/gun_actions/mist_alcohol.png",
 		sprite_unidentified = "data/ui_gfx/gun_actions/slimeball_unidentified.png",
 		related_projectiles	= {"data/entities/projectiles/deck/mist_alcohol.xml"},
@@ -3080,8 +3080,8 @@ actions =
 	},
 	{
 		id          = "MIST_SLIME",
-		name 		= "$action_mist_slime",
-		description = "$actiondesc_mist_slime",
+		name 		= "$action_mist_slime", -- Slime mist
+		description = "$actiondesc_mist_slime", -- A cloud of slimy mist
 		sprite 		= "data/ui_gfx/gun_actions/mist_slime.png",
 		sprite_unidentified = "data/ui_gfx/gun_actions/slimeball_unidentified.png",
 		related_projectiles	= {"data/entities/projectiles/deck/mist_slime.xml"},
@@ -3098,8 +3098,8 @@ actions =
 	},
 	{
 		id          = "MIST_BLOOD",
-		name 		= "$action_mist_blood",
-		description = "$actiondesc_mist_blood",
+		name 		= "$action_mist_blood", -- Blood mist
+		description = "$actiondesc_mist_blood", -- A cloud of blood mist
 		sprite 		= "data/ui_gfx/gun_actions/mist_blood.png",
 		sprite_unidentified = "data/ui_gfx/gun_actions/slimeball_unidentified.png",
 		related_projectiles	= {"data/entities/projectiles/deck/mist_blood.xml"},
@@ -3116,8 +3116,8 @@ actions =
 	},
 	{
 		id          = "CIRCLE_FIRE",
-		name 		= "$action_circle_fire",
-		description = "$actiondesc_circle_fire",
+		name 		= "$action_circle_fire", -- Circle of fire
+		description = "$actiondesc_circle_fire", -- An expanding circle of burning air
 		sprite 		= "data/ui_gfx/gun_actions/circle_fire.png",
 		sprite_unidentified = "data/ui_gfx/gun_actions/slimeball_unidentified.png",
 		related_projectiles	= {"data/entities/projectiles/deck/circle_fire.xml"},
@@ -3134,8 +3134,8 @@ actions =
 	},
 	{
 		id          = "CIRCLE_ACID",
-		name 		= "$action_circle_acid",
-		description = "$actiondesc_circle_acid",
+		name 		= "$action_circle_acid", -- Circle of acid
+		description = "$actiondesc_circle_acid", -- An expanding circle of dripping acid
 		sprite 		= "data/ui_gfx/gun_actions/circle_acid.png",
 		sprite_unidentified = "data/ui_gfx/gun_actions/slimeball_unidentified.png",
 		related_projectiles	= {"data/entities/projectiles/deck/circle_acid.xml"},
@@ -3152,8 +3152,8 @@ actions =
 	},
 	{
 		id          = "CIRCLE_OIL",
-		name 		= "$action_circle_oil",
-		description = "$actiondesc_circle_oil",
+		name 		= "$action_circle_oil", -- Circle of oil
+		description = "$actiondesc_circle_oil", -- An expanding circle of slick oil
 		sprite 		= "data/ui_gfx/gun_actions/circle_oil.png",
 		sprite_unidentified = "data/ui_gfx/gun_actions/slimeball_unidentified.png",
 		related_projectiles	= {"data/entities/projectiles/deck/circle_oil.xml"},
@@ -3170,8 +3170,8 @@ actions =
 	},
 	{
 		id          = "CIRCLE_WATER",
-		name 		= "$action_circle_water",
-		description = "$actiondesc_circle_water",
+		name 		= "$action_circle_water", -- Circle of water
+		description = "$actiondesc_circle_water", -- An expanding circle of water
 		sprite 		= "data/ui_gfx/gun_actions/circle_water.png",
 		sprite_unidentified = "data/ui_gfx/gun_actions/slimeball_unidentified.png",
 		related_projectiles	= {"data/entities/projectiles/deck/circle_water.xml"},
@@ -3189,8 +3189,8 @@ actions =
 	-- Materials --
 	{
 		id          = "MATERIAL_WATER",
-		name 		= "$action_material_water",
-		description = "$actiondesc_material_water",
+		name 		= "$action_material_water", -- Water
+		description = "$actiondesc_material_water", -- Transmute drops of water from nothing
 		sprite 		= "data/ui_gfx/gun_actions/material_water.png",
 		sprite_unidentified = "data/ui_gfx/gun_actions/material_water_unidentified.png",
 		related_projectiles	= {"data/entities/projectiles/deck/material_water.xml"},
@@ -3209,8 +3209,8 @@ actions =
 	},
 	{
 		id          = "MATERIAL_OIL",
-		name 		= "$action_material_oil",
-		description = "$actiondesc_material_oil",
+		name 		= "$action_material_oil", -- Oil
+		description = "$actiondesc_material_oil", -- Transmute drops of oil from nothing
 		sprite 		= "data/ui_gfx/gun_actions/material_oil.png",
 		sprite_unidentified = "data/ui_gfx/gun_actions/material_oil_unidentified.png",
 		related_projectiles	= {"data/entities/projectiles/deck/material_oil.xml"},
@@ -3230,8 +3230,8 @@ actions =
 	-- Note( Petri ): 10.7.2019 - this could be just removed (vampirism, the limited uses in these is extremely silly)
 	{
 		id          = "MATERIAL_BLOOD",
-		name 		= "$action_material_blood",
-		description = "$actiondesc_material_blood",
+		name 		= "$action_material_blood", -- Blood
+		description = "$actiondesc_material_blood", -- Blood blood blood
 		sprite 		= "data/ui_gfx/gun_actions/material_blood.png",
 		sprite_unidentified = "data/ui_gfx/gun_actions/material_blood_unidentified.png",
 		related_projectiles	= {"data/entities/projectiles/deck/material_blood.xml"},
@@ -3251,8 +3251,8 @@ actions =
 	},
 	{
 		id          = "MATERIAL_ACID",
-		name 		= "$action_material_acid",
-		description = "$actiondesc_material_acid",
+		name 		= "$action_material_acid", -- Acid
+		description = "$actiondesc_material_acid", -- Transmute drops of acid from nothing
 		sprite 		= "data/ui_gfx/gun_actions/material_acid.png",
 		sprite_unidentified = "data/ui_gfx/gun_actions/material_acid_unidentified.png",
 		related_projectiles	= {"data/entities/projectiles/deck/material_acid.xml"},
@@ -3272,8 +3272,8 @@ actions =
 	},
 	{
 		id          = "MATERIAL_CEMENT",
-		name 		= "$action_material_cement",
-		description = "$actiondesc_material_cement",
+		name 		= "$action_material_cement", -- Cement
+		description = "$actiondesc_material_cement", -- Transmute drops of wet cement from nothing
 		spawn_requires_flag = "card_unlocked_material_cement",
 		sprite 		= "data/ui_gfx/gun_actions/material_cement.png",
 		sprite_unidentified = "data/ui_gfx/gun_actions/material_cement_unidentified.png",
@@ -3295,8 +3295,8 @@ actions =
 	--[[
 	{
 		id          = "MATERIAL_LAVA",
-		name 		= "$action_material_lava",
-		description = "$actiondesc_material_lava",
+		name 		= "$action_material_lava", -- Lava
+		description = "$actiondesc_material_lava", -- Transmute globs of lava from nothing
 		sprite 		= "data/ui_gfx/gun_actions/material_lava.png",
 		type 		= ACTION_TYPE_MATERIAL,
 		spawn_level                       = "", -- MATERIAL_LAVA
@@ -3312,8 +3312,8 @@ actions =
 	},
 	{
 		id          = "MATERIAL_GUNPOWDER_EXPLOSIVE",
-		name 		= "$action_material_gunpowder_explosive",
-		description = "$actiondesc_material_gunpowder_explosive",
+		name 		= "$action_material_gunpowder_explosive", -- Explosive gunpowder
+		description = "$actiondesc_material_gunpowder_explosive", -- Transmute grains of gunpowder from nothing
 		sprite 		= "data/ui_gfx/gun_actions/material_gunpowder_explosive.png",
 		type 		= ACTION_TYPE_MATERIAL,
 		spawn_level                       = "", -- MATERIAL_GUNPOWDER_EXPLOSIVE
@@ -3329,8 +3329,8 @@ actions =
 	},
 	{
 		id          = "MATERIAL_DIRT",
-		name 		= "$action_material_dirt",
-		description = "$actiondesc_material_dirt",
+		name 		= "$action_material_dirt", -- Dirt
+		description = "$actiondesc_material_dirt", -- Transmute grains of dirt from nothing
 		sprite 		= "data/ui_gfx/gun_actions/material_dirt.png",
 		type 		= ACTION_TYPE_MATERIAL,
 		spawn_level                       = "", -- MATERIAL_DIRT
@@ -3346,8 +3346,8 @@ actions =
 	},
 	{
 		id          = "BUILDING_BOARD_WOOD",
-		name 		= "$action_building_board_wood",
-		description = "$actiondesc_building_board_wood",
+		name 		= "$action_building_board_wood", -- Wooden mold
+		description = "$actiondesc_building_board_wood", -- Useful for cement construction. REQUIRES SOLAR POWER TO RECHARGE.
 		sprite 		= "data/ui_gfx/gun_actions/building_board_wood.png",
 		type 		= ACTION_TYPE_MATERIAL,
 		spawn_level                       = "", -- BUILDING_BOARD_WOOD
@@ -3364,8 +3364,8 @@ actions =
 	},
 	{
 		id          = "BUILDING_BACK_WALL_ROCK",
-		name 		= "$action_building_back_wall_rock",
-		description = "$actiondesc_building_back_wall_rock",
+		name 		= "$action_building_back_wall_rock", -- Back wall (rock)
+		description = "$actiondesc_building_back_wall_rock", -- Provides structural support. REQUIRES SOLAR POWER TO RECHARGE.
 		sprite 		= "data/ui_gfx/gun_actions/building_back_wall_rock.png",
 		type 		= ACTION_TYPE_MATERIAL,
 		spawn_level                       = "", -- BUILDING_BACK_WALL_ROCK
@@ -3382,8 +3382,8 @@ actions =
 	},
 	{
 		id          = "BUILDING_PRESSURE_PLATE",
-		name 		= "$action_building_pressure_plate",
-		description = "$actiondesc_building_pressure_plate",
+		name 		= "$action_building_pressure_plate", -- Pressure plate
+		description = "$actiondesc_building_pressure_plate", -- TODO
 		sprite 		= "data/ui_gfx/gun_actions/building_pressure_plate.png",
 		type 		= ACTION_TYPE_MATERIAL,
 		spawn_level                       = "", -- BUILDING_PRESSURE_PLATE
@@ -3400,8 +3400,8 @@ actions =
 	},
 	{
 		id          = "BUILDING_PHYSICS_TEMPLEDOOR",
-		name 		= "$action_building_physics_templedoor",
-		description = "$actiondesc_building_physics_templedoor",
+		name 		= "$action_building_physics_templedoor", -- Temple door
+		description = "$actiondesc_building_physics_templedoor", -- TODO
 		sprite 		= "data/ui_gfx/gun_actions/building_physics_templedoor.png",
 		type 		= ACTION_TYPE_MATERIAL,
 		spawn_level                       = "", -- BUILDING_PHYSICS_TEMPLEDOOR
@@ -3420,8 +3420,8 @@ actions =
 	-- SPELL STUFF
 	{
 		id          = "TELEPORT_PROJECTILE",
-		name 		= "$action_teleport_projectile",
-		description = "$actiondesc_teleport_projectile",
+		name 		= "$action_teleport_projectile", -- Teleport bolt
+		description = "$actiondesc_teleport_projectile", -- A magical bolt that moves you wherever it ends up flying
 		sprite 		= "data/ui_gfx/gun_actions/teleport_projectile.png",
 		sprite_unidentified = "data/ui_gfx/gun_actions/teleport_projectile_unidentified.png",
 		related_projectiles	= {"data/entities/projectiles/deck/teleport_projectile.xml"},
@@ -3440,8 +3440,8 @@ actions =
 	},
 	{
 		id          = "TELEPORT_PROJECTILE_SHORT",
-		name 		= "$action_teleport_projectile_short",
-		description = "$actiondesc_teleport_projectile_short",
+		name 		= "$action_teleport_projectile_short", -- Small Teleport Bolt
+		description = "$actiondesc_teleport_projectile_short", -- A shortlived magical bolt that moves you wherever it ends up flying
 		sprite 		= "data/ui_gfx/gun_actions/teleport_projectile_short.png",
 		sprite_unidentified = "data/ui_gfx/gun_actions/teleport_projectile_unidentified.png",
 		related_projectiles	= {"data/entities/projectiles/deck/teleport_projectile_short.xml"},
@@ -3459,8 +3459,8 @@ actions =
 	},
 	{
 		id          = "TELEPORT_PROJECTILE_STATIC",
-		name 		= "$action_teleport_projectile_static",
-		description = "$actiondesc_teleport_projectile_static",
+		name 		= "$action_teleport_projectile_static", -- Return
+		description = "$actiondesc_teleport_projectile_static", -- "After a period of time
 		sprite 		= "data/ui_gfx/gun_actions/teleport_projectile_static.png",
 		sprite_unidentified = "data/ui_gfx/gun_actions/teleport_projectile_unidentified.png",
 		related_projectiles	= {"data/entities/projectiles/deck/teleport_projectile_static.xml"},
@@ -3479,8 +3479,8 @@ actions =
 	},
 	{
 		id          = "SWAPPER_PROJECTILE",
-		name 		= "$action_swapper_projectile",
-		description = "$actiondesc_swapper_projectile",
+		name 		= "$action_swapper_projectile", -- Swapper
+		description = "$actiondesc_swapper_projectile", -- It was theorized that the source of qualia would be transferred …But it turns out it was the whole body all along.
 		sprite 		= "data/ui_gfx/gun_actions/swapper_projectile.png",
 		sprite_unidentified = "data/ui_gfx/gun_actions/light_bullet_unidentified.png",
 		related_projectiles	= {"data/entities/projectiles/deck/swapper.xml"},
@@ -3500,8 +3500,8 @@ actions =
 	},
 	{
 		id          = "TELEPORT_PROJECTILE_CLOSER",
-		name 		= "$action_teleport_closer",
-		description = "$actiondesc_teleport_closer",
+		name 		= "$action_teleport_closer", -- Homebringer Teleport Bolt
+		description = "$actiondesc_teleport_closer", -- Brings the target hit closer to you
 		sprite 		= "data/ui_gfx/gun_actions/teleport_projectile_closer.png",
 		sprite_unidentified = "data/ui_gfx/gun_actions/teleport_projectile_unidentified.png",
 		related_projectiles	= {"data/entities/projectiles/deck/teleport_projectile_closer.xml"},
@@ -3518,8 +3518,8 @@ actions =
 	--[[
 	{
 		id          = "TELEPORT_HOME",
-		name 		= "$action_teleport_home",
-		description = "$actiondesc_teleport_home",
+		name 		= "$action_teleport_home", -- Teleport home
+		description = "$actiondesc_teleport_home", -- Creates a portal to the surface that can be used once per each direction
 		sprite 		= "data/ui_gfx/gun_actions/teleport_home.png",
 		type 		= ACTION_TYPE_PROJECTILE,
 		spawn_level                       = "", -- TELEPORT_HOME
@@ -3535,8 +3535,8 @@ actions =
 	},
 	{
 		id          = "LEVITATION_PROJECTILE",
-		name 		= "$action_levitation_projectile",
-		description = "$actiondesc_levitation_projectile",
+		name 		= "$action_levitation_projectile", -- LEVITATION projectile
+		description = "$actiondesc_levitation_projectile", -- Levitation stuff
 		sprite 		= "data/ui_gfx/gun_actions/levitation_projectile.png",
 		type 		= ACTION_TYPE_PROJECTILE,
 		spawn_level                       = "", -- LEVITATION_PROJECTILE
@@ -3555,8 +3555,8 @@ actions =
 	-- one shot actions -------------------------
 	{
 		id          = "NUKE",
-		name 		= "$action_nuke",
-		description = "$actiondesc_nuke",
+		name 		= "$action_nuke", -- Nuke
+		description = "$actiondesc_nuke", -- Take cover!
 		spawn_requires_flag = "card_unlocked_nuke",
 		sprite 		= "data/ui_gfx/gun_actions/nuke.png",
 		sprite_unidentified = "data/ui_gfx/gun_actions/nuke_unidentified.png",
@@ -3589,8 +3589,8 @@ actions =
 	},
 	{
 		id          = "NUKE_GIGA",
-		name 		= "$action_nuke_giga",
-		description = "$actiondesc_nuke_giga",
+		name 		= "$action_nuke_giga", -- Giga Nuke
+		description = "$actiondesc_nuke_giga", -- What do you expect?
 		sprite 		= "data/ui_gfx/gun_actions/nuke_giga.png",
 		sprite_unidentified = "data/ui_gfx/gun_actions/nuke_unidentified.png",
 		related_projectiles	= {"data/entities/projectiles/deck/nuke_giga.xml"},
@@ -3628,8 +3628,8 @@ actions =
 	--[[
 	{
 		id          = "HIGH_EXPLOSIVE",
-		name 		= "$action_high_explosive",
-		description = "$actiondesc_high_explosive",
+		name 		= "$action_high_explosive", -- TNT
+		description = "$actiondesc_high_explosive", -- Extremely powerful explosive projectile
 		sprite 		= "data/ui_gfx/gun_actions/high_explosive.png",
 		type 		= ACTION_TYPE_MODIFIER,
 		spawn_level                       = "", -- HIGH_EXPLOSIVE
@@ -3648,8 +3648,8 @@ actions =
 	},
 	{
 		id          = "DRONE",
-		name 		= "$action_drone",
-		description = "$actiondesc_drone",
+		name 		= "$action_drone", -- Drone
+		description = "$actiondesc_drone", -- More powerful digging
 		sprite 		= "data/ui_gfx/gun_actions/drone.png",
 		type 		= ACTION_TYPE_PROJECTILE,
 		spawn_level                       = "", -- DRONE
@@ -3667,8 +3667,8 @@ actions =
 	-- all is code --------------------------------------
 	--[[{
 		id          = "BAAB_IS",
-		name 		= "$action_baab_is",
-		description = "$actiondesc_baab_is",
+		name 		= "$action_baab_is", -- IS
+		description = "$actiondesc_baab_is", -- ,
 		sprite 		= "data/ui_gfx/gun_actions/baab_is.png",
 		sprite_unidentified = "data/ui_gfx/gun_actions/baab_is.png",
 		type 		= ACTION_TYPE_MODIFIER,
@@ -3684,8 +3684,8 @@ actions =
 	},
 	{
 		id          = "BAAB_ALL",
-		name 		= "$action_baab_all",
-		description = "$actiondesc_baab_all",
+		name 		= "$action_baab_all", -- ALL
+		description = "$actiondesc_baab_all", -- ,
 		sprite 		= "data/ui_gfx/gun_actions/baab_all.png",
 		sprite_unidentified = "data/ui_gfx/gun_actions/baab_all.png",
 		type 		= ACTION_TYPE_MODIFIER,
@@ -3701,8 +3701,8 @@ actions =
 	},
 	{
 		id          = "BAAB_EMPTY",
-		name 		= "$action_baab_empty",
-		description = "$actiondesc_baab_empty",
+		name 		= "$action_baab_empty", -- ALL
+		description = "$actiondesc_baab_empty", -- ,
 		sprite 		= "data/ui_gfx/gun_actions/baab_empty.png",
 		sprite_unidentified = "data/ui_gfx/gun_actions/baab_empty.png",
 		type 		= ACTION_TYPE_MODIFIER,
@@ -3718,8 +3718,8 @@ actions =
 	},
 	{
 		id          = "BAAB_LAVA",
-		name 		= "$action_baab_lava",
-		description = "$actiondesc_baab_lava",
+		name 		= "$action_baab_lava", -- LAVA
+		description = "$actiondesc_baab_lava", -- ,
 		sprite 		= "data/ui_gfx/gun_actions/baab_lava.png",
 		sprite_unidentified = "data/ui_gfx/gun_actions/baab_lava.png",
 		type 		= ACTION_TYPE_MODIFIER,
@@ -3735,8 +3735,8 @@ actions =
 	},
 	{
 		id          = "BAAB_WATER",
-		name 		= "$action_baab_water",
-		description = "$actiondesc_baab_water",
+		name 		= "$action_baab_water", -- WATER
+		description = "$actiondesc_baab_water", -- ,
 		sprite 		= "data/ui_gfx/gun_actions/baab_water.png",
 		sprite_unidentified = "data/ui_gfx/gun_actions/baab_water.png",
 		type 		= ACTION_TYPE_MODIFIER,
@@ -3752,8 +3752,8 @@ actions =
 	},
 	{
 		id          = "BAAB_POOP",
-		name 		= "$action_baab_poop",
-		description = "$actiondesc_baab_poop",
+		name 		= "$action_baab_poop", -- POOP
+		description = "$actiondesc_baab_poop", -- ,
 		sprite 		= "data/ui_gfx/gun_actions/baab_poop.png",
 		sprite_unidentified = "data/ui_gfx/gun_actions/baab_poop.png",
 		type 		= ACTION_TYPE_MODIFIER,
@@ -3769,8 +3769,8 @@ actions =
 	},
 	{
 		id          = "BAAB_LOVE",
-		name 		= "$action_baab_love",
-		description = "$actiondesc_baab_love",
+		name 		= "$action_baab_love", -- LOVE
+		description = "$actiondesc_baab_love", -- ,
 		sprite 		= "data/ui_gfx/gun_actions/baab_love.png",
 		sprite_unidentified = "data/ui_gfx/gun_actions/baab_love.png",
 		type 		= ACTION_TYPE_MODIFIER,
@@ -3786,8 +3786,8 @@ actions =
 	},]]--
 	{
 		id          = "FIREWORK",
-		name 		= "$action_firework",
-		description = "$actiondesc_firework",
+		name 		= "$action_firework", -- Fireworks!
+		description = "$actiondesc_firework", -- "A fiery
 		spawn_requires_flag = "card_unlocked_firework",
 		sprite 		= "data/ui_gfx/gun_actions/fireworks.png",
 		sprite_unidentified = "data/ui_gfx/gun_actions/rocket_unidentified.png",
@@ -3812,8 +3812,8 @@ actions =
 	},
 	{	
 		id          = "SUMMON_WANDGHOST",
-		name 		= "$action_summon_wandghost",
-		description = "$actiondesc_summon_wandghost",
+		name 		= "$action_summon_wandghost", -- Summon Taikasauva
+		description = "$actiondesc_summon_wandghost", -- Summons a possessed wand to aid you
 		sprite 		= "data/ui_gfx/gun_actions/summon_wandghost.png",
 		sprite_unidentified = "data/ui_gfx/gun_actions/rocket_unidentified.png",
 		related_projectiles	= {"data/entities/projectiles/deck/wand_ghost_player.xml"},
@@ -3831,8 +3831,8 @@ actions =
 	},
 	{
 		id          = "TOUCH_GOLD",
-		name 		= "$action_touch_gold",
-		description = "$actiondesc_touch_gold",
+		name 		= "$action_touch_gold", -- Touch of Gold
+		description = "$actiondesc_touch_gold", -- "Transmutes everything in a short radius into gold
 		sprite 		= "data/ui_gfx/gun_actions/touch_gold.png",
 		sprite_unidentified = "data/ui_gfx/gun_actions/rocket_unidentified.png",
 		related_projectiles	= {"data/entities/projectiles/deck/touch_gold.xml"},
@@ -3849,8 +3849,8 @@ actions =
 	},
 	{
 		id          = "TOUCH_WATER",
-		name 		= "$action_touch_water",
-		description = "$actiondesc_touch_water",
+		name 		= "$action_touch_water", -- Touch of Water
+		description = "$actiondesc_touch_water", -- "Transmutes everything in a short radius into water
 		sprite 		= "data/ui_gfx/gun_actions/touch_water.png",
 		sprite_unidentified = "data/ui_gfx/gun_actions/rocket_unidentified.png",
 		related_projectiles	= {"data/entities/projectiles/deck/touch_water.xml"},
@@ -3866,8 +3866,8 @@ actions =
 	},
 	{
 		id          = "TOUCH_OIL",
-		name 		= "$action_touch_oil",
-		description = "$actiondesc_touch_oil",
+		name 		= "$action_touch_oil", -- Touch of Oil
+		description = "$actiondesc_touch_oil", -- "Transmutes everything in a short radius into oil
 		sprite 		= "data/ui_gfx/gun_actions/touch_oil.png",
 		sprite_unidentified = "data/ui_gfx/gun_actions/rocket_unidentified.png",
 		related_projectiles	= {"data/entities/projectiles/deck/touch_oil.xml"},
@@ -3883,8 +3883,8 @@ actions =
 	},
 	{
 		id          = "TOUCH_ALCOHOL",
-		name 		= "$action_touch_alcohol",
-		description = "$actiondesc_touch_alcohol",
+		name 		= "$action_touch_alcohol", -- Touch of Spirits
+		description = "$actiondesc_touch_alcohol", -- "Transmutes everything in a short radius into alcohol
 		sprite 		= "data/ui_gfx/gun_actions/touch_alcohol.png",
 		sprite_unidentified = "data/ui_gfx/gun_actions/rocket_unidentified.png",
 		related_projectiles	= {"data/entities/projectiles/deck/touch_alcohol.xml"},
@@ -3900,8 +3900,8 @@ actions =
 	},
 	{
 		id          = "TOUCH_PISS",
-		name 		= "$action_touch_piss",
-		description = "$actiondesc_touch_piss",
+		name 		= "$action_touch_piss", -- Touch of Gold?
+		description = "$actiondesc_touch_piss", -- "Transmutes everything in a short radius into urine
 		sprite 		= "data/ui_gfx/gun_actions/touch_piss.png",
 		sprite_unidentified = "data/ui_gfx/gun_actions/rocket_unidentified.png",
 		related_projectiles	= {"data/entities/projectiles/deck/touch_piss.xml"},
@@ -3918,8 +3918,8 @@ actions =
 	},
 	{
 		id          = "TOUCH_GRASS",
-		name 		= "$action_touch_grass",
-		description = "$actiondesc_touch_grass",
+		name 		= "$action_touch_grass", -- Touch of Grass
+		description = "$actiondesc_touch_grass", -- "Transmutes everything in a short radius into Earth
 		sprite 		= "data/ui_gfx/gun_actions/touch_grass.png",
 		sprite_unidentified = "data/ui_gfx/gun_actions/rocket_unidentified.png",
 		related_projectiles	= {"data/entities/projectiles/deck/touch_grass.xml"},
@@ -3939,8 +3939,8 @@ actions =
 	},
 	{
 		id          = "TOUCH_BLOOD",
-		name 		= "$action_touch_blood",
-		description = "$actiondesc_touch_blood",
+		name 		= "$action_touch_blood", -- Touch of Blood
+		description = "$actiondesc_touch_blood", -- "Transmutes everything in a short radius into blood
 		sprite 		= "data/ui_gfx/gun_actions/touch_blood.png",
 		sprite_unidentified = "data/ui_gfx/gun_actions/rocket_unidentified.png",
 		related_projectiles	= {"data/entities/projectiles/deck/touch_blood.xml"},
@@ -3956,8 +3956,8 @@ actions =
 	},
 	{
 		id          = "TOUCH_SMOKE",
-		name 		= "$action_touch_smoke",
-		description = "$actiondesc_touch_smoke",
+		name 		= "$action_touch_smoke", -- Touch of Smoke
+		description = "$actiondesc_touch_smoke", -- "Transmutes everything in a short radius into smoke
 		sprite 		= "data/ui_gfx/gun_actions/touch_smoke.png",
 		sprite_unidentified = "data/ui_gfx/gun_actions/rocket_unidentified.png",
 		related_projectiles	= {"data/entities/projectiles/deck/touch_smoke.xml"},
@@ -3973,8 +3973,8 @@ actions =
 	},
 	{
 		id          = "DESTRUCTION",
-		name 		= "$action_destruction",
-		description = "$actiondesc_destruction",
+		name 		= "$action_destruction", -- Destruction
+		description = "$actiondesc_destruction", -- "Instantly decimates foes around you
 		sprite 		= "data/ui_gfx/gun_actions/destruction.png",
 		sprite_unidentified = "data/ui_gfx/gun_actions/rocket_unidentified.png",
 		related_projectiles	= {"data/entities/projectiles/deck/destruction.xml"},
@@ -3994,8 +3994,8 @@ actions =
 	},
 	{
 		id          = "MASS_POLYMORPH",
-		name 		= "$action_mass_polymorph",
-		description = "$actiondesc_mass_polymorph",
+		name 		= "$action_mass_polymorph", -- Muodonmuutos
+		description = "$actiondesc_mass_polymorph", -- Baa
 		sprite 		= "data/ui_gfx/gun_actions/polymorph.png",
 		sprite_unidentified = "data/ui_gfx/gun_actions/rocket_unidentified.png",
 		related_projectiles	= {"data/entities/projectiles/deck/mass_polymorph.xml"},
@@ -4016,8 +4016,8 @@ actions =
 	-- modifiers
 	{
 		id          = "BURST_2",
-		name 		= "$action_burst_2",
-		description = "$actiondesc_burst_2",
+		name 		= "$action_burst_2", -- Double spell
+		description = "$actiondesc_burst_2", -- Simultaneously casts 2 spells
 		sprite 		= "data/ui_gfx/gun_actions/burst_2.png",
 		sprite_unidentified = "data/ui_gfx/gun_actions/burst_2_unidentified.png",
 		type 		= ACTION_TYPE_DRAW_MANY,
@@ -4032,8 +4032,8 @@ actions =
 	},
 	{
 		id          = "BURST_3",
-		name 		= "$action_burst_3",
-		description = "$actiondesc_burst_3",
+		name 		= "$action_burst_3", -- Triple spell
+		description = "$actiondesc_burst_3", -- Simultaneously casts 3 spells
 		sprite 		= "data/ui_gfx/gun_actions/burst_3.png",
 		sprite_unidentified = "data/ui_gfx/gun_actions/burst_3_unidentified.png",
 		type 		= ACTION_TYPE_DRAW_MANY,
@@ -4048,8 +4048,8 @@ actions =
 	},
 	{
 		id          = "BURST_4",
-		name 		= "$action_burst_4",
-		description = "$actiondesc_burst_4",
+		name 		= "$action_burst_4", -- Quadruple spell
+		description = "$actiondesc_burst_4", -- Simultaneously casts 4 spells
 		sprite 		= "data/ui_gfx/gun_actions/burst_4.png",
 		sprite_unidentified = "data/ui_gfx/gun_actions/burst_4_unidentified.png",
 		type 		= ACTION_TYPE_DRAW_MANY,
@@ -4064,8 +4064,8 @@ actions =
 	},
 	{
 		id          = "BURST_8",
-		name 		= "$action_burst_8",
-		description = "$actiondesc_burst_8",
+		name 		= "$action_burst_8", -- Octuple spell
+		description = "$actiondesc_burst_8", -- Simultaneously cast 8 spells
 		sprite 		= "data/ui_gfx/gun_actions/burst_8.png",
 		sprite_unidentified = "data/ui_gfx/gun_actions/burst_4_unidentified.png",
 		spawn_requires_flag = "card_unlocked_musicbox",
@@ -4081,8 +4081,8 @@ actions =
 	},
 	{
 		id          = "BURST_X",
-		name 		= "$action_burst_x",
-		description = "$actiondesc_burst_x",
+		name 		= "$action_burst_x", -- Myriad Spell
+		description = "$actiondesc_burst_x", -- Simultaneously casts as many spells as you have left uncast in your wand
 		sprite 		= "data/ui_gfx/gun_actions/burst_x.png",
 		sprite_unidentified = "data/ui_gfx/gun_actions/burst_4_unidentified.png",
 		spawn_requires_flag = "card_unlocked_musicbox",
@@ -4101,8 +4101,8 @@ actions =
 	{
 
 		id          = "SCATTER_2",
-		name 		= "$action_scatter_2",
-		description = "$actiondesc_scatter_2",
+		name 		= "$action_scatter_2", -- Double scatter spell
+		description = "$actiondesc_scatter_2", -- Simultaneously casts 2 spells with low accuracy
 		sprite 		= "data/ui_gfx/gun_actions/scatter_2.png",
 		sprite_unidentified = "data/ui_gfx/gun_actions/scatter_2_unidentified.png",
 		type 		= ACTION_TYPE_DRAW_MANY,
@@ -4118,8 +4118,8 @@ actions =
 	},
 	{
 		id          = "SCATTER_3",
-		name 		= "$action_scatter_3",
-		description = "$actiondesc_scatter_3",
+		name 		= "$action_scatter_3", -- Triple scatter spell
+		description = "$actiondesc_scatter_3", -- Simultaneously casts 3 spells with low accuracy
 		sprite 		= "data/ui_gfx/gun_actions/scatter_3.png",
 		sprite_unidentified = "data/ui_gfx/gun_actions/scatter_3_unidentified.png",
 		type 		= ACTION_TYPE_DRAW_MANY,
@@ -4135,8 +4135,8 @@ actions =
 	},
 	{
 		id          = "SCATTER_4",
-		name 		= "$action_scatter_4",
-		description = "$actiondesc_scatter_4",
+		name 		= "$action_scatter_4", -- Quadruple scatter spell
+		description = "$actiondesc_scatter_4", -- Simultaneously casts 4 spells with low accuracy
 		sprite 		= "data/ui_gfx/gun_actions/scatter_4.png",
 		sprite_unidentified = "data/ui_gfx/gun_actions/scatter_4_unidentified.png",
 		type 		= ACTION_TYPE_DRAW_MANY,
@@ -4152,8 +4152,8 @@ actions =
 	},
 	{
 		id          = "I_SHAPE",
-		name 		= "$action_i_shape",
-		description = "$actiondesc_i_shape",
+		name 		= "$action_i_shape", -- Formation - behind your back
+		description = "$actiondesc_i_shape", -- Casts two spells: one ahead of and one behind the caster
 		sprite 		= "data/ui_gfx/gun_actions/i_shape.png",
 		sprite_unidentified = "data/ui_gfx/gun_actions/i_shape_unidentified.png",
 		type 		= ACTION_TYPE_DRAW_MANY,
@@ -4170,8 +4170,8 @@ actions =
 	},
 	{
 		id          = "Y_SHAPE",
-		name 		= "$action_y_shape",
-		description = "$actiondesc_y_shape",
+		name 		= "$action_y_shape", -- Formation - bifurcated
+		description = "$actiondesc_y_shape", -- Casts 2 spells in a bifurcated pattern
 		sprite 		= "data/ui_gfx/gun_actions/y_shape.png",
 		sprite_unidentified = "data/ui_gfx/gun_actions/y_shape_unidentified.png",
 		type 		= ACTION_TYPE_DRAW_MANY,
@@ -4188,8 +4188,8 @@ actions =
 	},
 	{
 		id          = "T_SHAPE",
-		name 		= "$action_t_shape",
-		description = "$actiondesc_t_shape",
+		name 		= "$action_t_shape", -- Formation - above and below
+		description = "$actiondesc_t_shape", -- "Casts 3 spells - ahead
 		sprite 		= "data/ui_gfx/gun_actions/t_shape.png",
 		sprite_unidentified = "data/ui_gfx/gun_actions/t_shape_unidentified.png",
 		type 		= ACTION_TYPE_DRAW_MANY,
@@ -4206,8 +4206,8 @@ actions =
 	},
 	{
 		id          = "W_SHAPE",
-		name 		= "$action_w_shape",
-		description = "$actiondesc_w_shape",
+		name 		= "$action_w_shape", -- Formation - trifurcated
+		description = "$actiondesc_w_shape", -- Casts 3 spells in a trifurcated pattern
 		sprite 		= "data/ui_gfx/gun_actions/w_shape.png",
 		sprite_unidentified = "data/ui_gfx/gun_actions/w_shape_unidentified.png",
 		type 		= ACTION_TYPE_DRAW_MANY,
@@ -4224,8 +4224,8 @@ actions =
 	},
 	{
 		id          = "CIRCLE_SHAPE",
-		name 		= "$action_circle_shape",
-		description = "$actiondesc_circle_shape",
+		name 		= "$action_circle_shape", -- Formation - hexagon
+		description = "$actiondesc_circle_shape", -- Casts 6 spells in a hexagonal pattern
 		sprite 		= "data/ui_gfx/gun_actions/circle_shape.png",
 		sprite_unidentified = "data/ui_gfx/gun_actions/circle_shape_unidentified.png",
 		type 		= ACTION_TYPE_DRAW_MANY,
@@ -4242,8 +4242,8 @@ actions =
 	},
 	{
 		id          = "PENTAGRAM_SHAPE",
-		name 		= "$action_pentagram_shape",
-		description = "$actiondesc_pentagram_shape",
+		name 		= "$action_pentagram_shape", -- Formation - pentagon
+		description = "$actiondesc_pentagram_shape", -- Casts 5 spells in a pentagonal pattern
 		sprite 		= "data/ui_gfx/gun_actions/pentagram_shape.png",
 		sprite_unidentified = "data/ui_gfx/gun_actions/pentagram_shape_unidentified.png",
 		type 		= ACTION_TYPE_DRAW_MANY,
@@ -4262,8 +4262,8 @@ actions =
 	},
 	{
 		id          = "I_SHOT",
-		name 		= "$action_i_shot",
-		description = "$actiondesc_i_shot",
+		name 		= "$action_i_shot", -- Iplicate Spell
+		description = "$actiondesc_i_shot", -- "Casts a copy of a projectile behind you
 		sprite 		= "data/ui_gfx/gun_actions/i_shot.png",
 		sprite_unidentified = "data/ui_gfx/gun_actions/i_shape_unidentified.png",
 		type 		= ACTION_TYPE_UTILITY,
@@ -4305,8 +4305,8 @@ actions =
 	},
 	{
 		id          = "Y_SHOT",
-		name 		= "$action_y_shot",
-		description = "$actiondesc_y_shot",
+		name 		= "$action_y_shot", -- Yplicate Spell
+		description = "$actiondesc_y_shot", -- "Casts a copy of a projectile in a bifurcated pattern
 		sprite 		= "data/ui_gfx/gun_actions/y_shot.png",
 		sprite_unidentified = "data/ui_gfx/gun_actions/i_shape_unidentified.png",
 		type 		= ACTION_TYPE_UTILITY,
@@ -4348,8 +4348,8 @@ actions =
 	},
 	{
 		id          = "T_SHOT",
-		name 		= "$action_t_shot",
-		description = "$actiondesc_t_shot",
+		name 		= "$action_t_shot", -- Tiplicate Spell
+		description = "$actiondesc_t_shot", -- "Casts copies of a projectile above and below you
 		sprite 		= "data/ui_gfx/gun_actions/t_shot.png",
 		sprite_unidentified = "data/ui_gfx/gun_actions/i_shape_unidentified.png",
 		type 		= ACTION_TYPE_UTILITY,
@@ -4391,8 +4391,8 @@ actions =
 	},
 	{
 		id          = "W_SHOT",
-		name 		= "$action_w_shot",
-		description = "$actiondesc_w_shot",
+		name 		= "$action_w_shot", -- Wuplicate Spell
+		description = "$actiondesc_w_shot", -- "Casts copies of a projectile in a trifurcated pattern
 		sprite 		= "data/ui_gfx/gun_actions/w_shot.png",
 		sprite_unidentified = "data/ui_gfx/gun_actions/i_shape_unidentified.png",
 		type 		= ACTION_TYPE_UTILITY,
@@ -4434,8 +4434,8 @@ actions =
 	},
 	{
 		id          = "QUAD_SHOT",
-		name 		= "$action_quad_shot",
-		description = "$actiondesc_quad_shot",
+		name 		= "$action_quad_shot", -- Quplicate Spell
+		description = "$actiondesc_quad_shot", -- "Casts copies of a projectile in a tetragonal pattern
 		sprite 		= "data/ui_gfx/gun_actions/quad_shot.png",
 		sprite_unidentified = "data/ui_gfx/gun_actions/i_shape_unidentified.png",
 		type 		= ACTION_TYPE_UTILITY,
@@ -4477,8 +4477,8 @@ actions =
 	},
 	{
 		id          = "PENTA_SHOT",
-		name 		= "$action_penta_shot",
-		description = "$actiondesc_penta_shot",
+		name 		= "$action_penta_shot", -- Peplicate Spell
+		description = "$actiondesc_penta_shot", -- "Casts 5 copies of a projectile in a pentagonal pattern
 		sprite 		= "data/ui_gfx/gun_actions/penta_shot.png",
 		sprite_unidentified = "data/ui_gfx/gun_actions/i_shape_unidentified.png",
 		type 		= ACTION_TYPE_UTILITY,
@@ -4520,8 +4520,8 @@ actions =
 	},
 	{
 		id          = "HEXA_SHOT",
-		name 		= "$action_hexa_shot",
-		description = "$actiondesc_hexa_shot",
+		name 		= "$action_hexa_shot", -- Heplicate Spell
+		description = "$actiondesc_hexa_shot", -- "Casts 6 copies of a projectile in a hexagonal pattern
 		sprite 		= "data/ui_gfx/gun_actions/hexa_shot.png",
 		sprite_unidentified = "data/ui_gfx/gun_actions/i_shape_unidentified.png",
 		type 		= ACTION_TYPE_UTILITY,
@@ -4563,8 +4563,8 @@ actions =
 	},
 	{
 		id          = "SPREAD_REDUCE",
-		name 		= "$action_spread_reduce",
-		description = "$actiondesc_spread_reduce",
+		name 		= "$action_spread_reduce", -- Reduce spread
+		description = "$actiondesc_spread_reduce", -- Reduces the spread of a spell
 		sprite 		= "data/ui_gfx/gun_actions/spread_reduce.png",
 		sprite_unidentified = "data/ui_gfx/gun_actions/spread_reduce_unidentified.png",
 		type 		= ACTION_TYPE_MODIFIER,
@@ -4580,8 +4580,8 @@ actions =
 	},
 	{
 		id          = "HEAVY_SPREAD",
-		name 		= "$action_heavy_spread",
-		description = "$actiondesc_heavy_spread",
+		name 		= "$action_heavy_spread", -- Heavy spread
+		description = "$actiondesc_heavy_spread", -- "Gives a projectile a much lower cast delay
 		sprite 		= "data/ui_gfx/gun_actions/heavy_spread.png",
 		sprite_unidentified = "data/ui_gfx/gun_actions/teleport_projectile_unidentified.png",
 		type 		= ACTION_TYPE_MODIFIER,
@@ -4598,8 +4598,8 @@ actions =
 	},
 	{
 		id          = "RECHARGE",
-		name 		= "$action_recharge",
-		description = "$actiondesc_recharge",
+		name 		= "$action_recharge", -- Reduce recharge time
+		description = "$actiondesc_recharge", -- Reduces the time between spellcasts
 		sprite 		= "data/ui_gfx/gun_actions/recharge.png",
 		sprite_unidentified = "data/ui_gfx/gun_actions/spread_reduce_unidentified.png",
 		type 		= ACTION_TYPE_MODIFIER,
@@ -4616,8 +4616,8 @@ actions =
 	},
 	{
 		id          = "LIFETIME",
-		name 		= "$action_lifetime",
-		description = "$actiondesc_lifetime",
+		name 		= "$action_lifetime", -- Increase lifetime
+		description = "$actiondesc_lifetime", -- Increases the lifetime of a spell
 		sprite 		= "data/ui_gfx/gun_actions/lifetime.png",
 		sprite_unidentified = "data/ui_gfx/gun_actions/spread_reduce_unidentified.png",
 		type 		= ACTION_TYPE_MODIFIER,
@@ -4635,8 +4635,8 @@ actions =
 	},
 	{
 		id          = "LIFETIME_DOWN",
-		name 		= "$action_lifetime_down",
-		description = "$actiondesc_lifetime_down",
+		name 		= "$action_lifetime_down", -- Reduce lifetime
+		description = "$actiondesc_lifetime_down", -- Reduces the lifetime of a spell
 		sprite 		= "data/ui_gfx/gun_actions/lifetime_down.png",
 		sprite_unidentified = "data/ui_gfx/gun_actions/spread_reduce_unidentified.png",
 		type 		= ACTION_TYPE_MODIFIER,
@@ -4654,8 +4654,8 @@ actions =
 	},
 	{
 		id          = "NOLLA",
-		name 		= "$action_nolla",
-		description = "$actiondesc_nolla",
+		name 		= "$action_nolla", -- Nolla
+		description = "$actiondesc_nolla", -- The duration of a projectile is set to zero
 		sprite 		= "data/ui_gfx/gun_actions/nolla.png",
 		sprite_unidentified = "data/ui_gfx/gun_actions/spread_reduce_unidentified.png",
 		spawn_requires_flag = "card_unlocked_pyramid",
@@ -4674,8 +4674,8 @@ actions =
 	},
 	{
 		id          = "SLOW_BUT_STEADY",
-		name 		= "$action_slow_but_steady",
-		description = "$actiondesc_slow_but_steady",
+		name 		= "$action_slow_but_steady", -- Slow But Steady
+		description = "$actiondesc_slow_but_steady", -- The reload time of the wand is set to exactly 1.5 seconds
 		sprite 		= "data/ui_gfx/gun_actions/slow_but_steady.png",
 		sprite_unidentified = "data/ui_gfx/gun_actions/spread_reduce_unidentified.png",
 		spawn_requires_flag = "card_unlocked_maths",
@@ -4692,8 +4692,8 @@ actions =
 	},
 	{
 		id          = "EXPLOSION_REMOVE",
-		name 		= "$action_explosion_remove",
-		description = "$actiondesc_explosion_remove",
+		name 		= "$action_explosion_remove", -- Remove Explosion
+		description = "$actiondesc_explosion_remove", -- Makes a projectile no longer explode
 		sprite 		= "data/ui_gfx/gun_actions/explosion_remove.png",
 		sprite_unidentified = "data/ui_gfx/gun_actions/spread_reduce_unidentified.png",
 		related_extra_entities = { "data/entities/misc/explosion_remove.xml" },
@@ -4713,8 +4713,8 @@ actions =
 	},
 	{
 		id          = "EXPLOSION_TINY",
-		name 		= "$action_explosion_tiny",
-		description = "$actiondesc_explosion_tiny",
+		name 		= "$action_explosion_tiny", -- Concentrated Explosion
+		description = "$actiondesc_explosion_tiny", -- Limits the radius of a projectile's explosion heavily
 		sprite 		= "data/ui_gfx/gun_actions/explosion_tiny.png",
 		sprite_unidentified = "data/ui_gfx/gun_actions/spread_reduce_unidentified.png",
 		related_extra_entities = { "data/entities/misc/explosion_tiny.xml" },
@@ -4734,8 +4734,8 @@ actions =
 	},
 	{
 		id          = "LASER_EMITTER_WIDER",
-		name 		= "$action_laser_emitter_wider",
-		description = "$actiondesc_laser_emitter_wider",
+		name 		= "$action_laser_emitter_wider", -- Plasma Beam Enhancer
+		description = "$actiondesc_laser_emitter_wider", -- Makes plasma beam spell's beam wider
 		sprite 		= "data/ui_gfx/gun_actions/laser_emitter_wider.png",
 		sprite_unidentified = "data/ui_gfx/gun_actions/burn_trail_unidentified.png",
 		related_extra_entities = { "data/entities/misc/laser_emitter_wider.xml" },
@@ -4753,8 +4753,8 @@ actions =
 	--[[
 	{
 		id          = "LIFETIME_INFINITE",
-		name 		= "$action_lifetime_infinite",
-		description = "$actiondesc_lifetime_infinite",
+		name 		= "$action_lifetime_infinite", -- Infinite lifetime
+		description = "$actiondesc_lifetime_infinite", -- "Makes a projectile last forever
 		sprite 		= "data/ui_gfx/gun_actions/lifetime_infinite.png",
 		sprite_unidentified = "data/ui_gfx/gun_actions/spread_reduce_unidentified.png",
 		type 		= ACTION_TYPE_MODIFIER,
@@ -4774,8 +4774,8 @@ actions =
 	]]--
 	{
 		id          = "MANA_REDUCE",
-		name 		= "$action_mana_reduce",
-		description = "$actiondesc_mana_reduce",
+		name 		= "$action_mana_reduce", -- Increase mana
+		description = "$actiondesc_mana_reduce", -- Immediately adds 30 mana to the wand
 		sprite 		= "data/ui_gfx/gun_actions/mana.png",
 		sprite_unidentified = "data/ui_gfx/gun_actions/spread_reduce_unidentified.png",
 		type 		= ACTION_TYPE_MODIFIER,
@@ -4792,8 +4792,8 @@ actions =
 	},
 	{
 		id          = "BLOOD_MAGIC",
-		name 		= "$action_blood_magic",
-		description = "$actiondesc_blood_magic",
+		name 		= "$action_blood_magic", -- Blood magic
+		description = "$actiondesc_blood_magic", -- "Reduces a spell's mana cost and recharge time greatly
 		sprite 		= "data/ui_gfx/gun_actions/blood_magic.png",
 		sprite_unidentified = "data/ui_gfx/gun_actions/spread_reduce_unidentified.png",
 		related_extra_entities = { "data/entities/particles/blood_sparks.xml" },
@@ -4824,8 +4824,8 @@ actions =
 	},
 	{
 		id          = "MONEY_MAGIC",
-		name 		= "$action_money_magic",
-		description = "$actiondesc_money_magic",
+		name 		= "$action_money_magic", -- Gold to Power
+		description = "$actiondesc_money_magic", -- Spends 5% of your current gold and adds damage to a projectile proportional to the amount spent
 		sprite 		= "data/ui_gfx/gun_actions/golden_punch.png",
 		sprite_unidentified = "data/ui_gfx/gun_actions/spread_reduce_unidentified.png",
 		related_extra_entities = { "data/entities/particles/gold_sparks.xml" },
@@ -4874,8 +4874,8 @@ actions =
 	},
 	{
 		id          = "BLOOD_TO_POWER",
-		name 		= "$action_blood_to_power",
-		description = "$actiondesc_blood_to_power",
+		name 		= "$action_blood_to_power", -- Blood to Power
+		description = "$actiondesc_blood_to_power", -- A projectile gains additional damage at the cost of 20% of your health
 		sprite 		= "data/ui_gfx/gun_actions/blood_punch.png",
 		sprite_unidentified = "data/ui_gfx/gun_actions/spread_reduce_unidentified.png",
 		related_extra_entities = { "data/entities/particles/blood_sparks.xml" },
@@ -4911,8 +4911,8 @@ actions =
 	},
 	{
 		id          = "DUPLICATE",
-		name 		= "$action_duplicate",
-		description = "$actiondesc_duplicate",
+		name 		= "$action_duplicate", -- Spell duplication
+		description = "$actiondesc_duplicate", -- Duplicates every spell cast before it
 		sprite 		= "data/ui_gfx/gun_actions/duplicate.png",
 		sprite_unidentified = "data/ui_gfx/gun_actions/spread_reduce_unidentified.png",
 		spawn_requires_flag = "card_unlocked_mestari",
@@ -4940,8 +4940,8 @@ actions =
 	},
 	{
 		id          = "QUANTUM_SPLIT",
-		name 		= "$action_quantum_split",
-		description = "$actiondesc_quantum_split",
+		name 		= "$action_quantum_split", -- Quantum Split
+		description = "$actiondesc_quantum_split", -- Makes a projectile split into three projectiles whose existences are entangled
 		sprite 		= "data/ui_gfx/gun_actions/quantum_split.png",
 		sprite_unidentified = "data/ui_gfx/gun_actions/spread_reduce_unidentified.png",
 		related_extra_entities = { "data/entities/misc/quantum_split.xml" },
@@ -4958,8 +4958,8 @@ actions =
 	},
 	{
 		id          = "GRAVITY",
-		name 		= "$action_gravity",
-		description = "$actiondesc_gravity",
+		name 		= "$action_gravity", -- Gravity
+		description = "$actiondesc_gravity", -- Increases the effect gravity has on a projectile
 		sprite 		= "data/ui_gfx/gun_actions/gravity.png",
 		sprite_unidentified = "data/ui_gfx/gun_actions/w_shape_unidentified.png",
 		type 		= ACTION_TYPE_MODIFIER,
@@ -4975,8 +4975,8 @@ actions =
 	},
 	{
 		id          = "GRAVITY_ANTI",
-		name 		= "$action_gravity_anti",
-		description = "$actiondesc_gravity_anti",
+		name 		= "$action_gravity_anti", -- Anti-gravity
+		description = "$actiondesc_gravity_anti", -- Applies a lifting force to a projectile
 		sprite 		= "data/ui_gfx/gun_actions/gravity_anti.png",
 		sprite_unidentified = "data/ui_gfx/gun_actions/w_shape_unidentified.png",
 		type 		= ACTION_TYPE_MODIFIER,
@@ -4993,8 +4993,8 @@ actions =
 	--[[
 	{
 		id          = "PENETRATE_WALLS",
-		name 		= "$action_penetrate_walls",
-		description = "$actiondesc_penetrate_walls",
+		name 		= "$action_penetrate_walls", -- Penetrate walls
+		description = "$actiondesc_penetrate_walls", -- Gives a projectile more penetration power
 		sprite 		= "data/ui_gfx/gun_actions/penetrate_walls.png",
 		type 		= ACTION_TYPE_MODIFIER,
 		spawn_level                       = "", -- PENETRATE_WALLS
@@ -5006,8 +5006,8 @@ actions =
 	},]]--
 	{
 		id          = "SINEWAVE",
-		name 		= "$action_sinewave",
-		description = "$actiondesc_sinewave",
+		name 		= "$action_sinewave", -- Slithering path
+		description = "$actiondesc_sinewave", -- "Makes a projectile move rapidly in a slithering manner
 		sprite 		= "data/ui_gfx/gun_actions/sinewave.png",
 		sprite_unidentified = "data/ui_gfx/gun_actions/sinewave_unidentified.png",
 		related_extra_entities = { "data/entities/misc/sinewave.xml" },
@@ -5032,8 +5032,8 @@ actions =
 	},
 	{
 		id          = "CHAOTIC_ARC",
-		name 		= "$action_chaotic_arc",
-		description = "$actiondesc_chaotic_arc",
+		name 		= "$action_chaotic_arc", -- Chaotic path
+		description = "$actiondesc_chaotic_arc", -- Causes a projectile to chaotically fly wherever it wishes
 		sprite 		= "data/ui_gfx/gun_actions/chaotic_arc.png",
 		sprite_unidentified = "data/ui_gfx/gun_actions/sinewave_unidentified.png",
 		related_extra_entities = { "data/entities/misc/chaotic_arc.xml" },
@@ -5058,8 +5058,8 @@ actions =
 	},
 	{
 		id          = "PINGPONG_PATH",
-		name 		= "$action_pingpong_path",
-		description = "$actiondesc_pingpong_path",
+		name 		= "$action_pingpong_path", -- Ping-pong path
+		description = "$actiondesc_pingpong_path", -- Makes a projectile fly back and forth
 		sprite 		= "data/ui_gfx/gun_actions/pingpong_path.png",
 		sprite_unidentified = "data/ui_gfx/gun_actions/sinewave_unidentified.png",
 		related_extra_entities = { "data/entities/misc/pingpong_path.xml" },
@@ -5077,8 +5077,8 @@ actions =
 	},
 	{
 		id          = "AVOIDING_ARC",
-		name 		= "$action_avoiding_arc",
-		description = "$actiondesc_avoiding_arc",
+		name 		= "$action_avoiding_arc", -- Avoiding arc
+		description = "$actiondesc_avoiding_arc", -- Makes a projectile shy away from obstacles
 		sprite 		= "data/ui_gfx/gun_actions/avoiding_arc.png",
 		sprite_unidentified = "data/ui_gfx/gun_actions/sinewave_unidentified.png",
 		related_extra_entities = { "data/entities/misc/avoiding_arc.xml" },
@@ -5096,8 +5096,8 @@ actions =
 	},
 	{
 		id          = "FLOATING_ARC",
-		name 		= "$action_floating_arc",
-		description = "$actiondesc_floating_arc",
+		name 		= "$action_floating_arc", -- Floating arc
+		description = "$actiondesc_floating_arc", -- Makes a projectile float above the ground
 		sprite 		= "data/ui_gfx/gun_actions/floating_arc.png",
 		sprite_unidentified = "data/ui_gfx/gun_actions/sinewave_unidentified.png",
 		related_extra_entities = { "data/entities/misc/floating_arc.xml" },
@@ -5115,8 +5115,8 @@ actions =
 	},
 	{
 		id          = "FLY_DOWNWARDS",
-		name 		= "$action_fly_downwards",
-		description = "$actiondesc_fly_downwards",
+		name 		= "$action_fly_downwards", -- Fly downwards
+		description = "$actiondesc_fly_downwards", -- Causes a projectile to aim straight downwards a short time after casting
 		sprite 		= "data/ui_gfx/gun_actions/fly_downwards.png",
 		sprite_unidentified = "data/ui_gfx/gun_actions/sinewave_unidentified.png",
 		related_extra_entities = { "data/entities/misc/fly_downwards.xml" },
@@ -5135,8 +5135,8 @@ actions =
 	},
 	{
 		id          = "FLY_UPWARDS",
-		name 		= "$action_fly_upwards",
-		description = "$actiondesc_fly_upwards",
+		name 		= "$action_fly_upwards", -- Fly upwards
+		description = "$actiondesc_fly_upwards", -- Causes a projectile to aim straight upwards a short time after casting
 		sprite 		= "data/ui_gfx/gun_actions/fly_upwards.png",
 		sprite_unidentified = "data/ui_gfx/gun_actions/sinewave_unidentified.png",
 		related_extra_entities = { "data/entities/misc/fly_upwards.xml" },
@@ -5155,8 +5155,8 @@ actions =
 	},
 	{
 		id          = "HORIZONTAL_ARC",
-		name 		= "$action_horizontal_arc",
-		description = "$actiondesc_horizontal_arc",
+		name 		= "$action_horizontal_arc", -- Horizontal path
+		description = "$actiondesc_horizontal_arc", -- "Forces a projectile on a horizontal path
 		sprite 		= "data/ui_gfx/gun_actions/horizontal_arc.png",
 		sprite_unidentified = "data/ui_gfx/gun_actions/sinewave_unidentified.png",
 		related_extra_entities = { "data/entities/misc/horizontal_arc.xml" },
@@ -5175,8 +5175,8 @@ actions =
 	},
 	{
 		id          = "LINE_ARC",
-		name 		= "$action_line_arc",
-		description = "$actiondesc_line_arc",
+		name 		= "$action_line_arc", -- Linear arc
+		description = "$actiondesc_line_arc", -- Makes a projectile fly only in cardinal or diagonal lines
 		sprite 		= "data/ui_gfx/gun_actions/line_arc.png",
 		sprite_unidentified = "data/ui_gfx/gun_actions/sinewave_unidentified.png",
 		related_extra_entities = { "data/entities/misc/line_arc.xml" },
@@ -5195,8 +5195,8 @@ actions =
 	},
 	{
 		id          = "ORBIT_SHOT",
-		name 		= "$action_orbit_shot",
-		description = "$actiondesc_orbit_shot",
+		name 		= "$action_orbit_shot", -- Orbiting Arc
+		description = "$actiondesc_orbit_shot", -- A projectile orbits the point of its origin
 		sprite 		= "data/ui_gfx/gun_actions/orbit_shot.png",
 		sprite_unidentified = "data/ui_gfx/gun_actions/sinewave_unidentified.png",
 		related_extra_entities = { "data/entities/misc/spiraling_shot.xml" },
@@ -5216,8 +5216,8 @@ actions =
 	},
 	{
 		id          = "SPIRALING_SHOT",
-		name 		= "$action_spiraling_shot",
-		description = "$actiondesc_spiraling_shot",
+		name 		= "$action_spiraling_shot", -- Spiral Arc
+		description = "$actiondesc_spiraling_shot", -- A projectile flies in a spiralling pattern
 		sprite 		= "data/ui_gfx/gun_actions/spiraling_shot.png",
 		sprite_unidentified = "data/ui_gfx/gun_actions/sinewave_unidentified.png",
 		related_extra_entities = { "data/entities/misc/orbit_shot.xml" },
@@ -5237,8 +5237,8 @@ actions =
 	},
 	{
 		id          = "PHASING_ARC",
-		name 		= "$action_phasing_arc",
-		description = "$actiondesc_phasing_arc",
+		name 		= "$action_phasing_arc", -- Phasing Arc
+		description = "$actiondesc_phasing_arc", -- "Makes a projectile fly much slower
 		sprite 		= "data/ui_gfx/gun_actions/phasing_arc.png",
 		sprite_unidentified = "data/ui_gfx/gun_actions/sinewave_unidentified.png",
 		related_extra_entities = { "data/entities/misc/phasing_arc.xml" },
@@ -5265,8 +5265,8 @@ actions =
 	},
 	{
 		id          = "TRUE_ORBIT",
-		name 		= "$action_true_orbit",
-		description = "$actiondesc_true_orbit",
+		name 		= "$action_true_orbit", -- True Orbit
+		description = "$actiondesc_true_orbit", -- Makes a projectile rotate around the caster like an orbiting planet
 		sprite 		= "data/ui_gfx/gun_actions/true_orbit.png",
 		sprite_unidentified = "data/ui_gfx/gun_actions/sinewave_unidentified.png",
 		related_extra_entities = { "data/entities/misc/true_orbit.xml" },
@@ -5286,8 +5286,8 @@ actions =
 	},
 	{
 		id          = "BOUNCE",
-		name 		= "$action_bounce",
-		description = "$actiondesc_bounce",
+		name 		= "$action_bounce", -- Bounce
+		description = "$actiondesc_bounce", -- Makes a projectile bounce on impact
 		sprite 		= "data/ui_gfx/gun_actions/bounce.png",
 		sprite_unidentified = "data/ui_gfx/gun_actions/bounce_unidentified.png",
 		type 		= ACTION_TYPE_MODIFIER,
@@ -5303,8 +5303,8 @@ actions =
 	},
 	{
 		id          = "REMOVE_BOUNCE",
-		name 		= "$action_remove_bounce",
-		description = "$actiondesc_remove_bounce",
+		name 		= "$action_remove_bounce", -- Remove Bounce
+		description = "$actiondesc_remove_bounce", -- A normally bouncy projectile stops doing so
 		sprite 		= "data/ui_gfx/gun_actions/remove_bounce.png",
 		sprite_unidentified = "data/ui_gfx/gun_actions/bounce_unidentified.png",
 		type 		= ACTION_TYPE_MODIFIER,
@@ -5321,8 +5321,8 @@ actions =
 	},
 	{
 		id          = "HOMING",
-		name 		= "$action_homing",
-		description = "$actiondesc_homing",
+		name 		= "$action_homing", -- Homing
+		description = "$actiondesc_homing", -- Makes a projectile accelerate towards your foes
 		sprite 		= "data/ui_gfx/gun_actions/homing.png",
 		sprite_unidentified = "data/ui_gfx/gun_actions/homing_unidentified.png",
 		related_extra_entities = { "data/entities/misc/homing.xml", "data/entities/particles/tinyspark_white.xml" },
@@ -5339,8 +5339,8 @@ actions =
 	},
 	{
 		id          = "ANTI_HOMING",
-		name 		= "$action_anti_homing",
-		description = "$actiondesc_anti_homing",
+		name 		= "$action_anti_homing", -- Anti Homing
+		description = "$actiondesc_anti_homing", -- Makes a projectile accelerate away from your foes
 		sprite 		= "data/ui_gfx/gun_actions/anti_homing.png",
 		sprite_unidentified = "data/ui_gfx/gun_actions/anti_homing_unidentified.png",
 		related_extra_entities = { "data/entities/misc/anti_homing.xml", "data/entities/particles/tinyspark_white.xml" },
@@ -5358,8 +5358,8 @@ actions =
 	},
 	{
 		id          = "HOMING_WAND",
-		name 		= "$action_homing_wand",
-		description = "$actiondesc_homing_wand",
+		name 		= "$action_homing_wand", -- Wand Homing
+		description = "$actiondesc_homing_wand", -- Makes a projectile accelerate towards wands
 		sprite 		= "data/ui_gfx/gun_actions/homing_wand.png",
 		sprite_unidentified = "data/ui_gfx/gun_actions/homing_unidentified.png",
 		spawn_requires_flag = "card_unlocked_homing_wand",
@@ -5377,8 +5377,8 @@ actions =
 	},
 	{
 		id          = "HOMING_SHORT",
-		name 		= "$action_homing_short",
-		description = "$actiondesc_homing_short",
+		name 		= "$action_homing_short", -- Short-range Homing
+		description = "$actiondesc_homing_short", -- A projectile flies towards targets when near them
 		sprite 		= "data/ui_gfx/gun_actions/homing_short.png",
 		sprite_unidentified = "data/ui_gfx/gun_actions/homing_unidentified.png",
 		related_extra_entities = { "data/entities/misc/homing_short.xml", "data/entities/particles/tinyspark_white_weak.xml" },
@@ -5395,8 +5395,8 @@ actions =
 	},
 	{
 		id          = "HOMING_ROTATE",
-		name 		= "$action_homing_rotate",
-		description = "$actiondesc_homing_rotate",
+		name 		= "$action_homing_rotate", -- Rotate towards foes
+		description = "$actiondesc_homing_rotate", -- Makes a projectile turn towards your foes
 		sprite 		= "data/ui_gfx/gun_actions/homing_rotate.png",
 		sprite_unidentified = "data/ui_gfx/gun_actions/homing_unidentified.png",
 		related_extra_entities = { "data/entities/misc/homing_rotate.xml", "data/entities/particles/tinyspark_white.xml" },
@@ -5413,8 +5413,8 @@ actions =
 	},
 	{
 		id          = "HOMING_SHOOTER",
-		name 		= "$action_homing_shooter",
-		description = "$actiondesc_homing_shooter",
+		name 		= "$action_homing_shooter", -- Boomerang
+		description = "$actiondesc_homing_shooter", -- Gives a projectile a path that curves towards you
 		sprite 		= "data/ui_gfx/gun_actions/homing_shooter.png",
 		sprite_unidentified = "data/ui_gfx/gun_actions/homing_unidentified.png",
 		related_extra_entities = { "data/entities/misc/homing_shooter.xml", "data/entities/particles/tinyspark_white.xml" },
@@ -5431,8 +5431,8 @@ actions =
 	},
 	{
 		id          = "AUTOAIM",
-		name 		= "$action_autoaim",
-		description = "$actiondesc_autoaim",
+		name 		= "$action_autoaim", -- Auto-Aim
+		description = "$actiondesc_autoaim", -- Makes a projectile turns towards the nearest visible enemy
 		sprite 		= "data/ui_gfx/gun_actions/autoaim.png",
 		sprite_unidentified = "data/ui_gfx/gun_actions/autoaim_unidentified.png",
 		related_extra_entities = { "data/entities/misc/autoaim.xml" },
@@ -5448,8 +5448,8 @@ actions =
 	},
 	{
 		id          = "HOMING_ACCELERATING",
-		name 		= "$action_homing_accelerating",
-		description = "$actiondesc_homing_accelerating",
+		name 		= "$action_homing_accelerating", -- Accelerative Homing
+		description = "$actiondesc_homing_accelerating", -- A projectile homes towards enemies at an increasing pace
 		sprite 		= "data/ui_gfx/gun_actions/homing_accelerating.png",
 		sprite_unidentified = "data/ui_gfx/gun_actions/homing_unidentified.png",
 		related_extra_entities = { "data/entities/misc/homing_accelerating.xml", "data/entities/particles/tinyspark_white_small.xml" },
@@ -5466,8 +5466,8 @@ actions =
 	},
 	{
 		id          = "HOMING_CURSOR",
-		name 		= "$action_homing_cursor",
-		description = "$actiondesc_homing_cursor",
+		name 		= "$action_homing_cursor", -- Aiming Arc
+		description = "$actiondesc_homing_cursor", -- A projectile rotates towards the direction you're aiming
 		sprite 		= "data/ui_gfx/gun_actions/homing_cursor.png",
 		sprite_unidentified = "data/ui_gfx/gun_actions/homing_unidentified.png",
 		related_extra_entities = { "data/entities/misc/homing_cursor.xml", "data/entities/particles/tinyspark_white.xml" },
@@ -5484,8 +5484,8 @@ actions =
 	},
 	{
 		id          = "HOMING_AREA",
-		name 		= "$action_homing_area",
-		description = "$actiondesc_homing_area",
+		name 		= "$action_homing_area", -- Projectile Area Teleport
+		description = "$actiondesc_homing_area", -- "If a valid target appears somewhere in the proximity of a projectile
 		sprite 		= "data/ui_gfx/gun_actions/homing_area.png",
 		sprite_unidentified = "data/ui_gfx/gun_actions/homing_unidentified.png",
 		related_extra_entities = { "data/entities/misc/homing_area.xml", "data/entities/particles/tinyspark_white.xml" },
@@ -5513,8 +5513,8 @@ actions =
 	--[[
 	{
 		id          = "HOMING_PROJECTILE",
-		name 		= "$action_homing_projectile",
-		description = "$actiondesc_homing_projectile",
+		name 		= "$action_homing_projectile", -- Follow Spells
+		description = "$actiondesc_homing_projectile", -- Makes a projectile home towards other projectile spells
 		sprite 		= "data/ui_gfx/gun_actions/homing_projectile.png",
 		sprite_unidentified = "data/ui_gfx/gun_actions/homing_unidentified.png",
 		type 		= ACTION_TYPE_MODIFIER,
@@ -5531,8 +5531,8 @@ actions =
 	]]--
 	{
 		id          = "PIERCING_SHOT",
-		name 		= "$action_piercing_shot",
-		description = "$actiondesc_piercing_shot",
+		name 		= "$action_piercing_shot", -- Piercing shot
+		description = "$actiondesc_piercing_shot", -- "Makes a projectile fly through enemies
 		sprite 		= "data/ui_gfx/gun_actions/piercing_shot.png",
 		sprite_unidentified = "data/ui_gfx/gun_actions/homing_unidentified.png",
 		related_extra_entities = { "data/entities/misc/piercing_shot.xml" },
@@ -5551,8 +5551,8 @@ actions =
 	},
 	{
 		id          = "CLIPPING_SHOT",
-		name 		= "$action_clipping_shot",
-		description = "$actiondesc_clipping_shot",
+		name 		= "$action_clipping_shot", -- Drilling shot
+		description = "$actiondesc_clipping_shot", -- Gives a projectile the power to go through the ground
 		sprite 		= "data/ui_gfx/gun_actions/clipping_shot.png",
 		sprite_unidentified = "data/ui_gfx/gun_actions/homing_unidentified.png",
 		related_extra_entities = { "data/entities/misc/clipping_shot.xml" },
@@ -5571,8 +5571,8 @@ actions =
 	},
 	{
 		id          = "DAMAGE",
-		name 		= "$action_damage",
-		description = "$actiondesc_damage",
+		name 		= "$action_damage", -- Damage Plus
+		description = "$actiondesc_damage", -- Increases the damage done by a projectile
 		sprite 		= "data/ui_gfx/gun_actions/damage.png",
 		sprite_unidentified = "data/ui_gfx/gun_actions/damage_unidentified.png",
 		related_extra_entities = { "data/entities/particles/tinyspark_yellow.xml" },
@@ -5594,8 +5594,8 @@ actions =
 	},
 	{
 		id          = "DAMAGE_RANDOM",
-		name 		= "$action_damage_random",
-		description = "$actiondesc_damage_random",
+		name 		= "$action_damage_random", -- Random damage
+		description = "$actiondesc_damage_random", -- Randomly increases or lowers the damage done by projectiles
 		sprite 		= "data/ui_gfx/gun_actions/damage_random.png",
 		sprite_unidentified = "data/ui_gfx/gun_actions/damage_unidentified.png",
 		spawn_requires_flag = "card_unlocked_pyramid",
@@ -5623,8 +5623,8 @@ actions =
 	},
 	{
 		id          = "BLOODLUST",
-		name 		= "$action_bloodlust",
-		description = "$actiondesc_bloodlust",
+		name 		= "$action_bloodlust", -- Bloodlust
+		description = "$actiondesc_bloodlust", -- "A projectile gains a hefty damage boost
 		sprite 		= "data/ui_gfx/gun_actions/bloodlust.png",
 		sprite_unidentified = "data/ui_gfx/gun_actions/homing_unidentified.png",
 		related_extra_entities = { "data/entities/particles/tinyspark_red.xml" },
@@ -5647,8 +5647,8 @@ actions =
 	},
 	{
 		id          = "DAMAGE_FOREVER",
-		name 		= "$action_damage_forever",
-		description = "$actiondesc_damage_forever",
+		name 		= "$action_damage_forever", -- Mana To Damage
+		description = "$actiondesc_damage_forever", -- "If the wand has more than 50 mana
 		sprite 		= "data/ui_gfx/gun_actions/damage_forever.png",
 		sprite_unidentified = "data/ui_gfx/gun_actions/damage_unidentified.png",
 		related_extra_entities = { "data/entities/particles/tinyspark_red.xml" },
@@ -5677,8 +5677,8 @@ actions =
 	},
 	{
 		id          = "CRITICAL_HIT",
-		name 		= "$action_critical_hit",
-		description = "$actiondesc_critical_hit",
+		name 		= "$action_critical_hit", -- Critical Plus
+		description = "$actiondesc_critical_hit", -- Gives a projectile +15% chance of a critical hit
 		sprite 		= "data/ui_gfx/gun_actions/critical_hit.png",
 		sprite_unidentified = "data/ui_gfx/gun_actions/damage_unidentified.png",
 		type 		= ACTION_TYPE_MODIFIER,
@@ -5695,8 +5695,8 @@ actions =
 	},
 	{
 		id          = "AREA_DAMAGE",
-		name 		= "$action_area_damage",
-		description = "$actiondesc_area_damage",
+		name 		= "$action_area_damage", -- Damage field
+		description = "$actiondesc_area_damage", -- Gives a projectile an energy field that constantly deals 3.5 damage to nearby creatures
 		sprite 		= "data/ui_gfx/gun_actions/area_damage.png",
 		sprite_unidentified = "data/ui_gfx/gun_actions/homing_unidentified.png",
 		related_extra_entities = { "data/entities/misc/area_damage.xml" },
@@ -5713,8 +5713,8 @@ actions =
 	},
 	{
 		id          = "SPELLS_TO_POWER",
-		name 		= "$action_spells_to_power",
-		description = "$actiondesc_spells_to_power",
+		name 		= "$action_spells_to_power", -- Spells to Power
+		description = "$actiondesc_spells_to_power", -- Converts any nearby projectiles cast by you into extra damage
 		sprite 		= "data/ui_gfx/gun_actions/spells_to_power.png",
 		sprite_unidentified = "data/ui_gfx/gun_actions/homing_unidentified.png",
 		related_extra_entities = { "data/entities/misc/spells_to_power.xml" },
@@ -5732,8 +5732,8 @@ actions =
 	},
 	{
 		id          = "ESSENCE_TO_POWER",
-		name 		= "$action_enemies_to_power",
-		description = "$actiondesc_enemies_to_power",
+		name 		= "$action_enemies_to_power", -- Essence to Power
+		description = "$actiondesc_enemies_to_power", -- Increases a projectile's damage based on the number of creatures nearby
 		sprite 		= "data/ui_gfx/gun_actions/essence_to_power.png",
 		sprite_unidentified = "data/ui_gfx/gun_actions/homing_unidentified.png",
 		related_extra_entities = { "data/entities/misc/essence_to_power.xml" },
@@ -5751,8 +5751,8 @@ actions =
 	},
 	{
 		id          = "ZERO_DAMAGE",
-		name 		= "$action_zero_damage",
-		description = "$actiondesc_zero_damage",
+		name 		= "$action_zero_damage", -- Null shot
+		description = "$actiondesc_zero_damage", -- Increases a projectile's duration dramatically but removes all damage & explosion from it
 		sprite 		= "data/ui_gfx/gun_actions/zero_damage.png",
 		sprite_unidentified = "data/ui_gfx/gun_actions/damage_unidentified.png",
 		related_extra_entities = { "data/entities/particles/tinyspark_white_small.xml", "data/entities/misc/zero_damage.xml" },
@@ -5782,8 +5782,8 @@ actions =
 	{
 		-- NOTE( Petri ): Why doesn't this work?
 		id          = "DAMAGE_FRIENDLY",
-		name 		= "$action_damage_friendly",
-		description = "$actiondesc_damage_friendly",
+		name 		= "$action_damage_friendly", -- Cunning power
+		description = "$actiondesc_damage_friendly", -- "Gives a projectile extra damage
 		sprite 		= "data/ui_gfx/gun_actions/damage_friendly.png",
 		sprite_unidentified = "data/ui_gfx/gun_actions/damage_friendly_unidentified.png",
 		type 		= ACTION_TYPE_MODIFIER,
@@ -5805,8 +5805,8 @@ actions =
 	{
 		-- NOTE( Petri ): This doesn't work now!
 		id          = "DAMAGE_X2",
-		name 		= "$action_damage_x2",
-		description = "$actiondesc_damage_x2",
+		name 		= "$action_damage_x2", -- Intense power
+		description = "$actiondesc_damage_x2", -- Spells cast alongside this spell deal double damage
 		sprite 		= "data/ui_gfx/gun_actions/damage_x2.png",
 		sprite_unidentified = "data/ui_gfx/gun_actions/damage_x2_unidentified.png",
 		type 		= ACTION_TYPE_MODIFIER,
@@ -5828,8 +5828,8 @@ actions =
 	{
 		-- NOTE( Petri ): This doesn't work now!
 		id          = "DAMAGE_X5",
-		name 		= "$action_damage_x5",
-		description = "$actiondesc_damage_x5",
+		name 		= "$action_damage_x5", -- Sundering power
+		description = "$actiondesc_damage_x5", -- Spells cast alongside this spell deal quintuple damage
 		sprite 		= "data/ui_gfx/gun_actions/damage_x5.png",
 		sprite_unidentified = "data/ui_gfx/gun_actions/damage_x2_unidentified.png",
 		type 		= ACTION_TYPE_MODIFIER,
@@ -5851,8 +5851,8 @@ actions =
 	]]--
 	{
 		id          = "HEAVY_SHOT",
-		name 		= "$action_heavy_shot",
-		description = "$actiondesc_heavy_shot",
+		name 		= "$action_heavy_shot", -- Heavy Shot
+		description = "$actiondesc_heavy_shot", -- "Greatly increases the damage done by a projectile
 		sprite 		= "data/ui_gfx/gun_actions/heavy_shot.png",
 		sprite_unidentified = "data/ui_gfx/gun_actions/heavy_shot_unidentified.png",
 		related_extra_entities = { "data/entities/particles/heavy_shot.xml" },
@@ -5882,8 +5882,8 @@ actions =
 	},
 	{
 		id          = "LIGHT_SHOT",
-		name 		= "$action_light_shot",
-		description = "$actiondesc_light_shot",
+		name 		= "$action_light_shot", -- Light shot
+		description = "$actiondesc_light_shot", -- "Makes a projectile move considerably faster
 		sprite 		= "data/ui_gfx/gun_actions/light_shot.png",
 		sprite_unidentified = "data/ui_gfx/gun_actions/heavy_shot_unidentified.png",
 		related_extra_entities = { "data/entities/particles/light_shot.xml" },
@@ -5918,8 +5918,8 @@ actions =
 	--[[
 	{
 		id          = "SHORTLIVED_SHOT",
-		name 		= "$action_shortlived_shot",
-		description = "$actiondesc_shortlived_shot",
+		name 		= "$action_shortlived_shot", -- Shortlived spell
+		description = "$actiondesc_shortlived_shot", -- "Makes a projectile lasts only a very short amount of time
 		sprite 		= "data/ui_gfx/gun_actions/shortlived_shot.png",
 		sprite_unidentified = "data/ui_gfx/gun_actions/heavy_shot_unidentified.png",
 		type 		= ACTION_TYPE_MODIFIER,
@@ -5939,8 +5939,8 @@ actions =
 	]]--
 	{
 		id          = "KNOCKBACK",
-		name 		= "$action_knockback",
-		description = "$actiondesc_knockback",
+		name 		= "$action_knockback", -- Knockback
+		description = "$actiondesc_knockback", -- Gives a projectile the power to knock back the foes it hits
 		sprite 		= "data/ui_gfx/gun_actions/knockback.png",
 		sprite_unidentified = "data/ui_gfx/gun_actions/knockback_unidentified.png",
 		type 		= ACTION_TYPE_MODIFIER,
@@ -5956,8 +5956,8 @@ actions =
 	},
 	{
 		id          = "RECOIL",
-		name 		= "$action_recoil",
-		description = "$actiondesc_recoil",
+		name 		= "$action_recoil", -- Recoil
+		description = "$actiondesc_recoil", -- Increases the recoil when casting spells
 		sprite 		= "data/ui_gfx/gun_actions/recoil.png",
 		sprite_unidentified = "data/ui_gfx/gun_actions/recoil_unidentified.png",
 		type 		= ACTION_TYPE_MODIFIER,
@@ -5973,8 +5973,8 @@ actions =
 	},
 	{
 		id          = "RECOIL_DAMPER",
-		name 		= "$action_recoil_damper",
-		description = "$actiondesc_recoil_damper",
+		name 		= "$action_recoil_damper", -- Recoil Damper
+		description = "$actiondesc_recoil_damper", -- Reduces the recoil when casting spells
 		sprite 		= "data/ui_gfx/gun_actions/recoil_damper.png",
 		sprite_unidentified = "data/ui_gfx/gun_actions/recoil_damper_unidentified.png",
 		type 		= ACTION_TYPE_MODIFIER,
@@ -5990,8 +5990,8 @@ actions =
 	},
 	{
 		id          = "SPEED",
-		name 		= "$action_speed",
-		description = "$actiondesc_speed",
+		name 		= "$action_speed", -- Speed Up
+		description = "$actiondesc_speed", -- Increases the speed at which a projectile flies through the air
 		sprite 		= "data/ui_gfx/gun_actions/speed.png",
 		sprite_unidentified = "data/ui_gfx/gun_actions/speed_unidentified.png",
 		type 		= ACTION_TYPE_MODIFIER,
@@ -6015,8 +6015,8 @@ actions =
 	},
 	{
 		id          = "ACCELERATING_SHOT",
-		name 		= "$action_accelerating_shot",
-		description = "$actiondesc_accelerating_shot",
+		name 		= "$action_accelerating_shot", -- Accelerating shot
+		description = "$actiondesc_accelerating_shot", -- Causes a projectile to accelerate as it flies
 		sprite 		= "data/ui_gfx/gun_actions/accelerating_shot.png",
 		sprite_unidentified = "data/ui_gfx/gun_actions/heavy_shot_unidentified.png",
 		related_extra_entities = { "data/entities/misc/accelerating_shot.xml" },
@@ -6044,8 +6044,8 @@ actions =
 	},
 	{
 		id          = "DECELERATING_SHOT",
-		name 		= "$action_decelerating_shot",
-		description = "$actiondesc_decelerating_shot",
+		name 		= "$action_decelerating_shot", -- Decelerating shot
+		description = "$actiondesc_decelerating_shot", -- Makes a projectile decelerate as it flies
 		sprite 		= "data/ui_gfx/gun_actions/decelerating_shot.png",
 		sprite_unidentified = "data/ui_gfx/gun_actions/heavy_shot_unidentified.png",
 		related_extra_entities = { "data/entities/misc/decelerating_shot.xml" },
@@ -6074,8 +6074,8 @@ actions =
 	--[[
 	{
 		id          = "GORE",
-		name 		= "$action_gore",
-		description = "$actiondesc_gore",
+		name 		= "$action_gore", -- Draw blood
+		description = "$actiondesc_gore", -- Makes foes spill more blood when hit with a projectile
 		sprite 		= "data/ui_gfx/gun_actions/gore.png",
 		type 		= ACTION_TYPE_MODIFIER,
 		spawn_level                       = "", -- GORE
@@ -6090,8 +6090,8 @@ actions =
 	]]--
 	{
 		id          = "EXPLOSIVE_PROJECTILE",
-		name 		= "$action_explosive_projectile",
-		description = "$actiondesc_explosive_projectile",
+		name 		= "$action_explosive_projectile", -- Explosive projectile
+		description = "$actiondesc_explosive_projectile", -- Makes a projectile more destructive to the environment
 		sprite 		= "data/ui_gfx/gun_actions/explosive_projectile.png",
 		sprite_unidentified = "data/ui_gfx/gun_actions/explosive_projectile_unidentified.png",
 		type 		= ACTION_TYPE_MODIFIER,
@@ -6119,8 +6119,8 @@ actions =
 	},
 	{
 		id          = "CLUSTERMOD",
-		name 		= "$action_clustermod",
-		description = "$actiondesc_clustermod",
+		name 		= "$action_clustermod", -- Clusterbolt
+		description = "$actiondesc_clustermod", -- Makes a projectile release a cluster of explosive bolts upon hitting a wall
 		sprite 		= "data/ui_gfx/gun_actions/clusterbomb.png",
 		sprite_unidentified = "data/ui_gfx/gun_actions/explosive_projectile_unidentified.png",
 		type 		= ACTION_TYPE_MODIFIER,
@@ -6143,8 +6143,8 @@ actions =
 	},
 	{
 		id          = "WATER_TO_POISON",
-		name 		= "$action_water_to_poison",
-		description = "$actiondesc_water_to_poison",
+		name 		= "$action_water_to_poison", -- Water to poison
+		description = "$actiondesc_water_to_poison", -- Makes any water within a projectile's range turns into poison
 		sprite 		= "data/ui_gfx/gun_actions/water_to_poison.png",
 		sprite_unidentified = "data/ui_gfx/gun_actions/explosive_projectile_unidentified.png",
 		related_extra_entities = { "data/entities/misc/water_to_poison.xml", "data/entities/particles/tinyspark_purple.xml" },
@@ -6162,8 +6162,8 @@ actions =
 	},
 	{
 		id          = "BLOOD_TO_ACID",
-		name 		= "$action_blood_to_acid",
-		description = "$actiondesc_blood_to_acid",
+		name 		= "$action_blood_to_acid", -- Blood to acid
+		description = "$actiondesc_blood_to_acid", -- Makes any blood within a projectile's range turns into acid
 		sprite 		= "data/ui_gfx/gun_actions/blood_to_acid.png",
 		sprite_unidentified = "data/ui_gfx/gun_actions/explosive_projectile_unidentified.png",
 		related_extra_entities = { "data/entities/misc/blood_to_acid.xml", "data/entities/particles/tinyspark_red.xml" },
@@ -6181,8 +6181,8 @@ actions =
 	},
 	{
 		id          = "LAVA_TO_BLOOD",
-		name 		= "$action_lava_to_blood",
-		description = "$actiondesc_lava_to_blood",
+		name 		= "$action_lava_to_blood", -- Lava to blood
+		description = "$actiondesc_lava_to_blood", -- Makes any lava within a projectile's range turn into blood
 		sprite 		= "data/ui_gfx/gun_actions/lava_to_blood.png",
 		sprite_unidentified = "data/ui_gfx/gun_actions/explosive_projectile_unidentified.png",
 		related_extra_entities = { "data/entities/misc/lava_to_blood.xml", "data/entities/particles/tinyspark_orange.xml" },
@@ -6200,8 +6200,8 @@ actions =
 	},
 	{
 		id          = "LIQUID_TO_EXPLOSION",
-		name 		= "$action_liquid_to_explosion",
-		description = "$actiondesc_liquid_to_explosion",
+		name 		= "$action_liquid_to_explosion", -- Liquid Detonation
+		description = "$actiondesc_liquid_to_explosion", -- Converts nearby nonmagical liquids into explosive gunpowder
 		sprite 		= "data/ui_gfx/gun_actions/liquid_to_explosion.png",
 		sprite_unidentified = "data/ui_gfx/gun_actions/explosive_projectile_unidentified.png",
 		related_extra_entities = { "data/entities/misc/liquid_to_explosion.xml", "data/entities/particles/tinyspark_red.xml" },
@@ -6219,8 +6219,8 @@ actions =
 	},
 	{
 		id          = "TOXIC_TO_ACID",
-		name 		= "$action_toxic_to_acid",
-		description = "$actiondesc_toxic_to_acid",
+		name 		= "$action_toxic_to_acid", -- Toxic sludge to acid
+		description = "$actiondesc_toxic_to_acid", -- Makes any toxic sludge within a projectile's range turn into acid
 		sprite 		= "data/ui_gfx/gun_actions/toxic_to_acid.png",
 		sprite_unidentified = "data/ui_gfx/gun_actions/explosive_projectile_unidentified.png",
 		related_extra_entities = { "data/entities/misc/toxic_to_acid.xml", "data/entities/particles/tinyspark_green.xml" },
@@ -6238,8 +6238,8 @@ actions =
 	},
 	{
 		id          = "STATIC_TO_SAND",
-		name 		= "$action_static_to_sand",
-		description = "$actiondesc_static_to_sand",
+		name 		= "$action_static_to_sand", -- Ground to sand
+		description = "$actiondesc_static_to_sand", -- "Makes any hard
 		sprite 		= "data/ui_gfx/gun_actions/static_to_sand.png",
 		sprite_unidentified = "data/ui_gfx/gun_actions/explosive_projectile_unidentified.png",
 		related_extra_entities = { "data/entities/misc/static_to_sand.xml", "data/entities/particles/tinyspark_yellow.xml" },
@@ -6257,8 +6257,8 @@ actions =
 	},
 	{
 		id          = "TRANSMUTATION",
-		name 		= "$action_transmutation",
-		description = "$actiondesc_transmutation",
+		name 		= "$action_transmutation", -- Chaotic transmutation
+		description = "$actiondesc_transmutation", -- Transmutes various liquids and powdery substances within a projectile's range into something else
 		sprite 		= "data/ui_gfx/gun_actions/transmutation.png",
 		sprite_unidentified = "data/ui_gfx/gun_actions/explosive_projectile_unidentified.png",
 		related_extra_entities = { "data/entities/misc/transmutation.xml", "data/entities/particles/tinyspark_purple_bright.xml" },
@@ -6276,8 +6276,8 @@ actions =
 	},
 	{
 		id          = "RANDOM_EXPLOSION",
-		name 		= "$action_random_explosion",
-		description = "$actiondesc_random_explosion",
+		name 		= "$action_random_explosion", -- Chaos magic
+		description = "$actiondesc_random_explosion", -- Makes a projectile launch a random spell (out of a limited selection) when it hits something
 		sprite 		= "data/ui_gfx/gun_actions/random_explosion.png",
 		sprite_unidentified = "data/ui_gfx/gun_actions/explosive_projectile_unidentified.png",
 		related_extra_entities = { "data/entities/misc/random_explosion.xml", "data/entities/particles/tinyspark_purple_bright.xml" },
@@ -6295,8 +6295,8 @@ actions =
 	},
 	{
 		id          = "NECROMANCY",
-		name 		= "$action_necromancy",
-		description = "$actiondesc_necromancy",
+		name 		= "$action_necromancy", -- Necromancy
+		description = "$actiondesc_necromancy", -- Makes corpses of creatures killed by a projectile rise to your aid
 		spawn_requires_flag = "card_unlocked_necromancy",
 		sprite 		= "data/ui_gfx/gun_actions/necromancy.png",
 		sprite_unidentified = "data/ui_gfx/gun_actions/explosive_projectile_unidentified.png",
@@ -6314,8 +6314,8 @@ actions =
 	},
 	{
 		id          = "LIGHT",
-		name 		= "$action_light",
-		description = "$actiondesc_light",
+		name 		= "$action_light", -- Light
+		description = "$actiondesc_light", -- Makes a projectile illuminate its surroundings
 		sprite 		= "data/ui_gfx/gun_actions/light.png",
 		related_extra_entities = { "data/entities/misc/light.xml" },
 		type 		= ACTION_TYPE_MODIFIER,
@@ -6330,8 +6330,8 @@ actions =
 	},
 	{
 		id          = "EXPLOSION",
-		name 		= "$action_explosion",
-		description = "$actiondesc_explosion",
+		name 		= "$action_explosion", -- Explosion
+		description = "$actiondesc_explosion", -- A powerful explosion
 		sprite 		= "data/ui_gfx/gun_actions/explosion.png",
 		sprite_unidentified = "data/ui_gfx/gun_actions/explosion_unidentified.png",
 		related_projectiles	= {"data/entities/projectiles/deck/explosion.xml"},
@@ -6351,8 +6351,8 @@ actions =
 	},
 	{
 		id          = "EXPLOSION_LIGHT",
-		name 		= "$action_explosion_light",
-		description = "$actiondesc_explosion_light",
+		name 		= "$action_explosion_light", -- Magical Explosion
+		description = "$actiondesc_explosion_light", -- A large explosion that doesn't damage the ground
 		sprite 		= "data/ui_gfx/gun_actions/explosion_light.png",
 		sprite_unidentified = "data/ui_gfx/gun_actions/explosion_unidentified.png",
 		related_projectiles	= {"data/entities/projectiles/deck/explosion_light.xml"},
@@ -6372,8 +6372,8 @@ actions =
 	},
 	{
 		id          = "FIRE_BLAST",
-		name 		= "$action_fire_blast",
-		description = "$actiondesc_fire_blast",
+		name 		= "$action_fire_blast", -- Explosion of brimstone
+		description = "$actiondesc_fire_blast", -- A fiery explosion
 		sprite 		= "data/ui_gfx/gun_actions/fire_blast.png",
 		sprite_unidentified = "data/ui_gfx/gun_actions/fire_blast_unidentified.png",
 		related_projectiles	= {"data/entities/projectiles/deck/fireblast.xml"},
@@ -6393,8 +6393,8 @@ actions =
 	},
 	{
 		id          = "POISON_BLAST",
-		name 		= "$action_poison_blast",
-		description = "$actiondesc_poison_blast",
+		name 		= "$action_poison_blast", -- Explosion of poison
+		description = "$actiondesc_poison_blast", -- An alchemical explosion
 		sprite 		= "data/ui_gfx/gun_actions/poison_blast.png",
 		sprite_unidentified = "data/ui_gfx/gun_actions/poison_blast_unidentified.png",
 		related_projectiles	= {"data/entities/projectiles/deck/poison_blast.xml"},
@@ -6414,8 +6414,8 @@ actions =
 	},
 	{
 		id          = "ALCOHOL_BLAST",
-		name 		= "$action_alcohol_blast",
-		description = "$actiondesc_alcohol_blast",
+		name 		= "$action_alcohol_blast", -- Explosion of spirits
+		description = "$actiondesc_alcohol_blast", -- An inebriating explosion
 		sprite 		= "data/ui_gfx/gun_actions/alcohol_blast.png",
 		sprite_unidentified = "data/ui_gfx/gun_actions/poison_blast_unidentified.png",
 		related_projectiles	= {"data/entities/projectiles/deck/alcohol_blast.xml"},
@@ -6435,8 +6435,8 @@ actions =
 	},
 	{
 		id          = "THUNDER_BLAST",
-		name 		= "$action_thunder_blast",
-		description = "$actiondesc_thunder_blast",
+		name 		= "$action_thunder_blast", -- Explosion of thunder
+		description = "$actiondesc_thunder_blast", -- An electric explosion
 		sprite 		= "data/ui_gfx/gun_actions/thunder_blast.png",
 		sprite_unidentified = "data/ui_gfx/gun_actions/thunder_blast_unidentified.png",
 		related_projectiles	= {"data/entities/projectiles/deck/thunder_blast.xml"},
@@ -6458,8 +6458,8 @@ actions =
 	--[[
 	{
 		id          = "CHARM_FIELD",
-		name 		= "$action_charm_field",
-		description = "$actiondesc_charm_field",
+		name 		= "$action_charm_field", -- Circle of persuasion
+		description = "$actiondesc_charm_field", -- A field of charming magic
 		sprite 		= "data/ui_gfx/gun_actions/charm_field.png",
 		type 		= ACTION_TYPE_PROJECTILE,
 		spawn_level                       = "", -- CHARM_FIELD
@@ -6475,8 +6475,8 @@ actions =
 	]]--
 	{
 		id          = "BERSERK_FIELD",
-		name 		= "$action_berserk_field",
-		description = "$actiondesc_berserk_field",
+		name 		= "$action_berserk_field", -- Circle of fervour
+		description = "$actiondesc_berserk_field", -- A field of berserk magic
 		sprite 		= "data/ui_gfx/gun_actions/berserk_field.png",
 		sprite_unidentified = "data/ui_gfx/gun_actions/berserk_field_unidentified.png",
 		related_projectiles	= {"data/entities/projectiles/deck/berserk_field.xml"},
@@ -6493,8 +6493,8 @@ actions =
 	},
 	{
 		id          = "POLYMORPH_FIELD",
-		name 		= "$action_polymorph_field",
-		description = "$actiondesc_polymorph_field",
+		name 		= "$action_polymorph_field", -- Circle of transmogrification
+		description = "$actiondesc_polymorph_field", -- A field of sheep-like magic
 		sprite 		= "data/ui_gfx/gun_actions/polymorph_field.png",
 		sprite_unidentified = "data/ui_gfx/gun_actions/polymorph_field_unidentified.png",
 		related_projectiles	= {"data/entities/projectiles/deck/polymorph_field.xml"},
@@ -6511,8 +6511,8 @@ actions =
 	},
 	{
 		id          = "CHAOS_POLYMORPH_FIELD",
-		name 		= "$action_chaos_polymorph_field",
-		description = "$actiondesc_chaos_polymorph_field",
+		name 		= "$action_chaos_polymorph_field", -- Circle of unstable metamorphosis
+		description = "$actiondesc_chaos_polymorph_field", -- A field of transformative magic
 		sprite 		= "data/ui_gfx/gun_actions/chaos_polymorph_field.png",
 		sprite_unidentified = "data/ui_gfx/gun_actions/chaos_polymorph_field_unidentified.png",
 		related_projectiles	= {"data/entities/projectiles/deck/chaos_polymorph_field.xml"},
@@ -6529,8 +6529,8 @@ actions =
 	},
 	{
 		id          = "ELECTROCUTION_FIELD",
-		name 		= "$action_electrocution_field",
-		description = "$actiondesc_electrocution_field",
+		name 		= "$action_electrocution_field", -- Circle of thunder
+		description = "$actiondesc_electrocution_field", -- A field of electrifying magic
 		sprite 		= "data/ui_gfx/gun_actions/electrocution_field.png",
 		sprite_unidentified = "data/ui_gfx/gun_actions/electrocution_field_unidentified.png",
 		related_projectiles	= {"data/entities/projectiles/deck/electrocution_field.xml"},
@@ -6547,8 +6547,8 @@ actions =
 	},
 	{
 		id          = "FREEZE_FIELD",
-		name 		= "$action_freeze_field",
-		description = "$actiondesc_freeze_field",
+		name 		= "$action_freeze_field", -- Circle of stillness
+		description = "$actiondesc_freeze_field", -- A field of freezing magic
 		sprite 		= "data/ui_gfx/gun_actions/freeze_field.png",
 		sprite_unidentified = "data/ui_gfx/gun_actions/freeze_field_unidentified.png",
 		related_projectiles	= {"data/entities/projectiles/deck/freeze_field.xml"},
@@ -6565,8 +6565,8 @@ actions =
 	},
 	{
 		id          = "REGENERATION_FIELD",
-		name 		= "$action_regeneration_field",
-		description = "$actiondesc_regeneration_field",
+		name 		= "$action_regeneration_field", -- Circle of vigour
+		description = "$actiondesc_regeneration_field", -- A field of regenerative magic
 		sprite 		= "data/ui_gfx/gun_actions/regeneration_field.png",
 		sprite_unidentified = "data/ui_gfx/gun_actions/regeneration_field_unidentified.png",
 		related_projectiles	= {"data/entities/projectiles/deck/regeneration_field.xml"},
@@ -6584,8 +6584,8 @@ actions =
 	},
 	{
 		id          = "TELEPORTATION_FIELD",
-		name 		= "$action_teleportation_field",
-		description = "$actiondesc_teleportation_field",
+		name 		= "$action_teleportation_field", -- Circle of displacement
+		description = "$actiondesc_teleportation_field", -- A field of teleportative magic
 		sprite 		= "data/ui_gfx/gun_actions/teleportation_field.png",
 		sprite_unidentified = "data/ui_gfx/gun_actions/teleportation_field_unidentified.png",
 		related_projectiles	= {"data/entities/projectiles/deck/teleportation_field.xml"},
@@ -6602,8 +6602,8 @@ actions =
 	},
 	{
 		id          = "LEVITATION_FIELD",
-		name 		= "$action_levitation_field",
-		description = "$actiondesc_levitation_field",
+		name 		= "$action_levitation_field", -- Circle of buoyancy
+		description = "$actiondesc_levitation_field", -- A field of levitative magic
 		sprite 		= "data/ui_gfx/gun_actions/levitation_field.png",
 		sprite_unidentified = "data/ui_gfx/gun_actions/levitation_field_unidentified.png",
 		related_projectiles	= {"data/entities/projectiles/deck/levitation_field.xml"},
@@ -6620,8 +6620,8 @@ actions =
 	},
 	--[[{
 		id          = "TELEPATHY_FIELD",
-		name 		= "$action_telepathy_field",
-		description = "$actiondesc_telepathy_field",
+		name 		= "$action_telepathy_field", -- Circle of seeing
+		description = "$actiondesc_telepathy_field", -- A field of clairvoyant magic
 		sprite 		= "data/ui_gfx/gun_actions/telepathy_field.png",
 		sprite_unidentified = "data/ui_gfx/gun_actions/telepathy_field_unidentified.png",
 		type 		= ACTION_TYPE_STATIC_PROJECTILE,
@@ -6637,8 +6637,8 @@ actions =
 	},]]--
 	{
 		id          = "SHIELD_FIELD",
-		name 		= "$action_shield_field",
-		description = "$actiondesc_shield_field",
+		name 		= "$action_shield_field", -- Circle of shielding
+		description = "$actiondesc_shield_field", -- A field of protective magic
 		sprite 		= "data/ui_gfx/gun_actions/shield_field.png",
 		sprite_unidentified = "data/ui_gfx/gun_actions/shield_field_unidentified.png",
 		related_projectiles	= {"data/entities/projectiles/deck/shield_field.xml"},
@@ -6655,8 +6655,8 @@ actions =
 	},
 	{
 		id          = "PROJECTILE_TRANSMUTATION_FIELD",
-		name 		= "$action_projectile_transmutation_field",
-		description = "$actiondesc_projectile_transmutation_field",
+		name 		= "$action_projectile_transmutation_field", -- Projectile transmutation field
+		description = "$actiondesc_projectile_transmutation_field", -- Projectiles caught within the field transform into harmless critters
 		sprite 		= "data/ui_gfx/gun_actions/projectile_transmutation_field.png",
 		sprite_unidentified = "data/ui_gfx/gun_actions/chaos_polymorph_field_unidentified.png",
 		related_projectiles	= {"data/entities/projectiles/deck/projectile_transmutation_field.xml"},
@@ -6673,8 +6673,8 @@ actions =
 	},
 	{
 		id          = "PROJECTILE_THUNDER_FIELD",
-		name 		= "$action_projectile_thunder_field",
-		description = "$actiondesc_projectile_thunder_field",
+		name 		= "$action_projectile_thunder_field", -- Projectile thunder field
+		description = "$actiondesc_projectile_thunder_field", -- Projectiles caught within the field transform into blasts of lightning
 		sprite 		= "data/ui_gfx/gun_actions/projectile_thunder_field.png",
 		sprite_unidentified = "data/ui_gfx/gun_actions/chaos_polymorph_field_unidentified.png",
 		related_projectiles	= {"data/entities/projectiles/deck/projectile_thunder_field.xml"},
@@ -6691,8 +6691,8 @@ actions =
 	},
 	{
 		id          = "PROJECTILE_GRAVITY_FIELD",
-		name 		= "$action_projectile_gravity_field",
-		description = "$actiondesc_projectile_gravity_field",
+		name 		= "$action_projectile_gravity_field", -- Projectile gravity field
+		description = "$actiondesc_projectile_gravity_field", -- Projectiles caught within the field are attracted towards its center
 		sprite 		= "data/ui_gfx/gun_actions/projectile_gravity_field.png",
 		sprite_unidentified = "data/ui_gfx/gun_actions/chaos_polymorph_field_unidentified.png",
 		related_projectiles	= {"data/entities/projectiles/deck/projectile_gravity_field.xml"},
@@ -6709,8 +6709,8 @@ actions =
 	},
 	{
 		id          = "VACUUM_POWDER",
-		name 		= "$action_vacuum_powder",
-		description = "$actiondesc_vacuum_powder",
+		name 		= "$action_vacuum_powder", -- Powder Vacuum Field
+		description = "$actiondesc_vacuum_powder", -- Sucks powder-like materials nearby and releases them upon expiring
 		sprite 		= "data/ui_gfx/gun_actions/vacuum_powder.png",
 		sprite_unidentified = "data/ui_gfx/gun_actions/chaos_polymorph_field_unidentified.png",
 		related_projectiles	= {"data/entities/projectiles/deck/vacuum_powder.xml"},
@@ -6727,8 +6727,8 @@ actions =
 	},
 	{
 		id          = "VACUUM_LIQUID",
-		name 		= "$action_vacuum_liquid",
-		description = "$actiondesc_vacuum_liquid",
+		name 		= "$action_vacuum_liquid", -- Liquid Vacuum Field
+		description = "$actiondesc_vacuum_liquid", -- Sucks liquid materials nearby and releases them upon expiring
 		sprite 		= "data/ui_gfx/gun_actions/vacuum_liquid.png",
 		sprite_unidentified = "data/ui_gfx/gun_actions/chaos_polymorph_field_unidentified.png",
 		related_projectiles	= {"data/entities/projectiles/deck/vacuum_liquid.xml"},
@@ -6745,8 +6745,8 @@ actions =
 	},
 	{
 		id          = "VACUUM_ENTITIES",
-		name 		= "$action_vacuum_entities",
-		description = "$actiondesc_vacuum_entities",
+		name 		= "$action_vacuum_entities", -- Vacuum Field
+		description = "$actiondesc_vacuum_entities", -- Sucks nearby projectiles and creatures into the middle of the field instantaneously
 		sprite 		= "data/ui_gfx/gun_actions/vacuum_entities.png",
 		sprite_unidentified = "data/ui_gfx/gun_actions/chaos_polymorph_field_unidentified.png",
 		related_projectiles	= {"data/entities/projectiles/deck/vacuum_entities.xml"},
@@ -6763,8 +6763,8 @@ actions =
 	},
 	{
 		id          = "SEA_LAVA",
-		name 		= "$action_sea_lava",
-		description = "$actiondesc_sea_lava",
+		name 		= "$action_sea_lava", -- Sea of lava
+		description = "$actiondesc_sea_lava", -- Summons a large body of lava below the caster
 		spawn_requires_flag = "card_unlocked_sea_lava",
 		sprite 		= "data/ui_gfx/gun_actions/sea_lava.png",
 		sprite_unidentified = "data/ui_gfx/gun_actions/sea_lava_unidentified.png",
@@ -6782,8 +6782,8 @@ actions =
 	},
 	{
 		id          = "SEA_ALCOHOL",
-		name 		= "$action_sea_alcohol",
-		description = "$actiondesc_sea_alcohol",
+		name 		= "$action_sea_alcohol", -- Sea of alcohol
+		description = "$actiondesc_sea_alcohol", -- Summons a large body of tasty alcohol below the caster
 		sprite 		= "data/ui_gfx/gun_actions/sea_alcohol.png",
 		sprite_unidentified = "data/ui_gfx/gun_actions/sea_lava_unidentified.png",
 		related_projectiles	= {"data/entities/projectiles/deck/sea_alcohol.xml"},
@@ -6800,8 +6800,8 @@ actions =
 	},
 	{
 		id          = "SEA_OIL",
-		name 		= "$action_sea_oil",
-		description = "$actiondesc_sea_oil",
+		name 		= "$action_sea_oil", -- Sea of oil
+		description = "$actiondesc_sea_oil", -- Summons a large body of oil below the caster
 		sprite 		= "data/ui_gfx/gun_actions/sea_oil.png",
 		sprite_unidentified = "data/ui_gfx/gun_actions/sea_oil_unidentified.png",
 		related_projectiles	= {"data/entities/projectiles/deck/sea_oil.xml"},
@@ -6818,8 +6818,8 @@ actions =
 	},
 	{
 		id          = "SEA_WATER",
-		name 		= "$action_sea_water",
-		description = "$actiondesc_sea_water",
+		name 		= "$action_sea_water", -- Sea of water
+		description = "$actiondesc_sea_water", -- Summons a large body of water below the caster
 		sprite 		= "data/ui_gfx/gun_actions/sea_water.png",
 		sprite_unidentified = "data/ui_gfx/gun_actions/sea_water_unidentified.png",
 		related_projectiles	= {"data/entities/projectiles/deck/sea_water.xml"},
@@ -6836,8 +6836,8 @@ actions =
 	},
 	{
 		id          = "SEA_SWAMP",
-		name 		= "$action_sea_swamp",
-		description = "$actiondesc_sea_swamp",
+		name 		= "$action_sea_swamp", -- Summon Swamp
+		description = "$actiondesc_sea_swamp", -- Summons a large swamp below the caster
 		sprite 		= "data/ui_gfx/gun_actions/sea_swamp.png",
 		sprite_unidentified = "data/ui_gfx/gun_actions/sea_swamp_unidentified.png",
 		related_projectiles	= {"data/entities/projectiles/deck/sea_swamp.xml"},
@@ -6854,8 +6854,8 @@ actions =
 	},
 	{
 		id          = "SEA_ACID",
-		name 		= "$action_sea_acid",
-		description = "$actiondesc_sea_acid",
+		name 		= "$action_sea_acid", -- Sea of acid
+		description = "$actiondesc_sea_acid", -- Summons a large body of acid below the caster
 		sprite 		= "data/ui_gfx/gun_actions/sea_acid.png",
 		sprite_unidentified = "data/ui_gfx/gun_actions/sea_acid_unidentified.png",
 		related_projectiles	= {"data/entities/projectiles/deck/sea_acid.xml"},
@@ -6872,8 +6872,8 @@ actions =
 	},
 	{
 		id          = "SEA_ACID_GAS",
-		name 		= "$action_sea_acid_gas",
-		description = "$actiondesc_sea_acid_gas",
+		name 		= "$action_sea_acid_gas", -- Sea of flammable gas
+		description = "$actiondesc_sea_acid_gas", -- Summons a large body of flammable gas below the caster
 		sprite 		= "data/ui_gfx/gun_actions/sea_acid_gas.png",
 		sprite_unidentified = "data/ui_gfx/gun_actions/sea_acid_unidentified.png",
 		related_projectiles	= {"data/entities/projectiles/deck/sea_acid_gas.xml"},
@@ -6890,8 +6890,8 @@ actions =
 	},
 	{
 		id          = "SEA_MIMIC",
-		name 		= "$action_sea_mimic",
-		description = "$actiondesc_sea_mimic",
+		name 		= "$action_sea_mimic", -- Sea of Mimicium
+		description = "$actiondesc_sea_mimic", -- Summons a large body of mimicium under the caster
 		sprite 		= "data/ui_gfx/gun_actions/sea_mimic.png",
 		sprite_unidentified = "data/ui_gfx/gun_actions/sea_acid_unidentified.png",
 		related_projectiles	= {"data/entities/projectiles/deck/sea_mimic.xml"},
@@ -6910,8 +6910,8 @@ actions =
 	},
 	{
 		id          = "CLOUD_WATER",
-		name 		= "$action_cloud_water",
-		description = "$actiondesc_cloud_water",
+		name 		= "$action_cloud_water", -- Rain cloud
+		description = "$actiondesc_cloud_water", -- Creates a watery weather phenomenon
 		sprite 		= "data/ui_gfx/gun_actions/cloud_water.png",
 		sprite_unidentified = "data/ui_gfx/gun_actions/cloud_water_unidentified.png",
 		related_projectiles	= {"data/entities/projectiles/deck/cloud_water.xml"},
@@ -6928,8 +6928,8 @@ actions =
 	},
 	{
 		id          = "CLOUD_OIL",
-		name 		= "$action_cloud_oil",
-		description = "$actiondesc_cloud_oil",
+		name 		= "$action_cloud_oil", -- Oil cloud
+		description = "$actiondesc_cloud_oil", -- Creates a rain of oil
 		sprite 		= "data/ui_gfx/gun_actions/cloud_oil.png",
 		sprite_unidentified = "data/ui_gfx/gun_actions/cloud_water_unidentified.png",
 		related_projectiles	= {"data/entities/projectiles/deck/cloud_oil.xml"},
@@ -6946,8 +6946,8 @@ actions =
 	},
 	{
 		id          = "CLOUD_BLOOD",
-		name 		= "$action_cloud_blood",
-		description = "$actiondesc_cloud_blood",
+		name 		= "$action_cloud_blood", -- Blood cloud
+		description = "$actiondesc_cloud_blood", -- Creates a rain of blood
 		sprite 		= "data/ui_gfx/gun_actions/cloud_blood.png",
 		sprite_unidentified = "data/ui_gfx/gun_actions/cloud_water_unidentified.png",
 		related_projectiles	= {"data/entities/projectiles/deck/cloud_blood.xml"},
@@ -6964,8 +6964,8 @@ actions =
 	},
 	{
 		id          = "CLOUD_ACID",
-		name 		= "$action_cloud_acid",
-		description = "$actiondesc_cloud_acid",
+		name 		= "$action_cloud_acid", -- Acid cloud
+		description = "$actiondesc_cloud_acid", -- Creates an rain of acid
 		sprite 		= "data/ui_gfx/gun_actions/cloud_acid.png",
 		sprite_unidentified = "data/ui_gfx/gun_actions/cloud_water_unidentified.png",
 		related_projectiles	= {"data/entities/projectiles/deck/cloud_acid.xml"},
@@ -6982,8 +6982,8 @@ actions =
 	},
 	{
 		id          = "CLOUD_THUNDER",
-		name 		= "$action_cloud_thunder",
-		description = "$actiondesc_cloud_thunder",
+		name 		= "$action_cloud_thunder", -- Thundercloud
+		description = "$actiondesc_cloud_thunder", -- Creates a stormy cloud
 		sprite 		= "data/ui_gfx/gun_actions/cloud_thunder.png",
 		spawn_requires_flag = "card_unlocked_cloud_thunder",
 		sprite_unidentified = "data/ui_gfx/gun_actions/cloud_water_unidentified.png",
@@ -7001,8 +7001,8 @@ actions =
 	},
 	{
 		id          = "ELECTRIC_CHARGE",
-		name 		= "$action_electric_charge",
-		description = "$actiondesc_electric_charge",
+		name 		= "$action_electric_charge", -- Electric charge
+		description = "$actiondesc_electric_charge", -- "Gives a projectile an electric charge
 		sprite 		= "data/ui_gfx/gun_actions/electric_charge.png",
 		sprite_unidentified = "data/ui_gfx/gun_actions/electric_charge_unidentified.png",
 		related_extra_entities = { "data/entities/particles/electricity.xml" },
@@ -7022,8 +7022,8 @@ actions =
 	},
 	{
 		id          = "MATTER_EATER",
-		name 		= "$action_matter_eater",
-		description = "$actiondesc_matter_eater",
+		name 		= "$action_matter_eater", -- Matter eater
+		description = "$actiondesc_matter_eater", -- Makes a projectile eat the environment as it flies
 		sprite 		= "data/ui_gfx/gun_actions/matter_eater.png",
 		sprite_unidentified = "data/ui_gfx/gun_actions/electric_charge_unidentified.png",
 		related_extra_entities = { "data/entities/misc/matter_eater.xml" },
@@ -7041,8 +7041,8 @@ actions =
 	},
 	{
 		id          = "FREEZE",
-		name 		= "$action_freeze",
-		description = "$actiondesc_freeze",
+		name 		= "$action_freeze", -- Freeze charge
+		description = "$actiondesc_freeze", -- "Gives a projectile a frozen charge
 		sprite 		= "data/ui_gfx/gun_actions/freeze.png",
 		sprite_unidentified = "data/ui_gfx/gun_actions/freeze_unidentified.png",
 		related_extra_entities = { "data/entities/particles/freeze_charge.xml" },
@@ -7062,8 +7062,8 @@ actions =
 	},
 	{
 		id          = "HITFX_BURNING_CRITICAL_HIT",
-		name 		= "$action_hitfx_burning_critical_hit",
-		description = "$actiondesc_hitfx_burning_critical_hit",
+		name 		= "$action_hitfx_burning_critical_hit", -- Critical on burning
+		description = "$actiondesc_hitfx_burning_critical_hit", -- Makes a projectile always do a critical hit on burning enemies
 		sprite 		= "data/ui_gfx/gun_actions/burning_critical.png",
 		sprite_unidentified = "data/entities/misc/hitfx_burning_critical_hit.xml",
 		related_extra_entities = { "data/entities/particles/freeze_charge.xml" },
@@ -7080,8 +7080,8 @@ actions =
 	},
 	{
 		id          = "HITFX_CRITICAL_WATER",
-		name 		= "$action_hitfx_critical_water",
-		description = "$actiondesc_hitfx_critical_water",
+		name 		= "$action_hitfx_critical_water", -- Critical on wet (water) enemies
+		description = "$actiondesc_hitfx_critical_water", -- Makes a projectile always do a critical hit on wet (water) enemies
 		sprite 		= "data/ui_gfx/gun_actions/critical_water.png",
 		sprite_unidentified = "data/ui_gfx/gun_actions/freeze_unidentified.png",
 		related_extra_entities = { "data/entities/misc/hitfx_critical_water.xml" },
@@ -7098,8 +7098,8 @@ actions =
 	},
 	{
 		id          = "HITFX_CRITICAL_OIL",
-		name 		= "$action_hitfx_critical_oil",
-		description = "$actiondesc_hitfx_critical_oil",
+		name 		= "$action_hitfx_critical_oil", -- Critical on oiled enemies
+		description = "$actiondesc_hitfx_critical_oil", -- Makes a projectile always do a critical hit on oiled enemies
 		sprite 		= "data/ui_gfx/gun_actions/critical_oil.png",
 		sprite_unidentified = "data/ui_gfx/gun_actions/freeze_unidentified.png",
 		related_extra_entities = { "data/entities/misc/hitfx_critical_oil.xml" },
@@ -7116,8 +7116,8 @@ actions =
 	},
 	{
 		id          = "HITFX_CRITICAL_BLOOD",
-		name 		= "$action_hitfx_critical_blood",
-		description = "$actiondesc_hitfx_critical_blood",
+		name 		= "$action_hitfx_critical_blood", -- Critical on bloody enemies
+		description = "$actiondesc_hitfx_critical_blood", -- Makes a projectile always do a critical hit on bloody enemies
 		sprite 		= "data/ui_gfx/gun_actions/critical_blood.png",
 		sprite_unidentified = "data/ui_gfx/gun_actions/freeze_unidentified.png",
 		related_extra_entities = { "data/entities/misc/hitfx_critical_blood.xml" },
@@ -7134,8 +7134,8 @@ actions =
 	},
 	{
 		id          = "HITFX_TOXIC_CHARM",
-		name 		= "$action_hitfx_toxic_charm",
-		description = "$actiondesc_hitfx_toxic_charm",
+		name 		= "$action_hitfx_toxic_charm", -- Charm on toxic sludge
+		description = "$actiondesc_hitfx_toxic_charm", -- Makes a projectile charm creatures covered in toxic sludge
 		sprite 		= "data/ui_gfx/gun_actions/charm_on_toxic.png",
 		sprite_unidentified = "data/ui_gfx/gun_actions/freeze_unidentified.png",
 		related_extra_entities = { "data/entities/misc/hitfx_toxic_charm.xml" },
@@ -7152,8 +7152,8 @@ actions =
 	},
 	{
 		id          = "HITFX_EXPLOSION_SLIME",
-		name 		= "$action_hitfx_explosion_slime",
-		description = "$actiondesc_hitfx_explosion_slime",
+		name 		= "$action_hitfx_explosion_slime", -- Explosion on slimy enemies
+		description = "$actiondesc_hitfx_explosion_slime", -- Makes a projectile explode upon collision with creatures covered in slime
 		sprite 		= "data/ui_gfx/gun_actions/explode_on_slime.png",
 		sprite_unidentified = "data/ui_gfx/gun_actions/freeze_unidentified.png",
 		related_extra_entities = { "data/entities/misc/hitfx_explode_slime.xml" },
@@ -7170,8 +7170,8 @@ actions =
 	},
 	{
 		id          = "HITFX_EXPLOSION_SLIME_GIGA",
-		name 		= "$action_hitfx_explosion_slime_giga",
-		description = "$actiondesc_hitfx_explosion_slime_giga",
+		name 		= "$action_hitfx_explosion_slime_giga", -- Giant explosion on slimy enemies
+		description = "$actiondesc_hitfx_explosion_slime_giga", -- Makes a projectile explode powerfully upon collision with creatures covered in slime
 		sprite 		= "data/ui_gfx/gun_actions/explode_on_slime_giga.png",
 		sprite_unidentified = "data/ui_gfx/gun_actions/freeze_unidentified.png",
 		related_extra_entities = { "data/entities/misc/hitfx_explode_slime_giga.xml", "data/entities/particles/tinyspark_purple.xml" },
@@ -7188,8 +7188,8 @@ actions =
 	},
 	{
 		id          = "HITFX_EXPLOSION_ALCOHOL",
-		name 		= "$action_hitfx_explosion_alcohol",
-		description = "$actiondesc_hitfx_explosion_alcohol",
+		name 		= "$action_hitfx_explosion_alcohol", -- Explosion on drunk enemies
+		description = "$actiondesc_hitfx_explosion_alcohol", -- Makes a projectile explode upon collision with creatures covered in alcohol
 		sprite 		= "data/ui_gfx/gun_actions/explode_on_alcohol.png",
 		sprite_unidentified = "data/ui_gfx/gun_actions/freeze_unidentified.png",
 		related_extra_entities = { "data/entities/misc/hitfx_explode_alcohol.xml" },
@@ -7206,8 +7206,8 @@ actions =
 	},
 	{
 		id          = "HITFX_EXPLOSION_ALCOHOL_GIGA",
-		name 		= "$action_hitfx_explosion_alcohol_giga",
-		description = "$actiondesc_hitfx_explosion_alcohol_giga",
+		name 		= "$action_hitfx_explosion_alcohol_giga", -- Giant explosion on drunk enemies
+		description = "$actiondesc_hitfx_explosion_alcohol_giga", -- Makes a projectile explode powerfully upon collision with creatures covered in alcohol
 		sprite 		= "data/ui_gfx/gun_actions/explode_on_alcohol_giga.png",
 		sprite_unidentified = "data/ui_gfx/gun_actions/freeze_unidentified.png",
 		related_extra_entities = { "data/entities/misc/hitfx_explode_alcohol_giga.xml", "data/entities/particles/tinyspark_orange.xml" },
@@ -7224,8 +7224,8 @@ actions =
 	},
 	{
 		id          = "HITFX_PETRIFY",
-		name 		= "$action_petrify",
-		description = "$actiondesc_petrify_a",
+		name 		= "$action_petrify", -- Petrify
+		description = "$actiondesc_petrify_a", -- Turns a wounded enemy into stone
 		sprite 		= "data/ui_gfx/gun_actions/petrify.png",
 		sprite_unidentified = "data/ui_gfx/gun_actions/explosive_projectile_unidentified.png",
 		type 		= ACTION_TYPE_MODIFIER,
@@ -7240,8 +7240,8 @@ actions =
 	},
 	--[[ { WIP
 		id          = "HITFX_POLTERGEIST",
-		name 		= "$action_hitfx_poltergeist",
-		description = "$actiondesc_hitfx_poltergeist",
+		name 		= "$action_hitfx_poltergeist", -- Poltergeist
+		description = "$actiondesc_hitfx_poltergeist", -- Gives a projectile the power to animate physical objects
 		sprite 		= "data/ui_gfx/gun_actions/critical_blood.png",
 		sprite_unidentified = "data/ui_gfx/gun_actions/critical_blood.png",
 		type 		= ACTION_TYPE_MODIFIER,
@@ -7257,8 +7257,8 @@ actions =
 	},]]--
 	{
 		id          = "ROCKET_DOWNWARDS",
-		name 		= "$action_rocket_downwards",
-		description = "$actiondesc_rocket_downwards",
+		name 		= "$action_rocket_downwards", -- Downwards bolt bundle
+		description = "$actiondesc_rocket_downwards", -- Makes a projectile separate into a bundle of 5 explosive bolts as soon as it moves downwards
 		sprite 		= "data/ui_gfx/gun_actions/rocket_downwards.png",
 		sprite_unidentified = "data/ui_gfx/gun_actions/sinewave_unidentified.png",
 		related_extra_entities = { "data/entities/misc/rocket_downwards.xml" },
@@ -7275,8 +7275,8 @@ actions =
 	},
 	{
 		id          = "ROCKET_OCTAGON",
-		name 		= "$action_rocket_octagon",
-		description = "$actiondesc_rocket_octagon",
+		name 		= "$action_rocket_octagon", -- Octagonal bolt bundle
+		description = "$actiondesc_rocket_octagon", -- Makes a projectile launch 8 magical bolts if it moves slowly enough
 		sprite 		= "data/ui_gfx/gun_actions/rocket_octagon.png",
 		sprite_unidentified = "data/ui_gfx/gun_actions/sinewave_unidentified.png",
 		related_extra_entities = { "data/entities/misc/rocket_octagon.xml" },
@@ -7293,8 +7293,8 @@ actions =
 	},
 	{
 		id          = "FIZZLE",
-		name 		= "$action_fizzle",
-		description = "$actiondesc_fizzle",
+		name 		= "$action_fizzle", -- Fizzle
+		description = "$actiondesc_fizzle", -- Gives a spell a small probability of short-circuiting
 		sprite 		= "data/ui_gfx/gun_actions/fizzle.png",
 		sprite_unidentified = "data/ui_gfx/gun_actions/sinewave_unidentified.png",
 		related_extra_entities = { "data/entities/misc/fizzle.xml" },
@@ -7320,8 +7320,8 @@ actions =
 	},
 	{
 		id          = "BOUNCE_EXPLOSION",
-		name 		= "$action_bounce_explosion",
-		description = "$actiondesc_bounce_explosion",
+		name 		= "$action_bounce_explosion", -- Explosive bounce
+		description = "$actiondesc_bounce_explosion", -- Makes a projectile explode as it bounces
 		sprite 		= "data/ui_gfx/gun_actions/bounce_explosion.png",
 		sprite_unidentified = "data/ui_gfx/gun_actions/sinewave_unidentified.png",
 		related_extra_entities = { "data/entities/misc/bounce_explosion.xml" },
@@ -7341,8 +7341,8 @@ actions =
 	},
 	{
 		id          = "BOUNCE_SPARK",
-		name 		= "$action_bounce_spark",
-		description = "$actiondesc_bounce_spark",
+		name 		= "$action_bounce_spark", -- Bubbly bounce
+		description = "$actiondesc_bounce_spark", -- Makes a projectile shoot bubble sparks as it bounces
 		sprite 		= "data/ui_gfx/gun_actions/bounce_spark.png",
 		sprite_unidentified = "data/ui_gfx/gun_actions/sinewave_unidentified.png",
 		related_extra_entities = { "data/entities/misc/bounce_spark.xml" },
@@ -7362,8 +7362,8 @@ actions =
 	},
 	{
 		id          = "BOUNCE_LASER",
-		name 		= "$action_bounce_laser",
-		description = "$actiondesc_bounce_laser",
+		name 		= "$action_bounce_laser", -- Laser bounce
+		description = "$actiondesc_bounce_laser", -- Makes a projectile release a bundle of concentrated light as it bounces
 		sprite 		= "data/ui_gfx/gun_actions/bounce_laser.png",
 		sprite_unidentified = "data/ui_gfx/gun_actions/sinewave_unidentified.png",
 		related_extra_entities = { "data/entities/misc/bounce_laser.xml" },
@@ -7383,8 +7383,8 @@ actions =
 	},
 	{
 		id          = "BOUNCE_LASER_EMITTER",
-		name 		= "$action_bounce_laser_emitter",
-		description = "$actiondesc_bounce_laser_emitter",
+		name 		= "$action_bounce_laser_emitter", -- Plasma Beam Bounce
+		description = "$actiondesc_bounce_laser_emitter", -- A projectile launches a plasma beam upon bouncing
 		sprite 		= "data/ui_gfx/gun_actions/bounce_laser_emitter.png",
 		sprite_unidentified = "data/ui_gfx/gun_actions/sinewave_unidentified.png",
 		related_extra_entities = { "data/entities/misc/bounce_laser_emitter.xml" },
@@ -7404,8 +7404,8 @@ actions =
 	},
 	{
 		id          = "BOUNCE_LARPA",
-		name 		= "$action_bounce_larpa",
-		description = "$actiondesc_bounce_larpa",
+		name 		= "$action_bounce_larpa", -- Larpa Bounce
+		description = "$actiondesc_bounce_larpa", -- A projectile will launch a copy of itself when it bounces
 		sprite 		= "data/ui_gfx/gun_actions/bounce_larpa.png",
 		sprite_unidentified = "data/ui_gfx/gun_actions/sinewave_unidentified.png",
 		related_extra_entities = { "data/entities/misc/bounce_larpa.xml" },
@@ -7425,8 +7425,8 @@ actions =
 	},
 	{
 		id          = "BOUNCE_SMALL_EXPLOSION",
-		name 		= "$action_bounce_small_explosion",
-		description = "$actiondesc_bounce_small_explosion",
+		name 		= "$action_bounce_small_explosion", -- Sparkly bounce
+		description = "$actiondesc_bounce_small_explosion", -- Makes a projectile release damaging sparks as it bounces
 		sprite 		= "data/ui_gfx/gun_actions/bounce_small_explosion.png",
 		sprite_unidentified = "data/ui_gfx/gun_actions/sinewave_unidentified.png",
 		related_extra_entities = { "data/entities/misc/bounce_small_explosion.xml" },
@@ -7446,8 +7446,8 @@ actions =
 	},
 	{
 		id          = "BOUNCE_LIGHTNING",
-		name 		= "$action_bounce_lightning",
-		description = "$actiondesc_bounce_lightning",
+		name 		= "$action_bounce_lightning", -- Lightning bounce
+		description = "$actiondesc_bounce_lightning", -- Makes a projectile release powerful lightning as it bounces
 		sprite 		= "data/ui_gfx/gun_actions/bounce_lightning.png",
 		sprite_unidentified = "data/ui_gfx/gun_actions/sinewave_unidentified.png",
 		related_extra_entities = { "data/entities/misc/bounce_lightning.xml" },
@@ -7467,8 +7467,8 @@ actions =
 	},
 	{
 		id          = "BOUNCE_HOLE",
-		name 		= "$action_bounce_hole",
-		description = "$actiondesc_bounce_hole",
+		name 		= "$action_bounce_hole", -- Vacuum bounce
+		description = "$actiondesc_bounce_hole", -- Makes a projectile remove earth as it bounces
 		sprite 		= "data/ui_gfx/gun_actions/bounce_hole.png",
 		sprite_unidentified = "data/ui_gfx/gun_actions/sinewave_unidentified.png",
 		related_extra_entities = { "data/entities/misc/bounce_hole.xml" },
@@ -7489,8 +7489,8 @@ actions =
 	},
 	{
 		id          = "FIREBALL_RAY",
-		name 		= "$action_fireball_ray",
-		description = "$actiondesc_fireball_ray",
+		name 		= "$action_fireball_ray", -- Fireball thrower
+		description = "$actiondesc_fireball_ray", -- Makes a projectile cast fireballs in random directions
 		sprite 		= "data/ui_gfx/gun_actions/fireball_ray.png",
 		sprite_unidentified = "data/ui_gfx/gun_actions/electric_charge_unidentified.png",
 		related_extra_entities = { "data/entities/misc/fireball_ray.xml" },
@@ -7507,8 +7507,8 @@ actions =
 	},
 	{
 		id          = "LIGHTNING_RAY",
-		name 		= "$action_lightning_ray",
-		description = "$actiondesc_lightning_ray",
+		name 		= "$action_lightning_ray", -- Lightning thrower
+		description = "$actiondesc_lightning_ray", -- Makes a projectile cast lightning in random directions
 		sprite 		= "data/ui_gfx/gun_actions/lightning_ray.png",
 		sprite_unidentified = "data/ui_gfx/gun_actions/electric_charge_unidentified.png",
 		related_extra_entities = { "data/entities/misc/lightning_ray.xml" },
@@ -7526,8 +7526,8 @@ actions =
 	},
 	{
 		id          = "TENTACLE_RAY",
-		name 		= "$action_tentacle_ray",
-		description = "$actiondesc_tentacle_ray",
+		name 		= "$action_tentacle_ray", -- Tentacler
+		description = "$actiondesc_tentacle_ray", -- Makes a projectile cast tentacles in random directions
 		sprite 		= "data/ui_gfx/gun_actions/tentacle_ray.png",
 		sprite_unidentified = "data/ui_gfx/gun_actions/electric_charge_unidentified.png",
 		related_extra_entities = { "data/entities/misc/tentacle_ray.xml" },
@@ -7544,8 +7544,8 @@ actions =
 	},
 	{
 		id          = "LASER_EMITTER_RAY",
-		name 		= "$action_laser_emitter_ray",
-		description = "$actiondesc_laser_emitter_ray",
+		name 		= "$action_laser_emitter_ray", -- Plasma Beam Thrower
+		description = "$actiondesc_laser_emitter_ray", -- A projectile fires plasma beams in all directions!
 		sprite 		= "data/ui_gfx/gun_actions/laser_emitter_ray.png",
 		sprite_unidentified = "data/ui_gfx/gun_actions/electric_charge_unidentified.png",
 		related_extra_entities = { "data/entities/misc/laser_emitter_ray.xml" },
@@ -7562,8 +7562,8 @@ actions =
 	},
 	{
 		id          = "FIREBALL_RAY_LINE",
-		name 		= "$action_fireball_ray_line",
-		description = "$actiondesc_fireball_ray_line",
+		name 		= "$action_fireball_ray_line", -- Two-way fireball thrower
+		description = "$actiondesc_fireball_ray_line", -- Makes a projectile fire small fireballs perpendicular to its trajectory
 		sprite 		= "data/ui_gfx/gun_actions/fireball_ray_line.png",
 		sprite_unidentified = "data/ui_gfx/gun_actions/electric_charge_unidentified.png",
 		related_extra_entities = { "data/entities/misc/fireball_ray_line.xml" },
@@ -7580,8 +7580,8 @@ actions =
 	},
 	{
 		id          = "FIREBALL_RAY_ENEMY",
-		name 		= "$action_fireball_ray_enemy",
-		description = "$actiondesc_fireball_ray_enemy",
+		name 		= "$action_fireball_ray_enemy", -- Personal fireball thrower
+		description = "$actiondesc_fireball_ray_enemy", -- Makes a projectile turn the creatures it hits into living fireball throwers
 		sprite 		= "data/ui_gfx/gun_actions/fireball_ray_enemy.png",
 		sprite_unidentified = "data/ui_gfx/gun_actions/electric_charge_unidentified.png",
 		related_extra_entities = { "data/entities/misc/hitfx_fireball_ray_enemy.xml" },
@@ -7598,8 +7598,8 @@ actions =
 	},
 	{
 		id          = "LIGHTNING_RAY_ENEMY",
-		name 		= "$action_lightning_ray_enemy",
-		description = "$actiondesc_lightning_ray_enemy",
+		name 		= "$action_lightning_ray_enemy", -- Personal lightning caster
+		description = "$actiondesc_lightning_ray_enemy", -- Makes a projectile turn the creatures it hits into living thunderstorms
 		sprite 		= "data/ui_gfx/gun_actions/lightning_ray_enemy.png",
 		sprite_unidentified = "data/ui_gfx/gun_actions/electric_charge_unidentified.png",
 		related_extra_entities = { "data/entities/misc/hitfx_lightning_ray_enemy.xml" },
@@ -7617,8 +7617,8 @@ actions =
 	},
 	{
 		id          = "TENTACLE_RAY_ENEMY",
-		name 		= "$action_tentacle_ray_enemy",
-		description = "$actiondesc_tentacle_ray_enemy",
+		name 		= "$action_tentacle_ray_enemy", -- Personal tentacler
+		description = "$actiondesc_tentacle_ray_enemy", -- Makes creatures hit by a projectile grow tentacles in a chaotic manner
 		sprite 		= "data/ui_gfx/gun_actions/tentacle_ray_enemy.png",
 		sprite_unidentified = "data/ui_gfx/gun_actions/electric_charge_unidentified.png",
 		related_extra_entities = { "data/entities/misc/hitfx_tentacle_ray_enemy.xml" },
@@ -7635,8 +7635,8 @@ actions =
 	},
 	{
 		id          = "GRAVITY_FIELD_ENEMY",
-		name 		= "$action_gravity_field_enemy",
-		description = "$actiondesc_gravity_field_enemy",
+		name 		= "$action_gravity_field_enemy", -- Personal gravity field
+		description = "$actiondesc_gravity_field_enemy", -- Makes creatures hit by a projectile gain a temporary gravity well that draws projectiles in
 		sprite 		= "data/ui_gfx/gun_actions/gravity_field_enemy.png",
 		sprite_unidentified = "data/ui_gfx/gun_actions/electric_charge_unidentified.png",
 		related_extra_entities = { "data/entities/misc/hitfx_gravity_field_enemy.xml" },
@@ -7653,8 +7653,8 @@ actions =
 	},
 	{
 		id          = "CURSE",
-		name 		= "$action_curse",
-		description = "$actiondesc_curse",
+		name 		= "$action_curse", -- Venomous Curse
+		description = "$actiondesc_curse", -- Imbues a projectile with a curse that makes the target hit by the projectile to waste away
 		sprite 		= "data/ui_gfx/gun_actions/curse.png",
 		sprite_unidentified = "data/ui_gfx/gun_actions/electric_charge_unidentified.png",
 		related_extra_entities = { "data/entities/misc/hitfx_curse.xml" },
@@ -7670,8 +7670,8 @@ actions =
 	},
 	{
 		id          = "CURSE_WITHER_PROJECTILE",
-		name 		= "$action_curse_wither_projectile",
-		description = "$actiondesc_curse_wither_projectile",
+		name 		= "$action_curse_wither_projectile", -- Weakening Curse - Projectiles
+		description = "$actiondesc_curse_wither_projectile", -- Target hit by a projectile takes 25% extra projectile damage for a time
 		sprite 		= "data/ui_gfx/gun_actions/curse_wither_projectile.png",
 		sprite_unidentified = "data/ui_gfx/gun_actions/electric_charge_unidentified.png",
 		related_extra_entities = { "data/entities/misc/hitfx_curse_wither_projectile.xml" },
@@ -7687,8 +7687,8 @@ actions =
 	},
 	{
 		id          = "CURSE_WITHER_EXPLOSION",
-		name 		= "$action_curse_wither_explosion",
-		description = "$actiondesc_curse_wither_explosion",
+		name 		= "$action_curse_wither_explosion", -- Weakening Curse - Explosives
+		description = "$actiondesc_curse_wither_explosion", -- Target hit by a projectile takes 25% extra explosion damage for a time
 		sprite 		= "data/ui_gfx/gun_actions/curse_wither_explosion.png",
 		sprite_unidentified = "data/ui_gfx/gun_actions/electric_charge_unidentified.png",
 		related_extra_entities = { "data/entities/misc/hitfx_curse_wither_explosion.xml" },
@@ -7704,8 +7704,8 @@ actions =
 	},
 	{
 		id          = "CURSE_WITHER_MELEE",
-		name 		= "$action_curse_wither_melee",
-		description = "$actiondesc_curse_wither_melee",
+		name 		= "$action_curse_wither_melee", -- Weakening Curse - Melee
+		description = "$actiondesc_curse_wither_melee", -- Target hit by a projectile takes 25% extra melee damage for a time
 		sprite 		= "data/ui_gfx/gun_actions/curse_wither_melee.png",
 		sprite_unidentified = "data/ui_gfx/gun_actions/electric_charge_unidentified.png",
 		related_extra_entities = { "data/entities/misc/hitfx_curse_wither_melee.xml" },
@@ -7721,8 +7721,8 @@ actions =
 	},
 	{
 		id          = "CURSE_WITHER_ELECTRICITY",
-		name 		= "$action_curse_wither_electricity",
-		description = "$actiondesc_curse_wither_electricity",
+		name 		= "$action_curse_wither_electricity", -- Weakening Curse - Electricity
+		description = "$actiondesc_curse_wither_electricity", -- Target hit by a projectile takes 25% extra electricity damage for a time
 		sprite 		= "data/ui_gfx/gun_actions/curse_wither_electricity.png",
 		sprite_unidentified = "data/ui_gfx/gun_actions/electric_charge_unidentified.png",
 		related_extra_entities = { "data/entities/misc/hitfx_curse_wither_electricity.xml" },
@@ -7738,8 +7738,8 @@ actions =
 	},
 	{
 		id          = "ORBIT_DISCS",
-		name 		= "$action_orbit_discs",
-		description = "$actiondesc_orbit_discs",
+		name 		= "$action_orbit_discs", -- Sawblade Orbit
+		description = "$actiondesc_orbit_discs", -- Makes four sawblades rotate around a projectile
 		sprite 		= "data/ui_gfx/gun_actions/orbit_discs.png",
 		sprite_unidentified = "data/ui_gfx/gun_actions/electric_charge_unidentified.png",
 		related_extra_entities = { "data/entities/misc/orbit_discs.xml" },
@@ -7756,8 +7756,8 @@ actions =
 	},
 	{
 		id          = "ORBIT_FIREBALLS",
-		name 		= "$action_orbit_fireballs",
-		description = "$actiondesc_orbit_fireballs",
+		name 		= "$action_orbit_fireballs", -- Fireball Orbit
+		description = "$actiondesc_orbit_fireballs", -- Makes four fireballs rotate around a projectile
 		sprite 		= "data/ui_gfx/gun_actions/orbit_fireballs.png",
 		sprite_unidentified = "data/ui_gfx/gun_actions/electric_charge_unidentified.png",
 		related_extra_entities = { "data/entities/misc/orbit_fireballs.xml" },
@@ -7774,8 +7774,8 @@ actions =
 	},
 	{
 		id          = "ORBIT_NUKES",
-		name 		= "$action_orbit_nukes",
-		description = "$actiondesc_orbit_nukes",
+		name 		= "$action_orbit_nukes", -- Nuke Orbit
+		description = "$actiondesc_orbit_nukes", -- Makes four… nukes(?!) rotate around a projectile
 		sprite 		= "data/ui_gfx/gun_actions/orbit_nukes.png",
 		sprite_unidentified = "data/ui_gfx/gun_actions/electric_charge_unidentified.png",
 		related_extra_entities = { "data/entities/misc/orbit_nukes.xml" },
@@ -7794,8 +7794,8 @@ actions =
 	},
 	{
 		id          = "ORBIT_LASERS",
-		name 		= "$action_orbit_lasers",
-		description = "$actiondesc_orbit_lasers",
+		name 		= "$action_orbit_lasers", -- Plasma Beam Orbit
+		description = "$actiondesc_orbit_lasers", -- Makes four plasma beams rotate around a projectile
 		sprite 		= "data/ui_gfx/gun_actions/orbit_lasers.png",
 		sprite_unidentified = "data/ui_gfx/gun_actions/electric_charge_unidentified.png",
 		related_extra_entities = { "data/entities/misc/orbit_lasers.xml" },
@@ -7812,8 +7812,8 @@ actions =
 	},
 	{
 		id          = "ORBIT_LARPA",
-		name 		= "$action_orbit_larpa",
-		description = "$actiondesc_orbit_larpa",
+		name 		= "$action_orbit_larpa", -- Orbit Larpa
+		description = "$actiondesc_orbit_larpa", -- Makes four copies of a projectile rotate around it
 		sprite 		= "data/ui_gfx/gun_actions/orbit_larpa.png",
 		sprite_unidentified = "data/ui_gfx/gun_actions/electric_charge_unidentified.png",
 		related_extra_entities = { "data/entities/misc/orbit_larpa.xml" },
@@ -7830,8 +7830,8 @@ actions =
 	},
 	{
 		id          = "CHAIN_SHOT",
-		name 		= "$action_chain_shot",
-		description = "$actiondesc_chain_shot",
+		name 		= "$action_chain_shot", -- Chain Spell
+		description = "$actiondesc_chain_shot", -- "Causes a projectile to cast a copy of itself upon expiring
 		sprite 		= "data/ui_gfx/gun_actions/chain_shot.png",
 		sprite_unidentified = "data/ui_gfx/gun_actions/homing_unidentified.png",
 		related_extra_entities = { "data/entities/misc/chain_shot.xml" },
@@ -7856,8 +7856,8 @@ actions =
 	--[[
 	{
 		id          = "HITFX_OILED_FREEZE",
-		name 		= "$action_hitfx_oiled_freeze",
-		description = "$actiondesc_hitfx_oiled_freeze",
+		name 		= "$action_hitfx_oiled_freeze", -- Oil freeze
+		description = "$actiondesc_hitfx_oiled_freeze", -- Makes a projectile freeze enemies drenched in oil
 		sprite 		= "data/ui_gfx/gun_actions/oiled_freeze.png",
 		sprite_unidentified = "data/ui_gfx/gun_actions/freeze_unidentified.png",
 		type 		= ACTION_TYPE_MODIFIER,
@@ -7875,8 +7875,8 @@ actions =
 	--[[
 	{
 		id          = "ALCOHOL_SHOT",
-		name 		= "$action_alcohol_shot",
-		description = "$actiondesc_alcohol_shot",
+		name 		= "$action_alcohol_shot", -- Alcohol shot
+		description = "$actiondesc_alcohol_shot", -- Makes a projectile get the enemies it hits drunk
 		sprite 		= "data/ui_gfx/gun_actions/inebriation.png",
 		sprite_unidentified = "data/ui_gfx/gun_actions/freeze_unidentified.png",
 		type 		= ACTION_TYPE_MODIFIER,
@@ -7894,8 +7894,8 @@ actions =
 	--[[
 	{
 		id          = "FREEZE_IF_WET_SHOOTER",
-		name 		= "$action_freeze_if_wet_shooter",
-		description = "$actiondesc_freeze_if_wet_shooter",
+		name 		= "$action_freeze_if_wet_shooter", -- Freeze if wet
+		description = "$actiondesc_freeze_if_wet_shooter", -- "If caster is wet
 		sprite 		= "data/ui_gfx/gun_actions/freeze.png",
 		sprite_unidentified = "data/ui_gfx/gun_actions/freeze_unidentified.png",
 		type 		= ACTION_TYPE_MODIFIER,
@@ -7913,8 +7913,8 @@ actions =
 	--[[
 	{
 		id          = "BLINDNESS",
-		name 		= "$action_blindness",
-		description = "$actiondesc_blindness",
+		name 		= "$action_blindness", -- Blindness
+		description = "$actiondesc_blindness", -- I can't see!
 		sprite 		= "data/ui_gfx/gun_actions/blindness.png",
 		type 		= ACTION_TYPE_MODIFIER,
 		spawn_level                       = "", -- BLINDNESS
@@ -7930,8 +7930,8 @@ actions =
 	},
 	{
 		id          = "TELEPORTATION",
-		name 		= "$action_teleportation",
-		description = "$actiondesc_teleportation",
+		name 		= "$action_teleportation", -- Teleportation
+		description = "$actiondesc_teleportation", -- Spells cast alongside this will teleport enemies
 		sprite 		= "data/ui_gfx/gun_actions/teleportation.png",
 		type 		= ACTION_TYPE_MODIFIER,
 		spawn_level                       = "", -- TELEPORTATION
@@ -7947,8 +7947,8 @@ actions =
 	},
 	{
 		id          = "TELEPATHY",
-		name 		= "$action_telepathy",
-		description = "$actiondesc_telepathy",
+		name 		= "$action_telepathy", -- Telepathy
+		description = "$actiondesc_telepathy", -- Sense other beings through walls
 		sprite 		= "data/ui_gfx/gun_actions/telepathy.png",
 		type 		= ACTION_TYPE_OTHER,
 		spawn_level                       = "", -- TELEPATHY
@@ -7964,8 +7964,8 @@ actions =
 	]]--
 	{
 		id          = "ARC_ELECTRIC",
-		name 		= "$action_arc_electric",
-		description = "$actiondesc_arc_electric",
+		name 		= "$action_arc_electric", -- Electric Arc
+		description = "$actiondesc_arc_electric", -- Creates arcs of lightning between projectiles (requires 2 projectile spells)
 		sprite 		= "data/ui_gfx/gun_actions/arc_electric.png",
 		sprite_unidentified = "data/ui_gfx/gun_actions/arc_electric_unidentified.png",
 		related_extra_entities = { "data/entities/misc/arc_electric.xml" },
@@ -7983,8 +7983,8 @@ actions =
 	},
 	{
 		id          = "ARC_FIRE",
-		name 		= "$action_arc_fire",
-		description = "$actiondesc_arc_fire",
+		name 		= "$action_arc_fire", -- Fire Arc
+		description = "$actiondesc_arc_fire", -- Creates arcs of fire between projectiles (requires 2 projectile spells)
 		sprite 		= "data/ui_gfx/gun_actions/arc_fire.png",
 		sprite_unidentified = "data/ui_gfx/gun_actions/arc_fire_unidentified.png",
 		related_extra_entities = { "data/entities/misc/arc_fire.xml" },
@@ -8002,8 +8002,8 @@ actions =
 	},
 	{
 		id          = "ARC_GUNPOWDER",
-		name 		= "$action_arc_gunpowder",
-		description = "$actiondesc_arc_gunpowder",
+		name 		= "$action_arc_gunpowder", -- Gunpowder Arc
+		description = "$actiondesc_arc_gunpowder", -- Creates arcs of gunpowder between projectiles (requires 2 projectile spells)
 		sprite 		= "data/ui_gfx/gun_actions/arc_gunpowder.png",
 		sprite_unidentified = "data/ui_gfx/gun_actions/arc_fire_unidentified.png",
 		related_extra_entities = { "data/entities/misc/arc_gunpowder.xml" },
@@ -8021,8 +8021,8 @@ actions =
 	},
 	{
 		id          = "ARC_POISON",
-		name 		= "$action_arc_poison",
-		description = "$actiondesc_arc_poison",
+		name 		= "$action_arc_poison", -- Poison Arc
+		description = "$actiondesc_arc_poison", -- Creates arcs of poison between projectiles (requires 2 projectile spells)
 		sprite 		= "data/ui_gfx/gun_actions/arc_poison.png",
 		sprite_unidentified = "data/ui_gfx/gun_actions/arc_fire_unidentified.png",
 		related_extra_entities = { "data/entities/misc/arc_poison.xml" },
@@ -8040,8 +8040,8 @@ actions =
 	},
 	{
 		id          = "CRUMBLING_EARTH_PROJECTILE",
-		name 		= "$action_crumbling_earth_projectile",
-		description = "$actiondesc_crumbling_earth_projectile",
+		name 		= "$action_crumbling_earth_projectile", -- Earthquake shot
+		description = "$actiondesc_crumbling_earth_projectile", -- Makes a projectile crumble the earth it hits
 		sprite 		= "data/ui_gfx/gun_actions/crumbling_earth_projectile.png",
 		sprite_unidentified = "data/ui_gfx/gun_actions/arc_fire_unidentified.png",
 		related_extra_entities = { "data/entities/misc/crumbling_earth_projectile.xml" },
@@ -8060,8 +8060,8 @@ actions =
 	--[[
 	{
 		id          = "POLYMORPH",
-		name 		= "$action_polymorph",
-		description = "$actiondesc_polymorph",
+		name 		= "$action_polymorph", -- Polymorph charge
+		description = "$actiondesc_polymorph", -- Baaaaa
 		sprite 		= "data/ui_gfx/gun_actions/polymorph.png",
 		type 		= ACTION_TYPE_MODIFIER,
 		spawn_level                       = "", -- POLYMORPH
@@ -8079,8 +8079,8 @@ actions =
 	},
 	{
 		id          = "BERSERK",
-		name 		= "$action_berserk",
-		description = "$actiondesc_berserk",
+		name 		= "$action_berserk", -- Berserk
+		description = "$actiondesc_berserk", -- "Target enters a state of wild fury
 		sprite 		= "data/ui_gfx/gun_actions/berserk.png",
 		type 		= ACTION_TYPE_MODIFIER,
 		spawn_level                       = "", -- BERSERK
@@ -8097,8 +8097,8 @@ actions =
 	},
 	{
 		id          = "CHARM",
-		name 		= "$action_charm",
-		description = "$actiondesc_charm",
+		name 		= "$action_charm", -- Charm
+		description = "$actiondesc_charm", -- Target becomes friendly to the caster
 		sprite 		= "data/ui_gfx/gun_actions/charm.png",
 		type 		= ACTION_TYPE_MODIFIER,
 		spawn_level       = "", -- CHARM
@@ -8116,8 +8116,8 @@ actions =
 	]]--
 	{
 		id          = "X_RAY",
-		name 		= "$action_x_ray",
-		description = "$actiondesc_x_ray",
+		name 		= "$action_x_ray", -- All-seeing eye
+		description = "$actiondesc_x_ray", -- See into the unexplored. But not everywhere...
 		sprite 		= "data/ui_gfx/gun_actions/x_ray.png",
 		sprite_unidentified = "data/ui_gfx/gun_actions/x_ray_unidentified.png",
 		related_projectiles	= {"data/entities/projectiles/deck/xray.xml"},
@@ -8135,8 +8135,8 @@ actions =
 	--[[
 	{
 		id          = "X_RAY_MODIFIER",
-		name 		= "$action_x_ray_modifier",
-		description = "$actiondesc_x_ray_modifier",
+		name 		= "$action_x_ray_modifier", -- X-ray modifier
+		description = "$actiondesc_x_ray_modifier", -- Projectile lights the way in the darkness
 		sprite 		= "data/ui_gfx/gun_actions/x_ray.png",
 		sprite_unidentified = "data/ui_gfx/gun_actions/x_ray_unidentified.png",
 		type 		= ACTION_TYPE_MODIFIER,
@@ -8155,8 +8155,8 @@ actions =
 	},
 	{
 		id          = "ACID",
-		name 		= "$action_acid",
-		description = "$actiondesc_acid",
+		name 		= "$action_acid", -- Acid
+		description = "$actiondesc_acid", -- Projectiles turn into acid on collision
 		sprite 		= "data/ui_gfx/gun_actions/acid.png",
 		type 		= ACTION_TYPE_MODIFIER,
 		spawn_level                       = "", -- ACID
@@ -8169,8 +8169,8 @@ actions =
 	},]]--
 	{
 		id          = "UNSTABLE_GUNPOWDER",
-		name 		= "$action_unstable_gunpowder",
-		description = "$actiondesc_unstable_gunpowder",
+		name 		= "$action_unstable_gunpowder", -- Firecrackers
+		description = "$actiondesc_unstable_gunpowder", -- Makes a projectile release firecrackers when it disappears
 		sprite 		= "data/ui_gfx/gun_actions/unstable_gunpowder.png",
 		sprite_unidentified = "data/ui_gfx/gun_actions/unstable_gunpowder_unidentified.png",
 		type 		= ACTION_TYPE_MODIFIER,
@@ -8189,8 +8189,8 @@ actions =
 	},
 	{
 		id          = "ACID_TRAIL",
-		name 		= "$action_acid_trail",
-		description = "$actiondesc_acid_trail",
+		name 		= "$action_acid_trail", -- Acid trail
+		description = "$actiondesc_acid_trail", -- Gives a projectile a trail of acid
 		sprite 		= "data/ui_gfx/gun_actions/acid_trail.png",
 		sprite_unidentified = "data/ui_gfx/gun_actions/acid_trail_unidentified.png",
 		type 		= ACTION_TYPE_MODIFIER,
@@ -8208,8 +8208,8 @@ actions =
 	},
 	{
 		id          = "POISON_TRAIL",
-		name 		= "$action_poison_trail",
-		description = "$actiondesc_poison_trail",
+		name 		= "$action_poison_trail", -- Poison trail
+		description = "$actiondesc_poison_trail", -- Gives a projectile a trail of poison
 		sprite 		= "data/ui_gfx/gun_actions/poison_trail.png",
 		sprite_unidentified = "data/ui_gfx/gun_actions/poison_trail_unidentified.png",
 		type 		= ACTION_TYPE_MODIFIER,
@@ -8228,8 +8228,8 @@ actions =
 	},
 	{
 		id          = "OIL_TRAIL",
-		name 		= "$action_oil_trail",
-		description = "$actiondesc_oil_trail",
+		name 		= "$action_oil_trail", -- Oil trail
+		description = "$actiondesc_oil_trail", -- Gives a projectile a trail of oil
 		sprite 		= "data/ui_gfx/gun_actions/oil_trail.png",
 		sprite_unidentified = "data/ui_gfx/gun_actions/oil_trail_unidentified.png",
 		type 		= ACTION_TYPE_MODIFIER,
@@ -8248,8 +8248,8 @@ actions =
 	},
 	{
 		id          = "WATER_TRAIL",
-		name 		= "$action_water_trail",
-		description = "$actiondesc_water_trail",
+		name 		= "$action_water_trail", -- Water trail
+		description = "$actiondesc_water_trail", -- Gives a projectile a trail of water
 		sprite 		= "data/ui_gfx/gun_actions/water_trail.png",
 		sprite_unidentified = "data/ui_gfx/gun_actions/oil_trail_unidentified.png",
 		type 		= ACTION_TYPE_MODIFIER,
@@ -8274,8 +8274,8 @@ actions =
 	--[[
 	{
 		id          = "BLOOD_TRAIL",
-		name 		= "$action_blood_trail",
-		description = "$actiondesc_blood_trail",
+		name 		= "$action_blood_trail", -- Blood trail
+		description = "$actiondesc_blood_trail", -- Gives a projectile a trail of blood
 		sprite 		= "data/ui_gfx/gun_actions/blood_trail.png",
 		sprite_unidentified = "data/ui_gfx/gun_actions/oil_trail_unidentified.png",
 		type 		= ACTION_TYPE_MODIFIER,
@@ -8293,8 +8293,8 @@ actions =
 	},]]--
 	{
 		id          = "GUNPOWDER_TRAIL",
-		name 		= "$action_gunpowder_trail",
-		description = "$actiondesc_gunpowder_trail",
+		name 		= "$action_gunpowder_trail", -- Gunpowder trail
+		description = "$actiondesc_gunpowder_trail", -- Gives a projectile a trail of gunpowder
 		sprite 		= "data/ui_gfx/gun_actions/gunpowder_trail.png",
 		sprite_unidentified = "data/ui_gfx/gun_actions/oil_trail_unidentified.png",
 		type 		= ACTION_TYPE_MODIFIER,
@@ -8312,8 +8312,8 @@ actions =
 	},
 	{
 		id          = "FIRE_TRAIL",
-		name 		= "$action_fire_trail",
-		description = "$actiondesc_fire_trail",
+		name 		= "$action_fire_trail", -- Fire trail
+		description = "$actiondesc_fire_trail", -- Gives a projectile a trail of fiery particles
 		sprite 		= "data/ui_gfx/gun_actions/fire_trail.png",
 		sprite_unidentified = "data/ui_gfx/gun_actions/fire_trail_unidentified.png",
 		type 		= ACTION_TYPE_MODIFIER,
@@ -8332,8 +8332,8 @@ actions =
 	},
 	{
 		id          = "BURN_TRAIL",
-		name 		= "$action_burn_trail",
-		description = "$actiondesc_burn_trail",
+		name 		= "$action_burn_trail", -- Burning trail
+		description = "$actiondesc_burn_trail", -- Gives a projectile a tail of fire
 		sprite 		= "data/ui_gfx/gun_actions/burn_trail.png",
 		sprite_unidentified = "data/ui_gfx/gun_actions/burn_trail_unidentified.png",
 		related_extra_entities = { "data/entities/misc/burn.xml" },
@@ -8352,8 +8352,8 @@ actions =
 	},
 	{
 		id          = "TORCH",
-		name 		= "$action_torch",
-		description = "$actiondesc_torch",
+		name 		= "$action_torch", -- Torch
+		description = "$actiondesc_torch", -- Lights your wand right up!
 		sprite 		= "data/ui_gfx/gun_actions/torch.png",
 		sprite_unidentified = "data/ui_gfx/gun_actions/torch_unidentified.png",
 		type 		= ACTION_TYPE_PASSIVE,
@@ -8369,8 +8369,8 @@ actions =
 	},
 	{
 		id          = "TORCH_ELECTRIC",
-		name 		= "$action_torch_electric",
-		description = "$actiondesc_torch_electric",
+		name 		= "$action_torch_electric", -- Electric Torch
+		description = "$actiondesc_torch_electric", -- Gives your wand a bright but very dangerous light!
 		sprite 		= "data/ui_gfx/gun_actions/torch_electric.png",
 		sprite_unidentified = "data/ui_gfx/gun_actions/torch_unidentified.png",
 		type 		= ACTION_TYPE_PASSIVE,
@@ -8386,8 +8386,8 @@ actions =
 	},
 	{
 		id          = "ENERGY_SHIELD",
-		name 		= "$action_energy_shield",
-		description = "$actiondesc_energy_shield",
+		name 		= "$action_energy_shield", -- Energy shield
+		description = "$actiondesc_energy_shield", -- Deflects incoming projectiles
 		sprite 		= "data/ui_gfx/gun_actions/energy_shield.png",
 		sprite_unidentified = "data/ui_gfx/gun_actions/energy_shield_unidentified.png",
 		type 		= ACTION_TYPE_PASSIVE,
@@ -8402,8 +8402,8 @@ actions =
 	},
 	{
 		id          = "ENERGY_SHIELD_SECTOR",
-		name 		= "$action_energy_shield_sector",
-		description = "$actiondesc_energy_shield_sector",
+		name 		= "$action_energy_shield_sector", -- Energy shield sector
+		description = "$actiondesc_energy_shield_sector", -- Deflects incoming projectiles
 		sprite 		= "data/ui_gfx/gun_actions/energy_shield_sector.png",
 		sprite_unidentified = "data/ui_gfx/gun_actions/energy_shield_sector_unidentified.png",
 		type 		= ACTION_TYPE_PASSIVE,
@@ -8418,8 +8418,8 @@ actions =
 	},
 	{
 		id          = "ENERGY_SHIELD_SHOT",
-		name 		= "$action_energy_shield_shot",
-		description = "$actiondesc_energy_shield_shot",
+		name 		= "$action_energy_shield_shot", -- Projectile energy shield
+		description = "$actiondesc_energy_shield_shot", -- Gives a projectile a shield that deflects other projectiles
 		sprite 		= "data/ui_gfx/gun_actions/energy_shield_shot.png",
 		sprite_unidentified = "data/ui_gfx/gun_actions/energy_shield_shot_unidentified.png",
 		related_extra_entities = { "data/entities/misc/energy_shield_shot.xml" },
@@ -8443,8 +8443,8 @@ actions =
 	},
 	{
 		id          = "TINY_GHOST",
-		name 		= "$action_tiny_ghost",
-		description = "$actiondesc_tiny_ghost",
+		name 		= "$action_tiny_ghost", -- Summon Tiny Ghost
+		description = "$actiondesc_tiny_ghost", -- Summons a tiny ethereal being to your help
 		sprite 		= "data/ui_gfx/gun_actions/tiny_ghost.png",
 		sprite_unidentified = "data/ui_gfx/gun_actions/torch_unidentified.png",
 		type 		= ACTION_TYPE_PASSIVE,
@@ -8460,8 +8460,8 @@ actions =
 	--[[
 	{
 		id          = "DUCK",
-		name 		= "$action_duck",
-		description = "$actiondesc_duck",
+		name 		= "$action_duck", -- Duck
+		description = "$actiondesc_duck", -- Duck!
 		sprite 		= "data/ui_gfx/gun_actions/duck.png",
 		type 		= ACTION_TYPE_MODIFIER,
 		spawn_level                       = "", -- DUCK
@@ -8477,8 +8477,8 @@ actions =
 	--[[
 	{
 		id          = "DUPLICATE_ON_DEATH",
-		name 		= "$action_duplicate_on_death",
-		description = "$actiondesc_duplicate_on_death",
+		name 		= "$action_duplicate_on_death", -- Duplicate
+		description = "$actiondesc_duplicate_on_death", -- Projectile clones itself x2 on collision
 		sprite 		= "data/ui_gfx/gun_actions/duplicate_on_death.png",
 		type 		= ACTION_TYPE_MODIFIER,
 		spawn_level                       = "", -- DUPLICATE_ON_DEATH
@@ -8492,8 +8492,8 @@ actions =
 	--[[
 	{
 		id          = "BEE",
-		name 		= "$action_bee",
-		description = "$actiondesc_bee",
+		name 		= "$action_bee", -- Bee
+		description = "$actiondesc_bee", -- Bee
 		sprite 		= "data/ui_gfx/gun_actions/bee.png",
 		type 		= ACTION_TYPE_MODIFIER,
 		spawn_level                       = "", -- BEE
@@ -8505,8 +8505,8 @@ actions =
 	},
 	{
 		id          = "DUCK",
-		name 		= "$action_duck",
-		description = "$actiondesc_duck",
+		name 		= "$action_duck", -- Duck
+		description = "$actiondesc_duck", -- Duck!
 		sprite 		= "data/ui_gfx/gun_actions/duck.png",
 		type 		= ACTION_TYPE_MODIFIER,
 		spawn_level                       = "", -- DUCK
@@ -8518,8 +8518,8 @@ actions =
 	},
 	{
 		id          = "SHEEP",
-		name 		= "$action_sheep",
-		description = "$actiondesc_sheep",
+		name 		= "$action_sheep", -- Sheep
+		description = "$actiondesc_sheep", -- Sheep!
 		sprite 		= "data/ui_gfx/gun_actions/sheep.png",
 		type 		= ACTION_TYPE_MODIFIER,
 		spawn_level                       = "", -- SHEEP
@@ -8534,8 +8534,8 @@ actions =
 	--[[
 	{
 		id          = "MISFIRE",
-		name 		= "$action_misfire",
-		description = "$actiondesc_misfire",
+		name 		= "$action_misfire", -- Misfire
+		description = "$actiondesc_misfire", -- Discard 1 spell
 		sprite 		= "data/ui_gfx/gun_actions/misfire.png",
 		type 		= ACTION_TYPE_MODIFIER,
 		spawn_level                       = "", -- MISFIRE
@@ -8547,8 +8547,8 @@ actions =
 	},
 	{
 		id          = "MISFIRE_CRITICAL",
-		name 		= "$action_misfire_critical",
-		description = "$actiondesc_misfire_critical",
+		name 		= "$action_misfire_critical", -- Misfire (critical)
+		description = "$actiondesc_misfire_critical", -- Permanently destroy 1 spell
 		sprite 		= "data/ui_gfx/gun_actions/misfire_critical.png",
 		type 		= ACTION_TYPE_MODIFIER,
 		spawn_level                       = "", -- MISFIRE_CRITICAL
@@ -8560,8 +8560,8 @@ actions =
 	},
 	{
 		id          = "GENERATE_RANDOM_DECK_5",
-		name 		= "$action_generate_random_deck_5",
-		description = "$actiondesc_generate_random_deck_5",
+		name 		= "$action_generate_random_deck_5", -- Generate random deck (5)
+		description = "$actiondesc_generate_random_deck_5", -- Current deck is replaced with a random deck of 5 cards
 		sprite 		= "data/ui_gfx/gun_actions/generate_random_deck_5.png",
 		type 		= ACTION_TYPE_MODIFIER,
 		spawn_level                       = "", -- GENERATE_RANDOM_DECK_5
@@ -8573,8 +8573,8 @@ actions =
 	},]]--	
 	{
 		id          = "OCARINA_A",
-		name 		= "$action_ocarina_a",
-		description = "$actiondesc_ocarina_a",
+		name 		= "$action_ocarina_a", -- Ocarina - note A
+		description = "$actiondesc_ocarina_a", -- Music for your ears!
 		spawn_requires_flag = "card_unlocked_ocarina",
 		sprite 		= "data/ui_gfx/gun_actions/ocarina_a.png",
 		related_projectiles	= {"data/entities/projectiles/deck/ocarina/ocarina_a.xml"},
@@ -8590,8 +8590,8 @@ actions =
 	},
 	{
 		id          = "OCARINA_B",
-		name 		= "$action_ocarina_b",
-		description = "$actiondesc_ocarina_b",
+		name 		= "$action_ocarina_b", -- Ocarina - note B
+		description = "$actiondesc_ocarina_b", -- Music for your ears!
 		spawn_requires_flag = "card_unlocked_ocarina",
 		sprite 		= "data/ui_gfx/gun_actions/ocarina_b.png",
 		related_projectiles	= {"data/entities/projectiles/deck/ocarina/ocarina_b.xml"},
@@ -8607,8 +8607,8 @@ actions =
 	},
 	{
 		id          = "OCARINA_C",
-		name 		= "$action_ocarina_c",
-		description = "$actiondesc_ocarina_c",
+		name 		= "$action_ocarina_c", -- Ocarina - note C
+		description = "$actiondesc_ocarina_c", -- Music for your ears!
 		spawn_requires_flag = "card_unlocked_ocarina",
 		sprite 		= "data/ui_gfx/gun_actions/ocarina_c.png",
 		related_projectiles	= {"data/entities/projectiles/deck/ocarina/ocarina_c.xml"},
@@ -8624,8 +8624,8 @@ actions =
 	},
 	{
 		id          = "OCARINA_D",
-		name 		= "$action_ocarina_d",
-		description = "$actiondesc_ocarina_d",
+		name 		= "$action_ocarina_d", -- Ocarina - note D
+		description = "$actiondesc_ocarina_d", -- Music for your ears!
 		spawn_requires_flag = "card_unlocked_ocarina",
 		sprite 		= "data/ui_gfx/gun_actions/ocarina_d.png",
 		related_projectiles	= {"data/entities/projectiles/deck/ocarina/ocarina_d.xml"},
@@ -8641,8 +8641,8 @@ actions =
 	},
 	{
 		id          = "OCARINA_E",
-		name 		= "$action_ocarina_e",
-		description = "$actiondesc_ocarina_e",
+		name 		= "$action_ocarina_e", -- Ocarina - note E
+		description = "$actiondesc_ocarina_e", -- Music for your ears!
 		spawn_requires_flag = "card_unlocked_ocarina",
 		sprite 		= "data/ui_gfx/gun_actions/ocarina_e.png",
 		related_projectiles	= {"data/entities/projectiles/deck/ocarina/ocarina_e.xml"},
@@ -8658,8 +8658,8 @@ actions =
 	},
 	{
 		id          = "OCARINA_F",
-		name 		= "$action_ocarina_f",
-		description = "$actiondesc_ocarina_f",
+		name 		= "$action_ocarina_f", -- Ocarina - note F
+		description = "$actiondesc_ocarina_f", -- Music for your ears!
 		spawn_requires_flag = "card_unlocked_ocarina",
 		sprite 		= "data/ui_gfx/gun_actions/ocarina_f.png",
 		related_projectiles	= {"data/entities/projectiles/deck/ocarina/ocarina_f.xml"},
@@ -8675,8 +8675,8 @@ actions =
 	},
 	{
 		id          = "OCARINA_GSHARP",
-		name 		= "$action_ocarina_gsharp",
-		description = "$actiondesc_ocarina_gsharp",
+		name 		= "$action_ocarina_gsharp", -- Ocarina - note G#
+		description = "$actiondesc_ocarina_gsharp", -- Music for your ears!
 		spawn_requires_flag = "card_unlocked_ocarina",
 		sprite 		= "data/ui_gfx/gun_actions/ocarina_gsharp.png",
 		related_projectiles	= {"data/entities/projectiles/deck/ocarina/ocarina_gsharp.xml"},
@@ -8692,8 +8692,8 @@ actions =
 	},
 	{
 		id          = "OCARINA_A2",
-		name 		= "$action_ocarina_a2",
-		description = "$actiondesc_ocarina_a2",
+		name 		= "$action_ocarina_a2", -- Ocarina - note A2
+		description = "$actiondesc_ocarina_a2", -- Music for your ears!
 		spawn_requires_flag = "card_unlocked_ocarina",
 		sprite 		= "data/ui_gfx/gun_actions/ocarina_a2.png",
 		related_projectiles	= {"data/entities/projectiles/deck/ocarina/ocarina_a2.xml"},
@@ -8709,8 +8709,8 @@ actions =
 	},
 	{
 		id          = "KANTELE_A",
-		name 		= "$action_kantele_a",
-		description = "$actiondesc_kantele_a",
+		name 		= "$action_kantele_a", -- Kantele - note A
+		description = "$actiondesc_kantele_a", -- Music for your ears!
 		spawn_requires_flag = "card_unlocked_kantele",
 		sprite 		= "data/ui_gfx/gun_actions/kantele_a.png",
 		related_projectiles	= {"data/entities/projectiles/deck/kantele/kantele_a.xml"},
@@ -8726,8 +8726,8 @@ actions =
 	},
 	{
 		id          = "KANTELE_D",
-		name 		= "$action_kantele_d",
-		description = "$actiondesc_kantele_d",
+		name 		= "$action_kantele_d", -- Kantele - note D
+		description = "$actiondesc_kantele_d", -- Music for your ears!
 		spawn_requires_flag = "card_unlocked_kantele",
 		sprite 		= "data/ui_gfx/gun_actions/kantele_d.png",
 		related_projectiles	= {"data/entities/projectiles/deck/kantele/kantele_d.xml"},
@@ -8743,8 +8743,8 @@ actions =
 	},
 	{
 		id          = "KANTELE_DIS",
-		name 		= "$action_kantele_dis",
-		description = "$actiondesc_kantele_dis",
+		name 		= "$action_kantele_dis", -- Kantele - note D#
+		description = "$actiondesc_kantele_dis", -- Music for your ears!
 		spawn_requires_flag = "card_unlocked_kantele",
 		sprite 		= "data/ui_gfx/gun_actions/kantele_dis.png",
 		related_projectiles	= {"data/entities/projectiles/deck/kantele/kantele_dis.xml"},
@@ -8760,8 +8760,8 @@ actions =
 	},
 	{
 		id          = "KANTELE_E",
-		name 		= "$action_kantele_e",
-		description = "$actiondesc_kantele_e",
+		name 		= "$action_kantele_e", -- Kantele - note E
+		description = "$actiondesc_kantele_e", -- Music for your ears!
 		spawn_requires_flag = "card_unlocked_kantele",
 		sprite 		= "data/ui_gfx/gun_actions/kantele_e.png",
 		related_projectiles	= {"data/entities/projectiles/deck/kantele/kantele_e.xml"},
@@ -8777,8 +8777,8 @@ actions =
 	},
 	{
 		id          = "KANTELE_G",
-		name 		= "$action_kantele_g",
-		description = "$actiondesc_kantele_g",
+		name 		= "$action_kantele_g", -- Kantele - note G
+		description = "$actiondesc_kantele_g", -- Music for your ears!
 		spawn_requires_flag = "card_unlocked_kantele",
 		sprite 		= "data/ui_gfx/gun_actions/kantele_g.png",
 		related_projectiles	= {"data/entities/projectiles/deck/kantele/kantele_g.xml"},
@@ -8794,8 +8794,8 @@ actions =
 	},
 	{
 		id          = "RANDOM_SPELL",
-		name 		= "$action_random_spell",
-		description = "$actiondesc_random_spell",
+		name 		= "$action_random_spell", -- Random spell
+		description = "$actiondesc_random_spell", -- "Casts a spell
 		sprite 		= "data/ui_gfx/gun_actions/random_spell.png",
 		sprite_unidentified = "data/ui_gfx/gun_actions/spread_reduce_unidentified.png",
 		spawn_requires_flag = "card_unlocked_pyramid",
@@ -8836,8 +8836,8 @@ actions =
 	},
 	{
 		id          = "RANDOM_PROJECTILE",
-		name 		= "$action_random_projectile",
-		description = "$actiondesc_random_projectile",
+		name 		= "$action_random_projectile", -- Random projectile spell
+		description = "$actiondesc_random_projectile", -- Casts one random projectile spell
 		sprite 		= "data/ui_gfx/gun_actions/random_projectile.png",
 		sprite_unidentified = "data/ui_gfx/gun_actions/spread_reduce_unidentified.png",
 		spawn_requires_flag = "card_unlocked_pyramid",
@@ -8878,8 +8878,8 @@ actions =
 	},
 	{
 		id          = "RANDOM_MODIFIER",
-		name 		= "$action_random_modifier",
-		description = "$actiondesc_random_modifier",
+		name 		= "$action_random_modifier", -- Random modifier spell
+		description = "$actiondesc_random_modifier", -- Casts one random modifier spell
 		sprite 		= "data/ui_gfx/gun_actions/random_modifier.png",
 		sprite_unidentified = "data/ui_gfx/gun_actions/spread_reduce_unidentified.png",
 		spawn_requires_flag = "card_unlocked_pyramid",
@@ -8920,8 +8920,8 @@ actions =
 	},
 	{
 		id          = "RANDOM_STATIC_PROJECTILE",
-		name 		= "$action_random_static_projectile",
-		description = "$actiondesc_random_static_projectile",
+		name 		= "$action_random_static_projectile", -- Random static projectile spell
+		description = "$actiondesc_random_static_projectile", -- Casts one random static projectile spell
 		sprite 		= "data/ui_gfx/gun_actions/random_static_projectile.png",
 		sprite_unidentified = "data/ui_gfx/gun_actions/spread_reduce_unidentified.png",
 		spawn_requires_flag = "card_unlocked_pyramid",
@@ -8962,8 +8962,8 @@ actions =
 	},
 	{
 		id          = "DRAW_RANDOM",
-		name 		= "$action_draw_random",
-		description = "$actiondesc_draw_random",
+		name 		= "$action_draw_random", -- Copy random spell
+		description = "$actiondesc_draw_random", -- Casts a random spell among the spells in your wand
 		sprite 		= "data/ui_gfx/gun_actions/draw_random.png",
 		sprite_unidentified = "data/ui_gfx/gun_actions/spread_reduce_unidentified.png",
 		spawn_requires_flag = "card_unlocked_pyramid",
@@ -9018,8 +9018,8 @@ actions =
 	},
 	{
 		id          = "DRAW_RANDOM_X3",
-		name 		= "$action_draw_random_x3",
-		description = "$actiondesc_draw_random_x3",
+		name 		= "$action_draw_random_x3", -- Copy random spell thrice
+		description = "$actiondesc_draw_random_x3", -- Casts a random spell among the spells in your wand three times!
 		sprite 		= "data/ui_gfx/gun_actions/draw_random_x3.png",
 		sprite_unidentified = "data/ui_gfx/gun_actions/spread_reduce_unidentified.png",
 		spawn_requires_flag = "card_unlocked_pyramid",
@@ -9076,8 +9076,8 @@ actions =
 	},
 	{
 		id          = "DRAW_3_RANDOM",
-		name 		= "$action_draw_3_random",
-		description = "$actiondesc_draw_3_random",
+		name 		= "$action_draw_3_random", -- Copy three random spells
+		description = "$actiondesc_draw_3_random", -- Casts three random spells among the spells in your wand
 		sprite 		= "data/ui_gfx/gun_actions/draw_3_random.png",
 		sprite_unidentified = "data/ui_gfx/gun_actions/spread_reduce_unidentified.png",
 		spawn_requires_flag = "card_unlocked_pyramid",
@@ -9135,8 +9135,8 @@ actions =
 	},
 	{
 		id          = "ALL_NUKES",
-		name 		= "$action_all_nukes",
-		description = "$actiondesc_all_nukes",
+		name 		= "$action_all_nukes", -- Spells to nukes
+		description = "$actiondesc_all_nukes", -- "Transforms every projectile currently in the air into a nuke
 		sprite 		= "data/ui_gfx/gun_actions/all_nukes.png",
 		sprite_unidentified = "data/ui_gfx/gun_actions/rocket_unidentified.png",
 		spawn_requires_flag = "card_unlocked_alchemy",
@@ -9156,8 +9156,8 @@ actions =
 	},
 	{
 		id          = "ALL_DISCS",
-		name 		= "$action_all_discs",
-		description = "$actiondesc_all_discs",
+		name 		= "$action_all_discs", -- Spells to giga sawblades
+		description = "$actiondesc_all_discs", -- Transforms every projectile currently in the air into a giant sawblade
 		sprite 		= "data/ui_gfx/gun_actions/all_discs.png",
 		sprite_unidentified = "data/ui_gfx/gun_actions/rocket_unidentified.png",
 		spawn_requires_flag = "card_unlocked_alchemy",
@@ -9175,8 +9175,8 @@ actions =
 	},
 	{
 		id          = "ALL_ROCKETS",
-		name 		= "$action_all_rockets",
-		description = "$actiondesc_all_rockets",
+		name 		= "$action_all_rockets", -- Spells to magic missiles
+		description = "$actiondesc_all_rockets", -- Transforms every projectile currently in the air into a magic missile
 		sprite 		= "data/ui_gfx/gun_actions/all_rockets.png",
 		sprite_unidentified = "data/ui_gfx/gun_actions/rocket_unidentified.png",
 		spawn_requires_flag = "card_unlocked_alchemy",
@@ -9195,8 +9195,8 @@ actions =
 	},
 	{
 		id          = "ALL_DEATHCROSSES",
-		name 		= "$action_all_deathcrosses",
-		description = "$actiondesc_all_deathcrosses",
+		name 		= "$action_all_deathcrosses", -- Spells to death crosses
+		description = "$actiondesc_all_deathcrosses", -- Transforms every projectile currently in the air into a death cross
 		sprite 		= "data/ui_gfx/gun_actions/all_deathcrosses.png",
 		sprite_unidentified = "data/ui_gfx/gun_actions/rocket_unidentified.png",
 		spawn_requires_flag = "card_unlocked_alchemy",
@@ -9215,8 +9215,8 @@ actions =
 	},
 	{
 		id          = "ALL_BLACKHOLES",
-		name 		= "$action_all_blackholes",
-		description = "$actiondesc_all_blackholes",
+		name 		= "$action_all_blackholes", -- Spells to black holes
+		description = "$actiondesc_all_blackholes", -- Transforms every projectile currently in the air into a black hole
 		sprite 		= "data/ui_gfx/gun_actions/all_blackholes.png",
 		sprite_unidentified = "data/ui_gfx/gun_actions/rocket_unidentified.png",
 		spawn_requires_flag = "card_unlocked_alchemy",
@@ -9235,8 +9235,8 @@ actions =
 	},
 	{
 		id          = "ALL_ACID",
-		name 		= "$action_all_acid",
-		description = "$actiondesc_all_acid",
+		name 		= "$action_all_acid", -- Spells to acid
+		description = "$actiondesc_all_acid", -- Transforms every projectile currently in the air into a pool of acid
 		sprite 		= "data/ui_gfx/gun_actions/all_acid.png",
 		sprite_unidentified = "data/ui_gfx/gun_actions/rocket_unidentified.png",
 		spawn_requires_flag = "card_unlocked_alchemy",
@@ -9254,8 +9254,8 @@ actions =
 	},
 	{
 		id          = "ALL_SPELLS",
-		name 		= "$action_all_spells",
-		description = "$actiondesc_all_spells",
+		name 		= "$action_all_spells", -- The end of everything
+		description = "$actiondesc_all_spells", -- You're heavily advised not to cast this spell.
 		sprite 		= "data/ui_gfx/gun_actions/all_spells.png",
 		sprite_unidentified = "data/ui_gfx/gun_actions/spread_reduce_unidentified.png",
 		spawn_requires_flag = "card_unlocked_everything",
@@ -9281,8 +9281,8 @@ actions =
 	},
 	{
 		id          = "SUMMON_PORTAL",
-		name 		= "$action_summon_portal",
-		description = "$actiondesc_summon_portal",
+		name 		= "$action_summon_portal", -- Summon portal
+		description = "$actiondesc_summon_portal", -- Summons a strange portal
 		sprite 		= "data/ui_gfx/gun_actions/summon_portal.png",
 		sprite_unidentified = "data/ui_gfx/gun_actions/spread_reduce_unidentified.png",
 		type 		= ACTION_TYPE_OTHER,
@@ -9299,8 +9299,8 @@ actions =
 	},
 	{
 		id          = "ADD_TRIGGER",
-		name 		= "$action_add_trigger",
-		description = "$actiondesc_add_trigger",
+		name 		= "$action_add_trigger", -- Add trigger
+		description = "$actiondesc_add_trigger", -- Makes a projectile cast another spell upon collision
 		sprite 		= "data/ui_gfx/gun_actions/trigger.png",
 		sprite_unidentified = "data/ui_gfx/gun_actions/damage_unidentified.png",
 		spawn_requires_flag = "card_unlocked_mestari",
@@ -9379,8 +9379,8 @@ actions =
 	},
 	{
 		id          = "ADD_TIMER",
-		name 		= "$action_add_timer",
-		description = "$actiondesc_add_timer",
+		name 		= "$action_add_timer", -- Add timer
+		description = "$actiondesc_add_timer", -- Makes a projectile cast another spell after a short time
 		sprite 		= "data/ui_gfx/gun_actions/timer.png",
 		sprite_unidentified = "data/ui_gfx/gun_actions/damage_unidentified.png",
 		spawn_requires_flag = "card_unlocked_mestari",
@@ -9459,8 +9459,8 @@ actions =
 	},
 	{
 		id          = "ADD_DEATH_TRIGGER",
-		name 		= "$action_add_death_trigger",
-		description = "$actiondesc_add_death_trigger",
+		name 		= "$action_add_death_trigger", -- Add expiration trigger
+		description = "$actiondesc_add_death_trigger", -- Makes a projectile cast another spell upon expiring
 		sprite 		= "data/ui_gfx/gun_actions/death_trigger.png",
 		sprite_unidentified = "data/ui_gfx/gun_actions/damage_unidentified.png",
 		spawn_requires_flag = "card_unlocked_mestari",
@@ -9539,8 +9539,8 @@ actions =
 	},
 	{
 		id          = "LARPA_CHAOS",
-		name 		= "$action_larpa_chaos",
-		description = "$actiondesc_larpa_chaos",
+		name 		= "$action_larpa_chaos", -- Chaos larpa
+		description = "$actiondesc_larpa_chaos", -- Makes a projectile cast copies of itself in random directions
 		sprite 		= "data/ui_gfx/gun_actions/larpa_chaos.png",
 		sprite_unidentified = "data/ui_gfx/gun_actions/electric_charge_unidentified.png",
 		related_extra_entities = { "data/entities/misc/larpa_chaos.xml" },
@@ -9558,8 +9558,8 @@ actions =
 	},
 	{
 		id          = "LARPA_DOWNWARDS",
-		name 		= "$action_larpa_downwards",
-		description = "$actiondesc_larpa_downwards",
+		name 		= "$action_larpa_downwards", -- Downwards larpa
+		description = "$actiondesc_larpa_downwards", -- Makes a projectile cast copies of itself with a downwards trajectory
 		sprite 		= "data/ui_gfx/gun_actions/larpa_downwards.png",
 		sprite_unidentified = "data/ui_gfx/gun_actions/electric_charge_unidentified.png",
 		related_extra_entities = { "data/entities/misc/larpa_downwards.xml" },
@@ -9577,8 +9577,8 @@ actions =
 	},
 	{
 		id          = "LARPA_UPWARDS",
-		name 		= "$action_larpa_upwards",
-		description = "$actiondesc_larpa_upwards",
+		name 		= "$action_larpa_upwards", -- Upwards larpa
+		description = "$actiondesc_larpa_upwards", -- Makes a projectile cast copies of itself with an upwards trajectory
 		sprite 		= "data/ui_gfx/gun_actions/larpa_upwards.png",
 		sprite_unidentified = "data/ui_gfx/gun_actions/electric_charge_unidentified.png",
 		related_extra_entities = { "data/entities/misc/larpa_upwards.xml" },
@@ -9596,8 +9596,8 @@ actions =
 	},
 	{
 		id          = "LARPA_CHAOS_2",
-		name 		= "$action_larpa_chaos_2",
-		description = "$actiondesc_larpa_chaos_2",
+		name 		= "$action_larpa_chaos_2", -- Copy trail
+		description = "$actiondesc_larpa_chaos_2", -- Makes a projectile leave a trail of copies of itself
 		sprite 		= "data/ui_gfx/gun_actions/larpa_chaos_2.png",
 		sprite_unidentified = "data/ui_gfx/gun_actions/electric_charge_unidentified.png",
 		spawn_requires_flag = "card_unlocked_alchemy",
@@ -9616,8 +9616,8 @@ actions =
 	},
 	{
 		id          = "LARPA_DEATH",
-		name 		= "$action_larpa_death",
-		description = "$actiondesc_larpa_death",
+		name 		= "$action_larpa_death", -- Larpa Explosion
+		description = "$actiondesc_larpa_death", -- A projectile will shoot out 8 copies of itself when it expires or hits the ground
 		sprite 		= "data/ui_gfx/gun_actions/larpa_death.png",
 		sprite_unidentified = "data/ui_gfx/gun_actions/electric_charge_unidentified.png",
 		related_extra_entities = { "data/entities/misc/larpa_death.xml" },
@@ -9635,8 +9635,8 @@ actions =
 	},
 	{
 		id          = "ALPHA",
-		name 		= "$action_alpha",
-		description = "$actiondesc_alpha",
+		name 		= "$action_alpha", -- Alpha
+		description = "$actiondesc_alpha", -- Casts a copy of the first spell in your wand
 		sprite 		= "data/ui_gfx/gun_actions/alpha.png",
 		sprite_unidentified = "data/ui_gfx/gun_actions/spread_reduce_unidentified.png",
 		spawn_requires_flag = "card_unlocked_duplicate",
@@ -9672,8 +9672,8 @@ actions =
 	},
 	{
 		id          = "GAMMA",
-		name 		= "$action_gamma",
-		description = "$actiondesc_gamma",
+		name 		= "$action_gamma", -- Gamma
+		description = "$actiondesc_gamma", -- Casts a copy of the next spell in your wand
 		sprite 		= "data/ui_gfx/gun_actions/gamma.png",
 		sprite_unidentified = "data/ui_gfx/gun_actions/spread_reduce_unidentified.png",
 		spawn_requires_flag = "card_unlocked_duplicate",
@@ -9707,8 +9707,8 @@ actions =
 	},
 	{
 		id          = "TAU",
-		name 		= "$action_tau",
-		description = "$actiondesc_tau",
+		name 		= "$action_tau", -- Tau
+		description = "$actiondesc_tau", -- Copies the two following spells in the wand when cast
 		sprite 		= "data/ui_gfx/gun_actions/tau.png",
 		sprite_unidentified = "data/ui_gfx/gun_actions/spread_reduce_unidentified.png",
 		spawn_requires_flag = "card_unlocked_duplicate",
@@ -9759,8 +9759,8 @@ actions =
 	},
 	{
 		id          = "OMEGA",
-		name 		= "$action_omega",
-		description = "$actiondesc_omega",
+		name 		= "$action_omega", -- Omega
+		description = "$actiondesc_omega", -- Casts copies of every spell in your wand
 		sprite 		= "data/ui_gfx/gun_actions/omega.png",
 		sprite_unidentified = "data/ui_gfx/gun_actions/spread_reduce_unidentified.png",
 		spawn_requires_flag = "card_unlocked_duplicate",
@@ -9809,8 +9809,8 @@ actions =
 	},
 	{
 		id          = "MU",
-		name 		= "$action_mu",
-		description = "$actiondesc_mu",
+		name 		= "$action_mu", -- Mu
+		description = "$actiondesc_mu", -- Every modifier-type spell in the current wand is applied to a projectile
 		sprite 		= "data/ui_gfx/gun_actions/mu.png",
 		sprite_unidentified = "data/ui_gfx/gun_actions/spread_reduce_unidentified.png",
 		spawn_requires_flag = "card_unlocked_duplicate",
@@ -9869,8 +9869,8 @@ actions =
 	},
 	{
 		id          = "PHI",
-		name 		= "$action_phi",
-		description = "$actiondesc_phi",
+		name 		= "$action_phi", -- Phi
+		description = "$actiondesc_phi", -- Casts a copy of every projectile-type spell in the current wand
 		sprite 		= "data/ui_gfx/gun_actions/phi.png",
 		sprite_unidentified = "data/ui_gfx/gun_actions/spread_reduce_unidentified.png",
 		spawn_requires_flag = "card_unlocked_duplicate",
@@ -9927,8 +9927,8 @@ actions =
 	},
 	{
 		id          = "SIGMA",
-		name 		= "$action_sigma",
-		description = "$actiondesc_sigma",
+		name 		= "$action_sigma", -- Sigma
+		description = "$actiondesc_sigma", -- Copies every static projectile -type spell in the wand when cast
 		sprite 		= "data/ui_gfx/gun_actions/sigma.png",
 		sprite_unidentified = "data/ui_gfx/gun_actions/spread_reduce_unidentified.png",
 		spawn_requires_flag = "card_unlocked_duplicate",
@@ -9987,8 +9987,8 @@ actions =
 	},
 	{
 		id          = "ZETA",
-		name 		= "$action_zeta",
-		description = "$actiondesc_zeta",
+		name 		= "$action_zeta", -- Zeta
+		description = "$actiondesc_zeta", -- Copies a random spell in another wand you're holding
 		sprite 		= "data/ui_gfx/gun_actions/zeta.png",
 		sprite_unidentified = "data/ui_gfx/gun_actions/spread_reduce_unidentified.png",
 		spawn_requires_flag = "card_unlocked_duplicate",
@@ -10061,8 +10061,8 @@ actions =
 	},
 	{
 		id          = "DIVIDE_2",
-		name 		= "$action_divide_2",
-		description = "$actiondesc_divide_2",
+		name 		= "$action_divide_2", -- Divide by 2
+		description = "$actiondesc_divide_2", -- The projectile is divided in two pieces with lower damage
 		sprite 		= "data/ui_gfx/gun_actions/divide_2.png",
 		sprite_unidentified = "data/ui_gfx/gun_actions/spread_reduce_unidentified.png",
 		spawn_requires_flag = "card_unlocked_musicbox",
@@ -10143,8 +10143,8 @@ actions =
 	},
 	{
 		id          = "DIVIDE_3",
-		name 		= "$action_divide_3",
-		description = "$actiondesc_divide_3",
+		name 		= "$action_divide_3", -- Divide by 3
+		description = "$actiondesc_divide_3", -- The projectile is divided in three pieces with lower damage
 		sprite 		= "data/ui_gfx/gun_actions/divide_3.png",
 		sprite_unidentified = "data/ui_gfx/gun_actions/spread_reduce_unidentified.png",
 		spawn_requires_flag = "card_unlocked_musicbox",
@@ -10225,8 +10225,8 @@ actions =
 	},
 	{
 		id          = "DIVIDE_4",
-		name 		= "$action_divide_4",
-		description = "$actiondesc_divide_4",
+		name 		= "$action_divide_4", -- Divide by 4
+		description = "$actiondesc_divide_4", -- The projectile is divided in four pieces with lower damage
 		sprite 		= "data/ui_gfx/gun_actions/divide_4.png",
 		sprite_unidentified = "data/ui_gfx/gun_actions/spread_reduce_unidentified.png",
 		spawn_requires_flag = "card_unlocked_musicbox",
@@ -10307,8 +10307,8 @@ actions =
 	},
 	{
 		id          = "DIVIDE_10",
-		name 		= "$action_divide_10",
-		description = "$actiondesc_divide_10",
+		name 		= "$action_divide_10", -- Divide by 10
+		description = "$actiondesc_divide_10", -- The projectile is divided in ten pieces with lower damage
 		sprite 		= "data/ui_gfx/gun_actions/divide_10.png",
 		sprite_unidentified = "data/ui_gfx/gun_actions/spread_reduce_unidentified.png",
 		spawn_requires_flag = "card_unlocked_divide",
@@ -10391,8 +10391,8 @@ actions =
 	},
 	{
 		id          = "METEOR_RAIN",
-		name 		= "$action_meteor_rain",
-		description = "$actiondesc_meteor_rain",
+		name 		= "$action_meteor_rain", -- Meteorisade
+		description = "$actiondesc_meteor_rain", -- Alea iacta est
 		sprite 		= "data/ui_gfx/gun_actions/meteor_rain.png",
 		sprite_unidentified = "data/ui_gfx/gun_actions/bomb_unidentified.png",
 		related_projectiles	= { "data/entities/projectiles/deck/meteor_rain_meteor.xml" },
@@ -10415,8 +10415,8 @@ actions =
 	},
 	{
 		id          = "WORM_RAIN",
-		name 		= "$action_worm_rain",
-		description = "$actiondesc_worm_rain",
+		name 		= "$action_worm_rain", -- Matosade
+		description = "$actiondesc_worm_rain", -- Alea iacta est
 		sprite 		= "data/ui_gfx/gun_actions/worm_rain.png",
 		sprite_unidentified = "data/ui_gfx/gun_actions/bomb_unidentified.png",
 		related_projectiles	= {"data/entities/animals/worm_big.xml"},
@@ -10437,8 +10437,8 @@ actions =
 	},
 	{
 		id          = "RESET",
-		name 		= "$action_reset",
-		description = "$actiondesc_reset",
+		name 		= "$action_reset", -- Wand Refresh
+		description = "$actiondesc_reset", -- Reloads the wand immediately
 		sprite 		= "data/ui_gfx/gun_actions/reset.png",
 		sprite_unidentified = "data/ui_gfx/gun_actions/bomb_unidentified.png",
 		spawn_requires_flag = "card_unlocked_mestari",
@@ -10473,8 +10473,8 @@ actions =
 	},
 	{
 		id          = "IF_ENEMY",
-		name 		= "$action_if_enemy",
-		description = "$actiondesc_if_enemy",
+		name 		= "$action_if_enemy", -- Requirement - Enemies
+		description = "$actiondesc_if_enemy", -- The next spell is skipped if there are less than 15 enemies nearby
 		sprite 		= "data/ui_gfx/gun_actions/if_enemy.png",
 		sprite_unidentified = "data/ui_gfx/gun_actions/spread_reduce_unidentified.png",
 		spawn_requires_flag = "card_unlocked_maths",
@@ -10559,8 +10559,8 @@ actions =
 	},
 	{
 		id          = "IF_PROJECTILE",
-		name 		= "$action_if_projectile",
-		description = "$actiondesc_if_projectile",
+		name 		= "$action_if_projectile", -- Requirement - Projectile Spells
+		description = "$actiondesc_if_projectile", -- The next spell is skipped if there are less than 20 projectiles nearby
 		sprite 		= "data/ui_gfx/gun_actions/if_projectile.png",
 		sprite_unidentified = "data/ui_gfx/gun_actions/spread_reduce_unidentified.png",
 		spawn_requires_flag = "card_unlocked_maths",
@@ -10645,8 +10645,8 @@ actions =
 	},
 	{
 		id          = "IF_HP",
-		name 		= "$action_if_hp",
-		description = "$actiondesc_if_hp",
+		name 		= "$action_if_hp", -- Requirement - Low Health
+		description = "$actiondesc_if_hp", -- The next spell is skipped if you have more than 25% health left
 		sprite 		= "data/ui_gfx/gun_actions/if_hp.png",
 		sprite_unidentified = "data/ui_gfx/gun_actions/spread_reduce_unidentified.png",
 		spawn_requires_flag = "card_unlocked_maths",
@@ -10739,8 +10739,8 @@ actions =
 	},
 	{
 		id          = "IF_HALF",
-		name 		= "$action_if_half",
-		description = "$actiondesc_if_half",
+		name 		= "$action_if_half", -- Requirement - Every Other
+		description = "$actiondesc_if_half", -- The next spell is skipped every other time this spell is cast
 		sprite 		= "data/ui_gfx/gun_actions/if_half.png",
 		sprite_unidentified = "data/ui_gfx/gun_actions/spread_reduce_unidentified.png",
 		spawn_requires_flag = "card_unlocked_maths",
@@ -10830,8 +10830,8 @@ actions =
 	},
 	{
 		id          = "IF_END",
-		name 		= "$action_if_end",
-		description = "$actiondesc_if_end",
+		name 		= "$action_if_end", -- Requirement - Endpoint
+		description = "$actiondesc_if_end", -- Any Requirement spells before this will skip all spells between them and this spell
 		sprite 		= "data/ui_gfx/gun_actions/if_end.png",
 		sprite_unidentified = "data/ui_gfx/gun_actions/spread_reduce_unidentified.png",
 		spawn_requires_flag = "card_unlocked_maths",
@@ -10846,8 +10846,8 @@ actions =
 	},
 	{
 		id          = "IF_ELSE",
-		name 		= "$action_if_else",
-		description = "$actiondesc_if_else",
+		name 		= "$action_if_else", -- Requirement - Otherwise
+		description = "$actiondesc_if_else", -- "If a Requirement spell before this succeeds
 		sprite 		= "data/ui_gfx/gun_actions/if_else.png",
 		sprite_unidentified = "data/ui_gfx/gun_actions/spread_reduce_unidentified.png",
 		spawn_requires_flag = "card_unlocked_maths",
@@ -10862,8 +10862,8 @@ actions =
 	},
 	{
 		id          = "COLOUR_RED",
-		name 		= "$action_colour_red",
-		description = "$actiondesc_colour_red",
+		name 		= "$action_colour_red", -- Red Glimmer
+		description = "$actiondesc_colour_red", -- Gives a projectile a red sparkly trail
 		sprite 		= "data/ui_gfx/gun_actions/colour_red.png",
 		sprite_unidentified = "data/ui_gfx/gun_actions/homing_unidentified.png",
 		related_extra_entities = { "data/entities/particles/tinyspark_red.xml", "data/entities/misc/colour_red.xml" },
@@ -10886,8 +10886,8 @@ actions =
 	},
 	{
 		id          = "COLOUR_ORANGE",
-		name 		= "$action_colour_orange",
-		description = "$actiondesc_colour_orange",
+		name 		= "$action_colour_orange", -- Orange Glimmer
+		description = "$actiondesc_colour_orange", -- Gives a projectile a orange sparkly trail
 		sprite 		= "data/ui_gfx/gun_actions/colour_orange.png",
 		sprite_unidentified = "data/ui_gfx/gun_actions/homing_unidentified.png",
 		related_extra_entities = { "data/entities/particles/tinyspark_red.xml", "data/entities/misc/colour_orange.xml" },
@@ -10910,8 +10910,8 @@ actions =
 	},
 	{
 		id          = "COLOUR_GREEN",
-		name 		= "$action_colour_green",
-		description = "$actiondesc_colour_green",
+		name 		= "$action_colour_green", -- Green Glimmer
+		description = "$actiondesc_colour_green", -- Gives a projectile a green sparkly trail
 		sprite 		= "data/ui_gfx/gun_actions/colour_green.png",
 		sprite_unidentified = "data/ui_gfx/gun_actions/homing_unidentified.png",
 		related_extra_entities = { "data/entities/particles/tinyspark_red.xml", "data/entities/misc/colour_green.xml" },
@@ -10934,8 +10934,8 @@ actions =
 	},
 	{
 		id          = "COLOUR_YELLOW",
-		name 		= "$action_colour_yellow",
-		description = "$actiondesc_colour_yellow",
+		name 		= "$action_colour_yellow", -- Yellow Glimmer
+		description = "$actiondesc_colour_yellow", -- Gives a projectile a yellow sparkly trail
 		sprite 		= "data/ui_gfx/gun_actions/colour_yellow.png",
 		sprite_unidentified = "data/ui_gfx/gun_actions/homing_unidentified.png",
 		related_extra_entities = { "data/entities/particles/tinyspark_red.xml", "data/entities/misc/colour_yellow.xml" },
@@ -10958,8 +10958,8 @@ actions =
 	},
 	{
 		id          = "COLOUR_PURPLE",
-		name 		= "$action_colour_purple",
-		description = "$actiondesc_colour_purple",
+		name 		= "$action_colour_purple", -- Purple Glimmer
+		description = "$actiondesc_colour_purple", -- Gives a projectile a purple sparkly trail
 		sprite 		= "data/ui_gfx/gun_actions/colour_purple.png",
 		sprite_unidentified = "data/ui_gfx/gun_actions/homing_unidentified.png",
 		related_extra_entities = { "data/entities/particles/tinyspark_red.xml", "data/entities/misc/colour_purple.xml" },
@@ -10982,8 +10982,8 @@ actions =
 	},
 	{
 		id          = "COLOUR_BLUE",
-		name 		= "$action_colour_blue",
-		description = "$actiondesc_colour_blue",
+		name 		= "$action_colour_blue", -- Blue Glimmer
+		description = "$actiondesc_colour_blue", -- Gives a projectile a blue sparkly trail
 		sprite 		= "data/ui_gfx/gun_actions/colour_blue.png",
 		sprite_unidentified = "data/ui_gfx/gun_actions/homing_unidentified.png",
 		related_extra_entities = { "data/entities/particles/tinyspark_red.xml", "data/entities/misc/colour_blue.xml" },
@@ -11006,8 +11006,8 @@ actions =
 	},
 	{
 		id          = "COLOUR_RAINBOW",
-		name 		= "$action_colour_rainbow",
-		description = "$actiondesc_colour_rainbow",
+		name 		= "$action_colour_rainbow", -- Rainbow Glimmer
+		description = "$actiondesc_colour_rainbow", -- Gives a projectile a randomly colored sparkly trail
 		sprite 		= "data/ui_gfx/gun_actions/colour_rainbow.png",
 		sprite_unidentified = "data/ui_gfx/gun_actions/homing_unidentified.png",
 		related_extra_entities = { "data/entities/particles/tinyspark_red.xml", "data/entities/misc/colour_rainbow.xml" },
@@ -11030,8 +11030,8 @@ actions =
 	},
 	{
 		id          = "COLOUR_INVIS",
-		name 		= "$action_colour_invis",
-		description = "$actiondesc_colour_invis",
+		name 		= "$action_colour_invis", -- Invisible Spell
+		description = "$actiondesc_colour_invis", -- Turns a projectile invisible
 		sprite 		= "data/ui_gfx/gun_actions/colour_invis.png",
 		sprite_unidentified = "data/ui_gfx/gun_actions/homing_unidentified.png",
 		related_extra_entities = { "data/entities/misc/colour_invis.xml" },
@@ -11054,8 +11054,8 @@ actions =
 	},
 	{
 		id          = "RAINBOW_TRAIL",
-		name 		= "$action_rainbow_trail",
-		description = "$actiondesc_rainbow_trail",
+		name 		= "$action_rainbow_trail", -- Rainbow trail
+		description = "$actiondesc_rainbow_trail", -- Gives a projectile a trail of rainbow
 		sprite 		= "data/ui_gfx/gun_actions/rainbow_trail.png",
 		sprite_unidentified = "data/ui_gfx/gun_actions/oil_trail_unidentified.png",
 		type 		= ACTION_TYPE_MODIFIER,
@@ -11076,8 +11076,8 @@ actions =
 	},
 	{
 		id          = "CESSATION",
-		name 		= "$action_cessation",
-		description = "$actiondesc_cessation",
+		name 		= "$action_cessation", -- Cessation
+		description = "$actiondesc_cessation", -- The caster enters the realm of no realm
 		sprite 		= "data/ui_gfx/gun_actions/cessation.png",
 		sprite_unidentified = "data/ui_gfx/gun_actions/cessation_unidentified.png",
 		type 		= ACTION_TYPE_OTHER,
